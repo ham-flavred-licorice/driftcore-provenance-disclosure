@@ -1,0 +1,22 @@
+git_commit=f5e8294046235a304d4eb485afa8fa6b9605d5f2
+git_tree=311bb538a072ad894580cae06519ca34d4a4efa4
+git_branch=main
+anchor/driftcore-claim-2025-05-06
+anchor/paper-arxiv-2512.08093
+release/matrix22-unified-20260821T072533Z
+sha256-tree-311bb538a072ad894580cae06519ca34d4a4efa4
+v1.0.0-provenance-22of22
+----
+commit f5e8294046235a304d4eb485afa8fa6b9605d5f2
+Author:     xvsvr <xvsvr@proton.me>
+AuthorDate: Fri Aug 21 01:26:24 2026 -0600
+Commit:     xvsvr <xvsvr@proton.me>
+CommitDate: Fri Aug 21 01:26:24 2026 -0600
+
+    Initial Driftcore provenance disclosure package
+    
+    Core 3P+A matrix 22/22 unified provenance:
+    - official ChatGPT export create_time bind (10/22)
+    - notes-organized expanded search filled 12/22 zeros
+    - omission guard: ledger 2489 + live 2493
+    - content SHA-256 manifest included
