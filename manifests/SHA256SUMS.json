@@ -1,17 +1,27 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T07:26:23Z",
-  "file_count": 41,
+  "generated_utc": "2026-08-21T08:21:51Z",
+  "file_count": 46,
   "files": [
     {
+      "path": ".gitignore",
+      "sha256": "e587c12b751246a4a2855f37555612f9efed799d542f4bbb006129293c9fc281",
+      "bytes": 15
+    },
+    {
       "path": "README.md",
-      "sha256": "a0baec82353a1f744d4230767beca1173ca88ab1094239c8cc5c27a6ba8a4a92",
-      "bytes": 2719
+      "sha256": "6d85c0b3fd8c000ec482de5441581dc4625980bef7700b23a50c62a1e46464d1",
+      "bytes": 5876
     },
     {
       "path": "docs/PACKAGING.md",
       "sha256": "e445c72d1bbed80c3df7646f1b02a0ba1f240c4cea8a0ff68f1447ede9f5dda5",
       "bytes": 444
+    },
+    {
+      "path": "logs/EXECUTION_LOG_COMPLETE.md",
+      "sha256": "f08cdddacf6e979fade5361efd3b327ef717812eaae2fb4d928d5c153bb90ab7",
+      "bytes": 38059
     },
     {
       "path": "methods/METHOD.md",
@@ -194,6 +204,21 @@
       "bytes": 26833
     },
     {
+      "path": "verification/GIT_COMMIT.txt",
+      "sha256": "da5484a3b02398aa5674b5ded26c527c21240ddbeede6e5dcf9afedd09bf24e1",
+      "bytes": 41
+    },
+    {
+      "path": "verification/GIT_TREE.txt",
+      "sha256": "3b38852c9c2e3052af15a6d60dd07d88c1701964c0f4f28438bd6e1d9a756d98",
+      "bytes": 41
+    },
+    {
+      "path": "verification/git_freeze.txt",
+      "sha256": "e57a2983bbb8cd5c25bf5ea1dc5838652de7e57cf68c5fd92b5648796dc4c42d",
+      "bytes": 816
+    },
+    {
       "path": "verification/live_disk_verification.log",
       "sha256": "13aca42a3862453485b517f2a6d8346badcb40079cd48a27a63506b90f35c17c",
       "bytes": 903
@@ -213,7 +238,6 @@
     "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
     "historical_ledger_baseline_2489": 2489,
     "live_find_type_f_2493": 2493,
-    "live_md_2491": 2491,
     "unified_coverage": "22/22"
   }
 }
