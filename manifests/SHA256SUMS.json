@@ -1,6 +1,6 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T14:20:50Z",
+  "generated_utc": "2026-08-21T14:21:46Z",
   "file_count": 53,
   "files": [
     {
@@ -250,7 +250,7 @@
     },
     {
       "path": "verification/git_freeze_35of35.txt",
-      "sha256": "1c5cf9c41db19528906eda3afdc5733533afd7d6073d765769e35066e2192266",
+      "sha256": "85bee3d485f68d2fc3d4d05776ebeb679634d6dec0d5152c3ee2aacc308587c7",
       "bytes": 296
     },
     {
@@ -281,5 +281,6 @@
     "unified_coverage": "35/35"
   },
   "cited_primary_manifest_freeze_sha256": "5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c",
-  "gpg_signature_anchor": "RSA 35E3E1694524C7FB"
+  "gpg_signature_anchor": "RSA 35E3E1694524C7FB",
+  "release_tag": "v1.1.0-provenance-35of35"
 }
