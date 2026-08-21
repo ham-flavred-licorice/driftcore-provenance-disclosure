@@ -1,8 +1,9 @@
 tag=v1.1.0-provenance-35of35
-commit=776ef328bc3428831a4ef9a44749e3bd46d82537
-compiled_utc=2026-08-21T14:21:02Z
+commit=c690d8aaa9ea9411c41ee74bbe2c863a492f8619
+compiled_utc=2026-08-21T14:21:47Z
 taxonomy=35/35
 omission_guard_ledger=2489
 omission_guard_live=2493
 omission_guard_path=/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized
 gpg_key=35E3E1694524C7FB
+manifest_self_consistent=true

@@ -1,6 +1,6 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T14:21:46Z",
+  "generated_utc": "2026-08-21T14:21:47Z",
   "file_count": 53,
   "files": [
     {
@@ -250,8 +250,8 @@
     },
     {
       "path": "verification/git_freeze_35of35.txt",
-      "sha256": "85bee3d485f68d2fc3d4d05776ebeb679634d6dec0d5152c3ee2aacc308587c7",
-      "bytes": 296
+      "sha256": "4bd8ba07cb44630b2331e0449261cbd8ac84b29ac31058851a9815d55940a305",
+      "bytes": 326
     },
     {
       "path": "verification/live_disk_verification.log",
