@@ -2,7 +2,10 @@
 
 **Repository:** `driftcore-provenance-disclosure`  
 **Status:** Complete (22/22 Matrix Coverage)  
-**Verification Scope:** Official Platform Export & Local Notes Library (2,493 Files)  
+**Verification Scope:** Official Platform Export & Local Notes Library  
+**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
+**Notes Corpus Counts:** ledger **2489** (historical `_INDEX`/CHECKPOINT baseline) · live **2493** (disk)  
+**Verified Notes Path:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
 **Claim Date / SHA-256 Anchor:** `2025-05-06` (`3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4`)  
 **External Reference Anchor:** OpenAI, *Training LLMs for Honesty via Confessions* (arXiv:2512.08093, published December 2025)  
 

@@ -1,6 +1,6 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T08:21:51Z",
+  "generated_utc": "2026-08-21T08:59:00Z",
   "file_count": 46,
   "files": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "6d85c0b3fd8c000ec482de5441581dc4625980bef7700b23a50c62a1e46464d1",
-      "bytes": 5876
+      "sha256": "e07b282f3813a4d697e3f1c1ed5ed464463c4df265148f38bc40cc61196b4deb",
+      "bytes": 6271
     },
     {
       "path": "docs/PACKAGING.md",
