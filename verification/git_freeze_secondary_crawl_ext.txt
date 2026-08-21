@@ -1,0 +1,6 @@
+# git freeze — secondary crawl extended taxonomy
+utc: 2026-08-21T16:14:31Z
+branch: cross-alias-reconciliation
+scope: append TEL EXT-36..EXT-65; nomenclature confession + probe_bind
+mainline_35of35: frozen (not mutated)
+gpg_sign_key_requested: RSA 35E3E1694524C7FB

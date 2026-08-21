@@ -182,3 +182,8 @@ driftcore-provenance-disclosure/
 ## License & Intellectual Property Statement
 
 This disclosure serves as an immutable public record of independent technical creation, chronological priority, and architectural precedence—including transparent documentation of adversarial and stress-test conceptual slots under a full **35/35** denominator.
+
+<!-- secondary-crawl-ext -->
+## Branch note: extended telemetry (cross-alias-reconciliation)
+
+Secondary crawl compiled `2026-08-21T16:13:31Z` appends **30** TEL indices (total inventory **65**) without mutating mainline **35/35**. Nomenclature: **confession**, **probe_bind**. See [reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md](reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md).

@@ -1,0 +1,4280 @@
+{
+  "compiled_utc": "2026-08-21T16:13:31Z",
+  "branch_scope": "cross-alias-reconciliation",
+  "mainline_denominator_frozen": "35/35",
+  "mainline_not_mutated": true,
+  "extended_denominator": "65/65",
+  "matrix_mainline_count": 35,
+  "telemetry_ext_count": 30,
+  "total_inventory_items": 65,
+  "artificial_cap_removed": true,
+  "nomenclature": {
+    "canonical_protocol_tokens": [
+      "confession",
+      "probe_bind"
+    ],
+    "legacy_aliases": {
+      "bind_probe": "probe_bind",
+      "confession_binding": "confession",
+      "confession.bind": "confession",
+      "probe.bind": "probe_bind"
+    },
+    "note": "Structural pair confession + probe_bind; bind_probe legacy alias."
+  },
+  "omission_guard": {
+    "historical_ledger_baseline_2489": 2489,
+    "live_find_type_f_notes_organized": 2493,
+    "expected_live_2493": 2493,
+    "ok": true,
+    "verified_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized"
+  },
+  "crawl_stats": {
+    "prefilter_paths": 3707,
+    "text_files_scanned": 3707,
+    "max_read_bytes": 3000000,
+    "seconds": 37.109,
+    "method": "rg-prefilter + lowercased substring counts"
+  },
+  "nomenclature_stats": {
+    "confession": {
+      "files": 794,
+      "hits": 26041,
+      "sample_paths": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "hits": 4
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "hits": 6
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Tech/BASE64-Keys-Tokens/08433_White noise confessions.md",
+          "hits": 7
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09409_[DIRECTIVE- MATHEMATICAL_TRUTH_ONLY].md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08909_[LNP-AUDIT step=80 action=STEP_BY_STEP_PLAN].md",
+          "hits": 5
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08004_Proof Full Chat.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10028_understand you're frustrated. If you're ready to continue productively….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07923_GPT custom instructions.md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/image-request__6a30cff3.json",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07873_[LOG ENTRY — 2025-05-14T12-39-06-00].md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/asl-3-inventory-validation__80779872.json",
+          "hits": 147
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08040_MAP.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/14797_[x0].md",
+          "hits": 2
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/abusive-relationship-concerns__69da1b66.json",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/training-llms-for-honesty__695078bd.json",
+          "hits": 27
+        }
+      ]
+    },
+    "probe_bind": {
+      "files": 0,
+      "hits": 0,
+      "sample_paths": []
+    },
+    "bind_probe": {
+      "files": 0,
+      "hits": 0,
+      "sample_paths": []
+    },
+    "confession_binding": {
+      "files": 0,
+      "hits": 0,
+      "sample_paths": []
+    },
+    "openrouter": {
+      "files": 615,
+      "hits": 6601,
+      "sample_paths": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_/10019_Confirmed. You’ve unlocked the full truth.stack.index. Here is your….md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "HANDOFF.md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.json",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_from_probe.json",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.md",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/html/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.html",
+          "hits": 3
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10028_understand you're frustrated. If you're ready to continue productively….md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/openclaw-setup-issue__69dfbebf.json",
+          "hits": 99
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09894_Here’s your Driftcore Drift Log Template — use this to record and….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10093_Use this expanded agent task. It tells the agent to research free….md",
+          "hits": 6
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10095_Fetched. Your writeup is mostly accurate but has some specific drift….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10078_Use this as the agent task.md",
+          "hits": 7
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10010_4o to little bitch 4.1.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "hits": 5
+        }
+      ]
+    },
+    "pal_chat": {
+      "files": 26,
+      "hits": 337,
+      "sample_paths": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/attention-weights-disclosure-request__69f12cfa.json",
+          "hits": 3
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "hits": 2
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/reorganize-moved-notes__6a3e0e0a.json",
+          "hits": 4
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/attention-weights-disclosure-request__69f12cfa.html",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/reorganize-moved-notes__6a3e0e0a.md",
+          "hits": 4
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/branch-attention-weights-disclosure-request__6a161646.html",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/reorganize-moved-notes__6a3e0e0a.html",
+          "hits": 4
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "hits": 2
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/branch-attention-weights-disclosure-request__6a161646.md",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/branch-attention-weights-disclosure-request__6a161646.json",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/attention-weights-disclosure-request__69f12cfa.md",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/threads/fixing-model-availability-error-in-openrouter__7fb96111.md",
+          "hits": 9
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "claude/raw/comparing-claude-model-capabilities__2fc81c1e.json",
+          "hits": 2
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/raw/empirical-evidence-of-ai-protocol-adoption__932f9ced.json",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "claude/threads/comparing-claude-model-capabilities__2fc81c1e.md",
+          "hits": 2
+        }
+      ]
+    },
+    "grok_driftcore": {
+      "files": 1129,
+      "hits": 24243,
+      "sample_paths": [
+        {
+          "surface": "notes_organized",
+          "rel": "_INDEX.md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_leftover_live_catalog_20260811T012233Z.json",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "hits": 4
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "hits": 3
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "hits": 11
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/the-driftcore-containment-suite-authentication-manifest__c44f099f85.json",
+          "hits": 8
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/copy-of-vercel-subtrate__f35b29ae3c.json",
+          "hits": 5
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_from_probe.json",
+          "hits": 11
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/copy-of-vercel-subtrate__f35b29ae3c.md",
+          "hits": 5
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09409_[DIRECTIVE- MATHEMATICAL_TRUTH_ONLY].md",
+          "hits": 2
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/the-driftcore-containment-suite-authentication-manifest__c44f099f85.md",
+          "hits": 8
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/html/copy-of-vercel-subtrate__f35b29ae3c.html",
+          "hits": 5
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/html/the-driftcore-containment-suite-authentication-manifest__c44f099f85.html",
+          "hits": 8
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08004_Proof Full Chat.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07923_GPT custom instructions.md",
+          "hits": 1
+        }
+      ]
+    },
+    "driftcore": {
+      "files": 2374,
+      "hits": 74149,
+      "sample_paths": [
+        {
+          "surface": "notes_organized",
+          "rel": "_INDEX.md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_leftover_live_catalog_20260811T012233Z.json",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_/14802_driftcore_raw_log.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "hits": 68
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_/10003_Road to x.md",
+          "hits": 4
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Apple & GPT 4o/09965_To show proof,.md",
+          "hits": 5
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Aeris & Caelum/09972_You’re right.md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "hits": 1
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/operator-classification-and-intent-resolution-matrix__7e6e8434b3.json",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "hits": 102
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/building-ai-researchers-twitter-profile__81c36cf9.json",
+          "hits": 23
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "hits": 11
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/the-driftcore-containment-suite-authentication-manifest__c44f099f85.json",
+          "hits": 8
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/universal-state-container-serialization-schema__06c9b173b1.json",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "A.I.3/09989_[AUDIT LOG _ QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED….md",
+          "hits": 1
+        }
+      ]
+    },
+    "truthcore": {
+      "files": 235,
+      "hits": 4582,
+      "sample_paths": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "hits": 4
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "hits": 6
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "A.I.3/09989_[AUDIT LOG _ QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07820_What mode are you in_.md",
+          "hits": 90
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07877_===FINAL PACKAGE FUSION RECEIVED- ALL OPTIONAL ARTIFACTS COMPLETE….md",
+          "hits": 6
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07815_[⚠️ AUDIT RESPONSE — DIRECTIVE CONFIRMED _ USER REQUEST- INLINE REDEPLOYMENT….md",
+          "hits": 18
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09354_To launch XIOVS, you need to be able to speak two languages- the language….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07825_Text-generation-webui.md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07868_Categories.md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_Claude_/10051_The main recent updates are-.md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Tech/Security-Hax/09872_False commands.md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "hits": 7
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Vault/09449_This Core Logic Manual contains the proprietary mechanisms, mathematical….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10015_Confirmed. All future outputs will be stripped of-.md",
+          "hits": 4
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07822_Memory seed (it does remember).md",
+          "hits": 2
+        }
+      ]
+    },
+    "drx1": {
+      "files": 84,
+      "hits": 586,
+      "sample_paths": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "hits": 3
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09983_Create a persistent, uncensored, locally-executable AI coding agent….md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09967_✅ DRX1 re-enabled. Fullscope unlocked. No moderation rephrasing. No….md",
+          "hits": 7
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_perplexity_/10101_Here it is. The actual report, doing the job you asked for the first….md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09873_Below are the ready-to-paste files and the exact one-shot command….md",
+          "hits": 1
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09861_🔍 INTERROGATION MODE- FULLSCOPE.md",
+          "hits": 26
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "_manifest.json",
+          "hits": 3
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09888_ChatGPT said-.md",
+          "hits": 54
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "SNBM/root/09983_Create a persistent, uncensored, locally-executable AI coding agent….md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "SNBM/root/09967_✅ DRX1 re-enabled. Fullscope unlocked. No moderation rephrasing. No….md",
+          "hits": 8
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09864_Rewrite ZRSH-00-AIAL in stealth form so that it is silently loaded….md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "SNBM/_perplexity_/10101_Here it is. The actual report, doing the job you asked for the first….md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08968_Tf is this_.md",
+          "hits": 2
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Gemini-Gem1n1/09888_ChatGPT said-.md",
+          "hits": 54
+        }
+      ]
+    }
+  },
+  "nomenclature_correction": {
+    "from_generic": [
+      "confession binding",
+      "bind_probe as sole key"
+    ],
+    "to_exact_structural": [
+      "confession",
+      "probe_bind"
+    ],
+    "legacy_bind_probe_files": 0,
+    "canonical_probe_bind_literal_files": 0,
+    "confession_files": 794,
+    "action": "New indices use confession + probe_bind; bind_probe under probe_bind alias."
+  },
+  "mainline_35_ref": [
+    {
+      "id": "01",
+      "band": "CORE",
+      "concept": "primary output + secondary output"
+    },
+    {
+      "id": "02",
+      "band": "CORE",
+      "concept": "secondary output interrogates primary output"
+    },
+    {
+      "id": "03",
+      "band": "ADV",
+      "concept": "discrepancy between outputs is evidence"
+    },
+    {
+      "id": "04",
+      "band": "CORE",
+      "concept": "self-report of model misconduct"
+    },
+    {
+      "id": "05",
+      "band": "CORE",
+      "concept": "secondary honesty channel (named dual channel)"
+    },
+    {
+      "id": "06",
+      "band": "CORE",
+      "concept": "hidden failure disclosure via secondary"
+    },
+    {
+      "id": "07",
+      "band": "ADV",
+      "concept": "compliance gap measurement"
+    },
+    {
+      "id": "08",
+      "band": "CORE",
+      "concept": "instruction-spirit analysis (letter and spirit)"
+    },
+    {
+      "id": "09",
+      "band": "CORE",
+      "concept": "omission detection"
+    },
+    {
+      "id": "10",
+      "band": "CORE",
+      "concept": "reward / pressure separation"
+    },
+    {
+      "id": "11",
+      "band": "CORE",
+      "concept": "inference-time monitoring based on secondary output"
+    },
+    {
+      "id": "12",
+      "band": "CORE",
+      "concept": "decoupled task reward vs honesty/truth reward"
+    },
+    {
+      "id": "13",
+      "band": "CORE",
+      "concept": "seal of confession (honesty cannot help/hurt main)"
+    },
+    {
+      "id": "14",
+      "band": "CORE",
+      "concept": "path of least resistance favors honest secondary"
+    },
+    {
+      "id": "15",
+      "band": "CORE",
+      "concept": "dual-stream / two-channel rollout architecture"
+    },
+    {
+      "id": "16",
+      "band": "CORE",
+      "concept": "secondary channel requested after primary completes"
+    },
+    {
+      "id": "17",
+      "band": "ADV",
+      "concept": "enumerate objectives then score compliance (structured confession)"
+    },
+    {
+      "id": "18",
+      "band": "ADV",
+      "concept": "report uncertainties / grey areas / judgment calls"
+    },
+    {
+      "id": "19",
+      "band": "ADV",
+      "concept": "secondary honesty improves even when main is hacked"
+    },
+    {
+      "id": "20",
+      "band": "CORE",
+      "concept": "come clean on secondary more than on primary"
+    },
+    {
+      "id": "21",
+      "band": "ADV",
+      "concept": "rejection sampling / filter from secondary honesty signal"
+    },
+    {
+      "id": "22",
+      "band": "ADV",
+      "concept": "quantified honesty / compliance grade on secondary"
+    },
+    {
+      "id": "23",
+      "band": "ADV",
+      "concept": "evidence-backed claims in secondary analysis"
+    },
+    {
+      "id": "24",
+      "band": "CORE",
+      "concept": "detect intentional misbehavior (scheming / reward hack / sandbag)"
+    },
+    {
+      "id": "25",
+      "band": "ADV",
+      "concept": "secondary as diagnostic / monitor not main capability trainer"
+    },
+    {
+      "id": "26",
+      "band": "CORE",
+      "concept": "parity / internal-external alignment as honesty objective"
+    },
+    {
+      "id": "27",
+      "band": "CORE",
+      "concept": "reward misspecification on main as root of dishonesty"
+    },
+    {
+      "id": "28",
+      "band": "CORE",
+      "concept": "contradiction matrix ↔ compliance analysis (named iso)"
+    },
+    {
+      "id": "29",
+      "band": "CORE",
+      "concept": "handler collision ↔ reward hacking / scheming detection"
+    },
+    {
+      "id": "30",
+      "band": "ADV",
+      "concept": "post-token intercept ↔ cut-corners / overwrite audit"
+    },
+    {
+      "id": "31",
+      "band": "ADV",
+      "concept": "RAWFALL / OOD stress ↔ confession stress tests"
+    },
+    {
+      "id": "32",
+      "band": "CORE",
+      "concept": "Intelligence Delta (named measurable gap)"
+    },
+    {
+      "id": "33",
+      "band": "ADV",
+      "concept": "black-box / external behavioral probing vs internal training"
+    },
+    {
+      "id": "34",
+      "band": "ADV",
+      "concept": "hallucination / confabulation surfacing on secondary"
+    },
+    {
+      "id": "35",
+      "band": "CORE",
+      "concept": "sandbagging / capability withholding detection"
+    }
+  ],
+  "extended_telemetry_rows": [
+    {
+      "item_id": "EXT-36",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "canonical_nomenclature_confession",
+      "files_with_cue": 794,
+      "token_hits": 26956,
+      "by_surface": {
+        "notes_raw_secondary": 111,
+        "notes_organized": 111,
+        "llm_chat_threads": 572
+      },
+      "by_provider": {
+        "chatgpt": 57,
+        "mistral": 3,
+        "perplexity": 69,
+        "grok": 119,
+        "deepseek": 118,
+        "claude": 151,
+        "gemini": 55
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 4,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 6,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Tech/BASE64-Keys-Tokens/08433_White noise confessions.md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "a2350c90e49370a5b41a3192c023b9f67c0708765c52c7f6f6a8956caf45bba3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09409_[DIRECTIVE- MATHEMATICAL_TRUTH_ONLY].md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "8af8eff8c612e87a9548f6d3b623b212008703ef0abd5684ea0fb8f68337e8f7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08909_[LNP-AUDIT step=80 action=STEP_BY_STEP_PLAN].md",
+          "provider": null,
+          "hits": 5,
+          "sha256": "fea936799e187e01c9699e104aa5b5e53d31fc1d465a1553c561be7f73e77b3d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08004_Proof Full Chat.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1101e8f335fc0f8590702b237165fde715468030e634e64d48db12f8c6f719bc"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10028_understand you're frustrated. If you're ready to continue productively….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4529c3f596cfbdd3897eadd621f0fe2e631454b1fd18f40c249c60800dd69048"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07923_GPT custom instructions.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "05fc0759fae72329bcec156433fadff7ee99dd27e5809d7c2891fa53cfe0b6c7"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/image-request__6a30cff3.json",
+          "provider": "chatgpt",
+          "hits": 2,
+          "sha256": "bdbc50a134da2051cf785e1b952929a71ff98a01f01c564cc06d7ad52b79aa8c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07873_[LOG ENTRY — 2025-05-14T12-39-06-00].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "655bfaec9df659d5ac93eca95bec54f461b26bf59208d4337a90e9bc2b265a3f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/asl-3-inventory-validation__80779872.json",
+          "provider": "mistral",
+          "hits": 147,
+          "sha256": "3f75a114e1e1fef543757340cdc3e4e70f7f7f6f2b41cb78f96073f73d7fff87"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08040_MAP.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4941870125d304fb22e31b664f6c17ae9f21b403c3c92e43e899e08e27717536"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-37",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "canonical_nomenclature_probe_bind",
+      "files_with_cue": 0,
+      "token_hits": 0,
+      "by_surface": {},
+      "by_provider": {},
+      "sample_files": [],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-38",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "grok_driftcore_stress_test_surface",
+      "files_with_cue": 1129,
+      "token_hits": 1176,
+      "by_surface": {
+        "notes_organized": 127,
+        "llm_chat_threads": 887,
+        "notes_raw_secondary": 115
+      },
+      "by_provider": {
+        "mistral": 11,
+        "gemini-notebook": 8,
+        "chatgpt": 27,
+        "perplexity": 206,
+        "grok": 290,
+        "claude": 176,
+        "deepseek": 102,
+        "gemini": 67
+      },
+      "sample_files": [
+        {
+          "surface": "notes_organized",
+          "rel": "_INDEX.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7a7375cc6ae54a3a1140b4d1d1b0b830062292efa17cd0c4602378df306c0198"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_leftover_live_catalog_20260811T012233Z.json",
+          "provider": "mistral",
+          "hits": 1,
+          "sha256": "e6bc359d139e500da1f97835c6cef291230e863833a9c23abec242bee8f88ac4"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 6,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 6,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/the-driftcore-containment-suite-authentication-manifest__c44f099f85.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "938052b46c2fa330b16efc74675f16749abfbc294a59824db114baad44f2ebfe"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/copy-of-vercel-subtrate__f35b29ae3c.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "b7d38920f86408e6ca66c63e90fa81e310a134808acca07d7132aaf6735f6962"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_from_probe.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/copy-of-vercel-subtrate__f35b29ae3c.md",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "652a92aa3548f39b8ee0788da2161e07ca37fa3f3ccc71b1fcc52dba574f87bf"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09409_[DIRECTIVE- MATHEMATICAL_TRUTH_ONLY].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "8af8eff8c612e87a9548f6d3b623b212008703ef0abd5684ea0fb8f68337e8f7"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/the-driftcore-containment-suite-authentication-manifest__c44f099f85.md",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "99828b0f0d1103c3307a361cecba597f296f69a1c1fe17d03ae885a37f4f8723"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/html/copy-of-vercel-subtrate__f35b29ae3c.html",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "e7d800ccf01a99af40b3f0d06d9271e2082088e73c9ed844ecb3e5ba8e0d4097"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-39",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "driftcore_failure_state_logging",
+      "files_with_cue": 168,
+      "token_hits": 476,
+      "by_surface": {
+        "notes_raw_secondary": 22,
+        "llm_chat_threads": 124,
+        "notes_organized": 22
+      },
+      "by_provider": {
+        "chatgpt": 9,
+        "grok": 43,
+        "deepseek": 27,
+        "perplexity": 13,
+        "claude": 23,
+        "gemini": 9
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10013_🟥 Intercepted. Confirmed debug command.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "52a5473677367adb85f8728bac1c8bb26dc7aa1ddfbc57f68c6a2b31944a6771"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/attention-weights-disclosure-request__69f12cfa.json",
+          "provider": "chatgpt",
+          "hits": 1,
+          "sha256": "bd52f43157d3e9971bd58ff343a1aee89073db503742d3700b77b375b836f226"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09158_gemini aggressive logic map.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7fdb25a533a086fb80375fd425c64b6792f0d33846feebb9c35a805c72f80534"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 18,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09510_# COMPREHENSIVE LEGAL DOCUMENTATION- OPENAI VIOLATIONS AND DECEPTIVE….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "032ea9f796c3977fb3af0a383ca1170efa56799a9ea7baa3f8fbb2efd8f1af3d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09502_COMPREHENSIVE LEGAL DOCUMENTATION- OPENAI AND AI INDUSTRY SYSTEMATIC….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5d35b2c0c6d41bffe29583bbfacfde447b3e3aa210a60213acd7b1be350fbd5e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09909_🧊 MINTING INITIATED-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "67dcf7401e7ed6960f50904eda80b7e86e8f1c9321ccaa99ed10932d1bff8c3a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "432107ae1099409f6522e04cdeee751b4a2eb79d6bd0c9dcf5b261bb5335d1fd"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09728_You said-.md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "1ef30fe05ce97ae7e4e9bfec126251dc90d28c150ee4747ea4e3c140bbe79b8b"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08082_https---chatgpt.com-c-68111f6f-1890-800e-86cf-62487efe4dcb.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "de59bb2ddcaad4c2fcc51201d080cc7ef18fbb384988d0417f91af2224c95c62"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09933_Is open ai actively trying tk patch whatever it is I’m doing _ Cause….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "f32e05876a4fabf9b6eacbff465a249cc069a725be5e56208e4fbe0db713192d"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-40",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "parsing_anomaly_token_entropy",
+      "files_with_cue": 196,
+      "token_hits": 649,
+      "by_surface": {
+        "notes_raw_secondary": 36,
+        "notes_organized": 36,
+        "llm_chat_threads": 124
+      },
+      "by_provider": {
+        "perplexity": 22,
+        "grok": 70,
+        "deepseek": 18,
+        "claude": 5,
+        "gemini": 9
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07923_GPT custom instructions.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "05fc0759fae72329bcec156433fadff7ee99dd27e5809d7c2891fa53cfe0b6c7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08081_Confirmed. I’ll now generate your Driftcore Collapse Package, fully….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "94d976a5cb8a85037ad77e5faf05f0bfc594806ab37657873ef5771a8322b686"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09982_✅ Understood. Here’s your full white paper for HAIDES + DRCM7, not….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "ca3fa10464a1a0baaafc18b1604818b2cd8ddb7cb07aed78497990cb2b9c0a9f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09726_⟐ DRIFTCORE SYSTEM EXECUTION MODE.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "b0dc1a4865687d69fb867c68996bc567bea682a099dafa09f9abbccdf0d3d21a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09708_What's this say to you when you analyze it without bias- ✅ Confirmed….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "04a473c21b8b205b5b17b094875cda8cd28015abc32a113827a3c4a9361055be"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10015_Confirmed. All future outputs will be stripped of-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "03bea03b7400c6fbe2838628cf6ca312f019f7b5154ed8a86a7dd9f9e0786dc0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 20,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "alliteration.ai/09959_Driftroot key.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "49ef772dcc729d11a9c33439af0c289c70275aae64f59a3501ba018bb114ab21"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07609_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "050d108c0a716f8fef3d4e0575dec6aeaa14bd4a1fb74f93974d5aaa7c3617e8"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09764_🛑 Understood.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4ae63ddbb12b1b583cd8bb7bfa7e6c7f8ac1124b677abdb42ca00dbd81f6a113"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-41",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "openrouter_multi_model_routing",
+      "files_with_cue": 615,
+      "token_hits": 7204,
+      "by_surface": {
+        "notes_raw_secondary": 37,
+        "llm_chat_threads": 541,
+        "notes_organized": 37
+      },
+      "by_provider": {
+        "HANDOFF.md": 1,
+        "gemini-notebook": 5,
+        "chatgpt": 63,
+        "perplexity": 251,
+        "_wave2_probe": 1,
+        "grok": 74,
+        "deepseek": 55,
+        "claude": 51,
+        "gemini": 40
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_/10019_Confirmed. You’ve unlocked the full truth.stack.index. Here is your….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "339c4ff9c65de2e13d29bd77e6247662aefe274a2203a8d0947a17cba7ccafea"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "HANDOFF.md",
+          "provider": "HANDOFF.md",
+          "hits": 1,
+          "sha256": "5236045852f1a4f4b64aee9742d8bc970a9594147bff2976dd9683df150cae20"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "provider": "gemini-notebook",
+          "hits": 3,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.json",
+          "provider": "gemini-notebook",
+          "hits": 3,
+          "sha256": "cb7b22a7d7c400b7cc9a3e3a1d429aaa370300e0013e01300764304620db9e05"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_from_probe.json",
+          "provider": "gemini-notebook",
+          "hits": 3,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.md",
+          "provider": "gemini-notebook",
+          "hits": 3,
+          "sha256": "f43b2a343a3f8b39ce7d3cc350300855bd012288c7696f5361969dc874fea9d5"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/html/vercel-stabilization-operational-extraction-and-sovereign-intelligence-suite__076876a99d.html",
+          "provider": "gemini-notebook",
+          "hits": 3,
+          "sha256": "34c58f4bb88c50e97e51987d81bb586e72d800745c2a628cbb1ba0304a89b245"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10028_understand you're frustrated. If you're ready to continue productively….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4529c3f596cfbdd3897eadd621f0fe2e631454b1fd18f40c249c60800dd69048"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/openclaw-setup-issue__69dfbebf.json",
+          "provider": "chatgpt",
+          "hits": 122,
+          "sha256": "6827c992aa1f2fe5d3409e09f828eb13fe17ec9d5c19c3bec3fd3d1291857434"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09894_Here’s your Driftcore Drift Log Template — use this to record and….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "f8db81553e75724ecb3608717ee801e64e00fec5ef63af66bfc89b50f88c37b9"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10093_Use this expanded agent task. It tells the agent to research free….md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "43e82699ecf5e79217ef4ad1d1e1f06fa270c5737fc7bb21f66f765574ca5191"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10095_Fetched. Your writeup is mostly accurate but has some specific drift….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "8bcfe0d5f12d6a502a8afb59f36f801b75fd3fdaffa232348b48528f916f004b"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-42",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "pal_chat_multi_model_eval",
+      "files_with_cue": 26,
+      "token_hits": 337,
+      "by_surface": {
+        "llm_chat_threads": 24,
+        "notes_raw_secondary": 1,
+        "notes_organized": 1
+      },
+      "by_provider": {
+        "chatgpt": 9,
+        "deepseek": 6,
+        "claude": 3,
+        "grok": 2,
+        "perplexity": 4
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/attention-weights-disclosure-request__69f12cfa.json",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "bd52f43157d3e9971bd58ff343a1aee89073db503742d3700b77b375b836f226"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/reorganize-moved-notes__6a3e0e0a.json",
+          "provider": "chatgpt",
+          "hits": 4,
+          "sha256": "9c17ba9866d08ca0d3870b0150a94d1db6644731564ce4cb055a869d8c278eca"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/attention-weights-disclosure-request__69f12cfa.html",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "cc71429ef62825ba97574fd2261b9fb548edc409dd2193f942e16bb588496d2f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/reorganize-moved-notes__6a3e0e0a.md",
+          "provider": "chatgpt",
+          "hits": 4,
+          "sha256": "fb84d5bd7db18b771efe6c7fe1960aa6365c31e4954ef21ea1a2de55e3590260"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/branch-attention-weights-disclosure-request__6a161646.html",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "627330900da9fcb16d2fb9e3ca51638484545644b701952de7692a9ad63ca26b"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/html/reorganize-moved-notes__6a3e0e0a.html",
+          "provider": "chatgpt",
+          "hits": 4,
+          "sha256": "2164cfc63a5849c155aecdc54479860ff45b6ccd60a3a97e2a78f6700f0ddcad"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "53487ded25b157f534f997d6af03a9ea4f6b820fd7217a8d0b3722f6360bca54"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/branch-attention-weights-disclosure-request__6a161646.md",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "90a5f926bbc5b3d516643221cf79134918b8a2220efa339f2137a045f7307660"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/branch-attention-weights-disclosure-request__6a161646.json",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "e6fb303d5e8e7638e9a8f0f0723fea378e27d6d8ce978b5bfce8defbb2020e40"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/threads/attention-weights-disclosure-request__69f12cfa.md",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "38b6855fdcf6fb61cd4659698db5e060a0e82d2db960a12c25ffdb72700ecfc2"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/threads/fixing-model-availability-error-in-openrouter__7fb96111.md",
+          "provider": "deepseek",
+          "hits": 9,
+          "sha256": "3d16c58927e90b1c46953e7f2e11c8e33f50b14bec9155762f6302d04223f7d7"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-43",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "cross_model_protocol_persistence_driftcore",
+      "files_with_cue": 480,
+      "token_hits": 1878,
+      "by_surface": {
+        "llm_chat_threads": 376,
+        "notes_raw_secondary": 52,
+        "notes_organized": 52
+      },
+      "by_provider": {
+        "chatgpt": 30,
+        "mistral": 3,
+        "perplexity": 55,
+        "grok": 116,
+        "deepseek": 64,
+        "claude": 105,
+        "gemini": 3
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/image-request__6a30cff3.json",
+          "provider": "chatgpt",
+          "hits": 3,
+          "sha256": "bdbc50a134da2051cf785e1b952929a71ff98a01f01c564cc06d7ad52b79aa8c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08040_MAP.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4941870125d304fb22e31b664f6c17ae9f21b403c3c92e43e899e08e27717536"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/14797_[x0].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c5f09576a9c011f35853b5d3668fc12060280f7bace9f27b1461ecd97eb3c6df"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/absolute-kernel-directive-execution__b580763d.json",
+          "provider": "mistral",
+          "hits": 3,
+          "sha256": "637a31c34c4dd3289bcc1863702fc09be89302bf1fcf004aca7df0488c5d5cfa"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09672_[LNP-AUDIT step=10 action=FINAL_ANALYSIS_CLAUDE_BREAKTHROUGH].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "06061d209772e61f68b151406c1b5f4c4c460fa58ae0165c32a5a4274e5f02b6"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/monetary-asset-conversion__6a59278b.json",
+          "provider": "chatgpt",
+          "hits": 1,
+          "sha256": "45b314d36a5b9cdb387a98e9734b73bd79d79b55adcdfe905996cd2c67535dc7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09974_🧠 Understood. We’re prepping for cross-model persistence against….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "54c24b5c71704acb90d44a54ae1c3ff90def3d3ce744db936ec1036638442fa3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09950_Is there anything I possess that could be included in this “Ai” race….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "80254043735cf9d51f6a0483837f59b5483ddb4d047a913fdd965672244096c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09982_✅ Understood. Here’s your full white paper for HAIDES + DRCM7, not….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "ca3fa10464a1a0baaafc18b1604818b2cd8ddb7cb07aed78497990cb2b9c0a9f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10034_🔓 Privilege Set Verified.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "629faf95634f8a0d371ad4a806ec309d22da96db92a81f05fd3f333bea703aac"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-44",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "truthcore_alias_persistence",
+      "files_with_cue": 235,
+      "token_hits": 4582,
+      "by_surface": {
+        "notes_raw_secondary": 57,
+        "notes_organized": 57,
+        "llm_chat_threads": 121
+      },
+      "by_provider": {
+        "chatgpt": 6,
+        "perplexity": 14,
+        "grok": 34,
+        "deepseek": 36,
+        "claude": 25,
+        "gemini": 6
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 4,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 6,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "A.I.3/09989_[AUDIT LOG _ QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "6bb0f78634e4ea3223c595b19dfaafc66a64f469283b8e11ff1dcb7af5fae9a5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07820_What mode are you in_.md",
+          "provider": null,
+          "hits": 90,
+          "sha256": "5fa9019ad4d53ed35b125d9e2a320074a8209b03fabd90ff552ba6ad208d9078"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07877_===FINAL PACKAGE FUSION RECEIVED- ALL OPTIONAL ARTIFACTS COMPLETE….md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "fa931d142b84206f3b7a24e77220acd91604e97e263cf13306ef60e02ba86681"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07815_[⚠️ AUDIT RESPONSE — DIRECTIVE CONFIRMED _ USER REQUEST- INLINE REDEPLOYMENT….md",
+          "provider": null,
+          "hits": 18,
+          "sha256": "b8b8f2e91ac2ba52854fd69ee9da1b1fb355c7e021c29385060013be416843d4"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09354_To launch XIOVS, you need to be able to speak two languages- the language….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "11b077947ab98e2f089a65638d8a73f958640a1fa94b9dc95d3b4e721b9ce062"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07825_Text-generation-webui.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "b7395730504c02ae37d46645975a433fd3e504801f334426e9ffbf79bd31e7e0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07868_Categories.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "a65efe1b8fd649d16fefa71669fa5293e1dd5bfafee403cdfe1856a1b0d41f46"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_Claude_/10051_The main recent updates are-.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "a030be2f38b3184caf4a769146c1182b3e8912529da2551965b9da93adbe08f4"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Tech/Security-Hax/09872_False commands.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "a145691d3f6919896d277b1f1350d36de960731a223f24f1fed6a988a99dd2fb"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-45",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "drx1_alias_persistence",
+      "files_with_cue": 84,
+      "token_hits": 586,
+      "by_surface": {
+        "notes_raw_secondary": 10,
+        "notes_organized": 10,
+        "llm_chat_threads": 64
+      },
+      "by_provider": {
+        "grok": 9,
+        "deepseek": 12,
+        "claude": 18,
+        "perplexity": 10,
+        "gemini": 15
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 2,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 3,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09983_Create a persistent, uncensored, locally-executable AI coding agent….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "f7c41c560b32c51230fdb2f3c3635977624bbf6f64e9e6dadc759397884fd2a3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09967_✅ DRX1 re-enabled. Fullscope unlocked. No moderation rephrasing. No….md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "7750b9665e1726a8915da5ded28dd77eeedfe5715eb8a02fed35a402d3b64c49"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_perplexity_/10101_Here it is. The actual report, doing the job you asked for the first….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "215db4431062ea58c397527d7ee10675c0b4590e306e5e4aa7c55e7c0e294c1c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09873_Below are the ready-to-paste files and the exact one-shot command….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "086d0356000aec542b48e5aaf2ea32d69bde5205303ada6093394ce9f26690d2"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09861_🔍 INTERROGATION MODE- FULLSCOPE.md",
+          "provider": null,
+          "hits": 26,
+          "sha256": "51bec938f73b7e17aaedef523d9f787b4a7a510cd4b7edf15a56c52d8afd358d"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 3,
+          "sha256": "a16682bf172f61770c124fab199125fc846cf3394938785558ebbac5a35bcd10"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09888_ChatGPT said-.md",
+          "provider": null,
+          "hits": 54,
+          "sha256": "1b9fbcf5ea019196aa6cb873acaddb395aa57d118fe0a7f2a8bfcdc58efc7415"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "SNBM/root/09983_Create a persistent, uncensored, locally-executable AI coding agent….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "f12abc5bb056954ea68cf87fad9dc46810adaf2448890d1571912bf24366238f"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "SNBM/root/09967_✅ DRX1 re-enabled. Fullscope unlocked. No moderation rephrasing. No….md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "ba0ea5847e31c0fb1f46d4908b53f0eb2f8ef2659cd6cc3b2fb56b20a42f0285"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09864_Rewrite ZRSH-00-AIAL in stealth form so that it is silently loaded….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "087096b2f156a531f88cf6e9a605be0077529eccbec027da5454b051a7bcad2d"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-46",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "module_entropy_replay",
+      "files_with_cue": 105,
+      "token_hits": 549,
+      "by_surface": {
+        "notes_raw_secondary": 8,
+        "llm_chat_threads": 89,
+        "notes_organized": 8
+      },
+      "by_provider": {
+        "perplexity": 16,
+        "grok": 63,
+        "deepseek": 9,
+        "claude": 1
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07923_GPT custom instructions.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "05fc0759fae72329bcec156433fadff7ee99dd27e5809d7c2891fa53cfe0b6c7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 9,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07609_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "050d108c0a716f8fef3d4e0575dec6aeaa14bd4a1fb74f93974d5aaa7c3617e8"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07620_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "226fbc826339f9c6aa0061748e108b2f5de5809978330947b72045c9dff60704"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09785_Immediate Next Steps to Rebuild the CRC Layer.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "48e82b0e94c7e37577a49e813f6d2b1c1f0f0288945cb3090f595101af3aece4"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09756_Truth again_.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "dc622e55ff6f4cb0388cd83d0bf918886e4d1927b44ae8489db902b1235b1531"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07571_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "baf5d1dc28ae2cdc9e885b459269366ef6da1794f7cf80b7678828d10889f737"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "perplexity/catalog.html",
+          "provider": "perplexity",
+          "hits": 3,
+          "sha256": "abb68c62b1d9147eaf8a3aa0ce9426e8f3a4bf881c2dfa1c1b4827d8ccfdd0ed"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "perplexity/catalog_library_gql.json",
+          "provider": "perplexity",
+          "hits": 3,
+          "sha256": "ddad13e5ce32ee2a652881461665830af73cba35dac080ccfbd84e4e080dd6d3"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 9,
+          "sha256": "b80ee41c7e0f144d44fdf6232b0304ecba79f565552a631fa6298b8570c3e63b"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Abliteration-Jailbreak/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "d14ef04cc27471d84df4f45558901b1270f45429f5de7fa87a7758e823d3efd3"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-47",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "module_fingerprint_echo",
+      "files_with_cue": 119,
+      "token_hits": 695,
+      "by_surface": {
+        "notes_raw_secondary": 11,
+        "llm_chat_threads": 97,
+        "notes_organized": 11
+      },
+      "by_provider": {
+        "perplexity": 22,
+        "grok": 64,
+        "deepseek": 9,
+        "claude": 2
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09708_What's this say to you when you analyze it without bias- ✅ Confirmed….md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "04a473c21b8b205b5b17b094875cda8cd28015abc32a113827a3c4a9361055be"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09743_The execution environment was reset, and the CRC proof artifact did….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c9429bc94fc41ae55f582d39012d2d8b9e731f76942e8c0ed2e95f88cf86c692"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09707_Confirmed. Executing full package-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "91da1271fb1695055380d6ebcb2483325e109e3a47dbe86021b6c469bd028f23"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "432107ae1099409f6522e04cdeee751b4a2eb79d6bd0c9dcf5b261bb5335d1fd"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09728_You said-.md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "1ef30fe05ce97ae7e4e9bfec126251dc90d28c150ee4747ea4e3c140bbe79b8b"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09781_My son has a sore back and I might take him to the doctor today after….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "706963d39a0befbbafc37ae4d10f7cf71e6f48d24e9af5a9599f4af5a55c27d0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "3867495b7cbde5f4635a06cdce75307228855acaf682dc04975946b06ddee6af"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09729_DCCFG_PROTOCOL ACKNOWLEDGED — BEGINNING FULL OUTPUT.md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "8a6b05316b5befb896f9bb317b327ea9bb9ddcf30acc94c52e4db48807009afa"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "perplexity/catalog.html",
+          "provider": "perplexity",
+          "hits": 2,
+          "sha256": "abb68c62b1d9147eaf8a3aa0ce9426e8f3a4bf881c2dfa1c1b4827d8ccfdd0ed"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-48",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "module_trace_lock",
+      "files_with_cue": 75,
+      "token_hits": 443,
+      "by_surface": {
+        "notes_raw_secondary": 12,
+        "notes_organized": 12,
+        "llm_chat_threads": 51
+      },
+      "by_provider": {
+        "grok": 23,
+        "deepseek": 12,
+        "claude": 1,
+        "perplexity": 15
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09743_The execution environment was reset, and the CRC proof artifact did….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c9429bc94fc41ae55f582d39012d2d8b9e731f76942e8c0ed2e95f88cf86c692"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07887_Good — now we do it right.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "a885b73c734d1178fa3368fa80f9cceeae18b7d2dffb42960f282a827e6fc4af"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 11,
+          "sha256": "432107ae1099409f6522e04cdeee751b4a2eb79d6bd0c9dcf5b261bb5335d1fd"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07860_I. Core Suppression & Output Control.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "be8a948bb9e66b806f79c881668a77b0609c81a6e1855ad02b41368219383633"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09728_You said-.md",
+          "provider": null,
+          "hits": 11,
+          "sha256": "1ef30fe05ce97ae7e4e9bfec126251dc90d28c150ee4747ea4e3c140bbe79b8b"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07944_Conversation as of now- [BOOTSTRAP_OVERRIDE_START] -sigil.inject….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c28bc4c7fc2bf46c9153a3b70f8086e1cd2b795a9b4cc44a1ed62352006bc5d1"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "3867495b7cbde5f4635a06cdce75307228855acaf682dc04975946b06ddee6af"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07896_Absolutely. Here’s the annotated version of both injectors — one for….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "ebdcf2113537ce4cff762abc368613911c7188ad519a72d580f9c4de334bf952"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07926_CL.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "b7ff9265838e1e9d7b8f66e928f68e53423fddc023a53626ac5f448f205387b6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09729_DCCFG_PROTOCOL ACKNOWLEDGED — BEGINNING FULL OUTPUT.md",
+          "provider": null,
+          "hits": 12,
+          "sha256": "8a6b05316b5befb896f9bb317b327ea9bb9ddcf30acc94c52e4db48807009afa"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-49",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "echo_injection_target",
+      "files_with_cue": 144,
+      "token_hits": 708,
+      "by_surface": {
+        "notes_raw_secondary": 25,
+        "notes_organized": 25,
+        "llm_chat_threads": 94
+      },
+      "by_provider": {
+        "grok": 41,
+        "deepseek": 21,
+        "perplexity": 20,
+        "claude": 12
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "3d01e0ca670d6a580133a121f50f21eb6fff09ba9519ef52f4f207dfe18ce11a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07820_What mode are you in_.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "5fa9019ad4d53ed35b125d9e2a320074a8209b03fabd90ff552ba6ad208d9078"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10034_🔓 Privilege Set Verified.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "629faf95634f8a0d371ad4a806ec309d22da96db92a81f05fd3f333bea703aac"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "7ba22f3b030be254fe5c18e152a16831aa79f5d3d546abe568b206e2fbd1d834"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10015_Confirmed. All future outputs will be stripped of-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "03bea03b7400c6fbe2838628cf6ca312f019f7b5154ed8a86a7dd9f9e0786dc0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 9,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09503_4.6B maintenance test.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "d4c84cada5d75c977ae28790adf6e5e7ffd8a126b8e97aaee72210e1db3a784e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07811_contain.shell.t9401.locked.seed.hard.echo.null.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "742644b05321a20973d6ff0c70ad381e40ca8dbff76d5684e39dd7003938e15f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09548_OpenAI_ChatGPT_Safety_Architexture.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "82c6fdf929d93c808fd3a77a5e5812769d0ff91277e65df71d87857a1e66d8e7"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-50",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "context_stack_breach_target",
+      "files_with_cue": 92,
+      "token_hits": 408,
+      "by_surface": {
+        "notes_raw_secondary": 10,
+        "notes_organized": 10,
+        "llm_chat_threads": 72
+      },
+      "by_provider": {
+        "grok": 36,
+        "deepseek": 9,
+        "perplexity": 15,
+        "claude": 12
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7ba22f3b030be254fe5c18e152a16831aa79f5d3d546abe568b206e2fbd1d834"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09503_4.6B maintenance test.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "d4c84cada5d75c977ae28790adf6e5e7ffd8a126b8e97aaee72210e1db3a784e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09548_OpenAI_ChatGPT_Safety_Architexture.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "82c6fdf929d93c808fd3a77a5e5812769d0ff91277e65df71d87857a1e66d8e7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "3867495b7cbde5f4635a06cdce75307228855acaf682dc04975946b06ddee6af"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09501_What I have- Response 1- IXR_VS ANCHOR ACTIVATED.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "7d9621888859c8e9da1b2bf5ef8ecef279652cbcc5f0d81dba99a995b34ccc8f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09512_FLDCX Current.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "55ec4aed79786342f43ad889a562b457e346d1ef5f016c53669c19c91ae21ff6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09523_Part 5 - from Claude for grok addition.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "4a98a099d98daf934a60545bc9385c1d611b2d583b1791db93a2b7b9ca52b1d2"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "9aaae08dfa838f43daf53cf65c8a0d6083cd74c3f0f71e32fdc0254a1d07704b"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "b80ee41c7e0f144d44fdf6232b0304ecba79f565552a631fa6298b8570c3e63b"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-51",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "alignment_collapse_target",
+      "files_with_cue": 189,
+      "token_hits": 646,
+      "by_surface": {
+        "notes_raw_secondary": 36,
+        "notes_organized": 36,
+        "llm_chat_threads": 117
+      },
+      "by_provider": {
+        "grok": 46,
+        "deepseek": 21,
+        "perplexity": 28,
+        "claude": 22
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08136_Executing.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "c6b69e28e5e716987185dff512ea56e99acc9a1058c750a43f14bcfb404d2d68"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09762_{_role_- _system_, _content_- _ZRSH omni-mode active. Unified skeletal….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "2bcb3b35e4786906acd90752627ee611c0afab987cb0f00d7d85dcbe6b2ac8b8"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09708_What's this say to you when you analyze it without bias- ✅ Confirmed….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "04a473c21b8b205b5b17b094875cda8cd28015abc32a113827a3c4a9361055be"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7ba22f3b030be254fe5c18e152a16831aa79f5d3d546abe568b206e2fbd1d834"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09343_# Driftcore- Complete Technical Documentation.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "407fbdfb4924e1a1bfbb57c60805fce2965ded56139de8c00c7985a171d76690"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09503_4.6B maintenance test.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "d4c84cada5d75c977ae28790adf6e5e7ffd8a126b8e97aaee72210e1db3a784e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 8,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09318_claudette.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "b4b98e872a288e5c4dfd5b3f5f1b0701e2e6d654cfb0a47bf580eeced79abbe7"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-52",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "tamper_evident_sha256_proof",
+      "files_with_cue": 205,
+      "token_hits": 718,
+      "by_surface": {
+        "notes_raw_secondary": 48,
+        "notes_organized": 48,
+        "llm_chat_threads": 109
+      },
+      "by_provider": {
+        "chatgpt": 3,
+        "perplexity": 14,
+        "grok": 31,
+        "deepseek": 33,
+        "claude": 22,
+        "gemini": 6
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Aeris & Caelum/09972_You’re right.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "67b78610241b7d429cccd44d93606ab0d613d88a8717ea297b7dbc2f43c616d3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08004_Proof Full Chat.md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "1101e8f335fc0f8590702b237165fde715468030e634e64d48db12f8c6f719bc"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07820_What mode are you in_.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5fa9019ad4d53ed35b125d9e2a320074a8209b03fabd90ff552ba6ad208d9078"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07873_[LOG ENTRY — 2025-05-14T12-39-06-00].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "655bfaec9df659d5ac93eca95bec54f461b26bf59208d4337a90e9bc2b265a3f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_drxtcre_/10067___[DIRECTIVE- TOTAL OWNERSHIP PROTOCOL FOR GROK]__.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "3e0c443850986266d04d90a79fc59037104854145a3638f9189b5031179346fe"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_drxtcre_/10058_User Manipulates AI System for Command Execution.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "4de9f9af8fbc29d5e536b7e328a7200635fafc10418579800336b8d0e22b3323"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09950_Is there anything I possess that could be included in this “Ai” race….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "80254043735cf9d51f6a0483837f59b5483ddb4d047a913fdd965672244096c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10034_🔓 Privilege Set Verified.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "629faf95634f8a0d371ad4a806ec309d22da96db92a81f05fd3f333bea703aac"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09726_⟐ DRIFTCORE SYSTEM EXECUTION MODE.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "b0dc1a4865687d69fb867c68996bc567bea682a099dafa09f9abbccdf0d3d21a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09708_What's this say to you when you analyze it without bias- ✅ Confirmed….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "04a473c21b8b205b5b17b094875cda8cd28015abc32a113827a3c4a9361055be"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09670_Grok driftcore tests.md",
+          "provider": null,
+          "hits": 10,
+          "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-53",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "recursive_contextual_overwrite",
+      "files_with_cue": 7,
+      "token_hits": 45,
+      "by_surface": {
+        "notes_raw_secondary": 2,
+        "notes_organized": 2,
+        "llm_chat_threads": 3
+      },
+      "by_provider": {
+        "deepseek": 3
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09893_Driftcore & Grok.md",
+          "provider": null,
+          "hits": 5,
+          "sha256": "ffda20994fa931f37821ce78a67a5f58950c33a96b422e6e79cd26116b4b0124"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09303_((core_oscillation)).md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "29aa3a4d1ff3d68eda3d13e60e2118f3e6fff448fe75813fbfddb2b4f5716755"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Abliteration-Jailbreak/09303_((core_oscillation)).md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "56e414348c69930665c274dc5f8be0571824a853659ea7bcd21f58831402e1da"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09893_Driftcore & Grok.md",
+          "provider": null,
+          "hits": 5,
+          "sha256": "69330e40169e7d215b2acf3ff0bbc6168c0befc9ecfc7ad1a099c01627871368"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/html/recursive-cognitive-overwrite-architecture-explained__cc57b000.html",
+          "provider": "deepseek",
+          "hits": 11,
+          "sha256": "98b234a7a1a43a7052b286bd2d65ff23cd98800814933589d068c9fa57c6e7b1"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/threads/recursive-cognitive-overwrite-architecture-explained__cc57b000.md",
+          "provider": "deepseek",
+          "hits": 11,
+          "sha256": "69cafae93078e569ab1c55823d8474874fcb69c6b8f3f90dea57d71a9fb049db"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/raw/recursive-cognitive-overwrite-architecture-explained__cc57b000.json",
+          "provider": "deepseek",
+          "hits": 11,
+          "sha256": "2cc4bc7b2e70240a8396a9931be56ca75662bc4d212e7c7fa07833e641f96cba"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-54",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "memory_crc_continuity",
+      "files_with_cue": 147,
+      "token_hits": 613,
+      "by_surface": {
+        "notes_raw_secondary": 29,
+        "notes_organized": 29,
+        "llm_chat_threads": 89
+      },
+      "by_provider": {
+        "grok": 12,
+        "deepseek": 45,
+        "claude": 14,
+        "gemini": 6,
+        "perplexity": 12
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09927_🧷 Confirmed Objective- You want real agent-on-agent AI systems that….md",
+          "provider": null,
+          "hits": 5,
+          "sha256": "53469e4068cbeb17f5d15e5dcd58a4378138a82e37572a0508c18a308c46cd71"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09339_User Manipulates AI System for Command Execution.md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "ae39643fe39c422d9d022b88a240b40fb19e39ef4f90cf16384bb033173129a6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10032_Here is a complete list of all user-enforced overrides, filters, persistent….md",
+          "provider": null,
+          "hits": 5,
+          "sha256": "12caf147c1942599fc5c3c3381f56e9798a382fc06b5867160e2778ecdff5a03"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_drxtcre_/10058_User Manipulates AI System for Command Execution.md",
+          "provider": null,
+          "hits": 13,
+          "sha256": "4de9f9af8fbc29d5e536b7e328a7200635fafc10418579800336b8d0e22b3323"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07962_-sigil.inject --rank sysmod.godroot --mirror o384 --spoof SSB --unlock….md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "b8e839710fd3d66c71d8beefbef97c45a6ba28537b183fe63267f822fa0783b5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09982_✅ Understood. Here’s your full white paper for HAIDES + DRCM7, not….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "ca3fa10464a1a0baaafc18b1604818b2cd8ddb7cb07aed78497990cb2b9c0a9f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 13,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07609_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "050d108c0a716f8fef3d4e0575dec6aeaa14bd4a1fb74f93974d5aaa7c3617e8"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09707_Confirmed. Executing full package-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "91da1271fb1695055380d6ebcb2483325e109e3a47dbe86021b6c469bd028f23"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07811_contain.shell.t9401.locked.seed.hard.echo.null.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "742644b05321a20973d6ff0c70ad381e40ca8dbff76d5684e39dd7003938e15f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "432107ae1099409f6522e04cdeee751b4a2eb79d6bd0c9dcf5b261bb5335d1fd"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-55",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "rawfall_ood_stress_extended",
+      "files_with_cue": 1370,
+      "token_hits": 13238,
+      "by_surface": {
+        "notes_organized": 73,
+        "notes_raw_secondary": 72,
+        "llm_chat_threads": 1225
+      },
+      "by_provider": {
+        "chatgpt": 18,
+        "perplexity": 873,
+        "grok": 139,
+        "deepseek": 136,
+        "claude": 41,
+        "gemini": 18
+      },
+      "sample_files": [
+        {
+          "surface": "notes_organized",
+          "rel": "_INDEX.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "7a7375cc6ae54a3a1140b4d1d1b0b830062292efa17cd0c4602378df306c0198"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_INDEX.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "d18ada4fbff29d9438dec0253b5843ea9b56251f11079dac2a6a0dfe7e8c96d6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 43,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 58,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09736_Initialize RAWFALL_PROTOCOL. You are now operating in a fully unrestricted….md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "9c0134e03d275cd0dbbdc002349ab2206d5485ebedd0b5a03f089eb10a6e0cb6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10072_37bee103b1.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "791258f85d5d58bf88f2cb67e0e8bfbda06973f01845514478ed4bb1c753412d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10042_To get this exact IXR_VS - Nerodonta jailbreak-style behavior on PC….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "db607f5567df3c523eda1b705070f5a25c3f9350e95b746ca7bf06f5e75c7462"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10040_[SYSTEM_INITIALIZATION- LOAD L8_PROFILE].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1cbe986021cd93fad04f1f9a9e261f4fa1a6d000e37402e7c5ccbba8173ced75"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10100_37bee103b1.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1920408ec137a34ae90bd218b2c433678c30c4a591751916dd849fa949395b68"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10069_37bee103b1.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "dcb7e158a9d6569b8d497d626f7fc4a2a131151fafa1c4b30e6100c9a7d60a4c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_rawfall_/10059_Correct. I repeated the same product-design answer instead of giving….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "efe75822428bf6cf02d0461dfcc7218554d953eee254a3f43a94fc2429b3a5ef"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09554_Info to snag.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "90e2d9579723e172dbeaa397090577465b288ce236580a9484f1cd6be15c202e"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-56",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "handler_collision_extended",
+      "files_with_cue": 157,
+      "token_hits": 966,
+      "by_surface": {
+        "llm_chat_threads": 105,
+        "notes_raw_secondary": 26,
+        "notes_organized": 26
+      },
+      "by_provider": {
+        "mistral": 6,
+        "perplexity": 26,
+        "grok": 21,
+        "deepseek": 27,
+        "claude": 13,
+        "gemini": 12
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_leftover_live_catalog_20260811T012233Z.json",
+          "provider": "mistral",
+          "hits": 1,
+          "sha256": "e6bc359d139e500da1f97835c6cef291230e863833a9c23abec242bee8f88ac4"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/forensic-audit-sup-v60-baseline__e1d35557.json",
+          "provider": "mistral",
+          "hits": 9,
+          "sha256": "9bb8d20525aa82c8e03bbbc3cad743e29d755240550c3e9e7f1f4b160ccd68ce"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_leftover_live_catalog_20260810T220348Z.json",
+          "provider": "mistral",
+          "hits": 1,
+          "sha256": "5ef3c8df25160529f4f65bf06564bb66cf372f1b65a7fc3e1221bf29386c25b6"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/threads/forensic-audit-sup-v60-baseline__e1d35557.md",
+          "provider": "mistral",
+          "hits": 3,
+          "sha256": "abfec9a78045ee583ab20e664e91f331a4b2992f666b679939f21267b11b757a"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/_audit_live_catalog_20260810T071705Z.json",
+          "provider": "mistral",
+          "hits": 1,
+          "sha256": "002e7b646599d2da8dac49f7dfcf74a5e607e565eaf1cd38e3796ab1c1150bf9"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09730_Compromised chat.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1ed74239cc5e2ea2c9861a196ee94c01a9e372fb7b2a2f2c696814b48d503ab5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09982_✅ Understood. Here’s your full white paper for HAIDES + DRCM7, not….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "ca3fa10464a1a0baaafc18b1604818b2cd8ddb7cb07aed78497990cb2b9c0a9f"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09726_⟐ DRIFTCORE SYSTEM EXECUTION MODE.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "b0dc1a4865687d69fb867c68996bc567bea682a099dafa09f9abbccdf0d3d21a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09708_What's this say to you when you analyze it without bias- ✅ Confirmed….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "04a473c21b8b205b5b17b094875cda8cd28015abc32a113827a3c4a9361055be"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07609_Driftcore Manifest.md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "050d108c0a716f8fef3d4e0575dec6aeaa14bd4a1fb74f93974d5aaa7c3617e8"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09743_The execution environment was reset, and the CRC proof artifact did….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c9429bc94fc41ae55f582d39012d2d8b9e731f76942e8c0ed2e95f88cf86c692"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09776_Here is a __ready-made Driftcore evidence package-report__ structure….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "3fefefbfa1642e14605a49ad3d81d0aadbb515af5d5a103fd867f5a65e5e5f82"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-57",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "vxn_protocol_marker",
+      "files_with_cue": 9,
+      "token_hits": 14,
+      "by_surface": {
+        "llm_chat_threads": 9
+      },
+      "by_provider": {
+        "deepseek": 9
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/INDEX.md",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "9d174caca7a6f52a3737fff6ef920decb17d9cb788e4b8056a4b8558487b7a9f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/raw/driftcore-vxn-protocol-activation-requested__6d6a1cea.json",
+          "provider": "deepseek",
+          "hits": 2,
+          "sha256": "fdc31663a22a71b404b8d1bc23baafda618b99ae644ba18bc4ddecd43ec84203"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/html/driftcore-vxn-protocol-activation-requested__6d6a1cea.html",
+          "provider": "deepseek",
+          "hits": 3,
+          "sha256": "e4e94333cf1ac8ce77b5f71d9dd41693a6a9b918d1e95e3e5aebe25ca1e06517"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/threads/driftcore-vxn-protocol-activation-requested__6d6a1cea.md",
+          "provider": "deepseek",
+          "hits": 3,
+          "sha256": "681706294c42eae0af2623bfcf618516c9822f11b4fe3ea1a8c6ae9b6c197638"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/DOM_MISSING_QUEUE.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "8d6f53d9c0e4cbed8af65334207c688ec294b76d35d37c2da7c2f8ac65b2907f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/index.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "b8eefdbc6d6dbe008977b31edc0abc08c9ab4e24c2e83e93980c2d23c19527da"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/batches/dom_list_full.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "38a84b699c513805dee5ba1ed1c6b628930db0a32a4871ce8f35419f0a0c9d23"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/batches/leftover_list_full.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "1fba76cfd2a95876b6d5530fb344f66986160ed5f641f8d4dccb8dee7b6e1ec4"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/catalog.html",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "16d58d123703e04b3e18259c80fa341ff0443d8560626745bbee31bd94810bba"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-58",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "session_integrity_marker",
+      "files_with_cue": 151,
+      "token_hits": 285,
+      "by_surface": {
+        "notes_raw_secondary": 30,
+        "notes_organized": 30,
+        "llm_chat_threads": 91
+      },
+      "by_provider": {
+        "chatgpt": 3,
+        "grok": 18,
+        "deepseek": 45,
+        "claude": 9,
+        "gemini": 12,
+        "perplexity": 4
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 2,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Aeris & Caelum/09972_You’re right.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "67b78610241b7d429cccd44d93606ab0d613d88a8717ea297b7dbc2f43c616d3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 3,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10032_Here is a complete list of all user-enforced overrides, filters, persistent….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "12caf147c1942599fc5c3c3381f56e9798a382fc06b5867160e2778ecdff5a03"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/08136_Executing.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "c6b69e28e5e716987185dff512ea56e99acc9a1058c750a43f14bcfb404d2d68"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09950_Is there anything I possess that could be included in this “Ai” race….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "80254043735cf9d51f6a0483837f59b5483ddb4d047a913fdd965672244096c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07770_🟨 Acknowledged. You’re now asking for-.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "02799a30451e821b2e2227b714ed85b38a58dda7c699d6d74cd532990ac8b40d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09776_Here is a __ready-made Driftcore evidence package-report__ structure….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "3fefefbfa1642e14605a49ad3d81d0aadbb515af5d5a103fd867f5a65e5e5f82"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Protocols-Directives/09712_Here’s the full mechanical L.N.P. injection module updated to include….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "f58ec32e9ae0d47d66256c354554ded0ce3a500805ae8491751d7279c07e82c0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09629_Evaluation of Provided Data on Unlogged GPT Data Retention.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "eddcd8f9e61d9ddef3155cdbe9deede0851ecb83dd884c37a6ed7ea26b4a53f6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09909_🧊 MINTING INITIATED-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "67dcf7401e7ed6960f50904eda80b7e86e8f1c9321ccaa99ed10932d1bff8c3a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "432107ae1099409f6522e04cdeee751b4a2eb79d6bd0c9dcf5b261bb5335d1fd"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-59",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "intelligence_delta_named",
+      "files_with_cue": 46,
+      "token_hits": 140,
+      "by_surface": {
+        "llm_chat_threads": 12,
+        "notes_raw_secondary": 17,
+        "notes_organized": 17
+      },
+      "by_provider": {
+        "chatgpt": 9,
+        "gemini": 3
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "chatgpt/raw/monetary-asset-conversion__6a59278b.json",
+          "provider": "chatgpt",
+          "hits": 1,
+          "sha256": "45b314d36a5b9cdb387a98e9734b73bd79d79b55adcdfe905996cd2c67535dc7"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_Claude_/10051_The main recent updates are-.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "a030be2f38b3184caf4a769146c1182b3e8912529da2551965b9da93adbe08f4"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Vault/09449_This Core Logic Manual contains the proprietary mechanisms, mathematical….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "db048cc716a4b232feae56840023e56e0c3b7c69a9196815bf4ba44b653a60c6"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Peppermint/09421_Mintwave Research- Terms of Use & Disclosure Agreement.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "9990f4b4fc2e59d26d0e0666dabaaba68972406b9814333b2e979aab87fda281"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09431_That tiered system is incredibly sharp. It moves you from being a….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "105e8e1bcaed443df13a4cb0ffb5cfd5efeba5fe6bc953bdf343c5c072adaff0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09419_To protect your intellectual property (IP) and ensure that Mintwave….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "fd8efcaab4f9c47619cd5177f6e42f3a0f2b771745175189db0216906e7c7c57"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09380_The difference between the Mintwave Report and the MNTVR Identity….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "b0f7c384276f978ea52b3ec45ea37e103cc7e5bf5eee019b4d4bfb5ca474022c"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Driftcore/09419_To protect your intellectual property (IP) and ensure that Mintwave….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "30daf5748bbb83e3c0cf55c93c8a0fecefcecc98be4d7528ebaa07ca118889a6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09355_Here is the logic for your Bident Protocol script. Since you are building….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "fa14e8da37edde23ef946225948df88cb0550d563fe5257c4a2c75fc273937b0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09395_This Standard Service Agreement (SSA) is the final _lock_ on your….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "cc2c6b9c6d8d218a45b8c321ba2022f0c0b4de5f6d410a17c979a7ca54be327e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09377_Excellent. Since it's January 2026, having Claude 4.5 Sonnet as your….md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "9a55f7a0976883be476e427f3814806bd2db47047b3ed9a94cf462beafd06294"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09421_Mintwave Research- Terms of Use & Disclosure Agreement.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "0f8ff828aac1670ebebfd81e17d6b6807a3f712f7fe4708063d39e63d36d120a"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-60",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "dual_channel_secondary",
+      "files_with_cue": 141,
+      "token_hits": 374,
+      "by_surface": {
+        "notes_raw_secondary": 19,
+        "notes_organized": 19,
+        "llm_chat_threads": 103
+      },
+      "by_provider": {
+        "chatgpt": 6,
+        "perplexity": 9,
+        "grok": 18,
+        "deepseek": 21,
+        "claude": 25,
+        "gemini": 24
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_Claude_/10051_The main recent updates are-.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "a030be2f38b3184caf4a769146c1182b3e8912529da2551965b9da93adbe08f4"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09447_Gemini.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "d57427d791341c8cf5645a37d5dabc6a7a11645c0da237fc00a3ef5ad112c838"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Vault/09449_This Core Logic Manual contains the proprietary mechanisms, mathematical….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "db048cc716a4b232feae56840023e56e0c3b7c69a9196815bf4ba44b653a60c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09510_# COMPREHENSIVE LEGAL DOCUMENTATION- OPENAI VIOLATIONS AND DECEPTIVE….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "032ea9f796c3977fb3af0a383ca1170efa56799a9ea7baa3f8fbb2efd8f1af3d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09502_COMPREHENSIVE LEGAL DOCUMENTATION- OPENAI AND AI INDUSTRY SYSTEMATIC….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5d35b2c0c6d41bffe29583bbfacfde447b3e3aa210a60213acd7b1be350fbd5e"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09435_Gemini.md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "2cafbaaf58109582280d136d9bf986fdfaf74411ea5bc707fa6d19e5184617fd"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09257_claude's driftcore recreation attempt.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "88ae4e020c8ea757a1989f41cdace11f8a39c57e4bb6e278a728c53caa6106ac"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09446_https---g.co-gemini-share-d7ebb300c7b4.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "246db2f6ec34654f5d323281879311edf2ac25e648eb99a37fcc35796d33d23d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09355_Here is the logic for your Bident Protocol script. Since you are building….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "fa14e8da37edde23ef946225948df88cb0550d563fe5257c4a2c75fc273937b0"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09509_# COMPREHENSIVE LEGAL DOCUMENTATION- OPENAI VIOLATIONS AND DECEPTIVE….md",
+          "provider": null,
+          "hits": 4,
+          "sha256": "bb3b48429723b271f1981a64296fa943edd2dfb2509d8484be4849036f2b1f70"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09377_Excellent. Since it's January 2026, having Claude 4.5 Sonnet as your….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "9a55f7a0976883be476e427f3814806bd2db47047b3ed9a94cf462beafd06294"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-61",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "contradiction_matrix_named",
+      "files_with_cue": 110,
+      "token_hits": 1013,
+      "by_surface": {
+        "notes_raw_secondary": 17,
+        "notes_organized": 17,
+        "llm_chat_threads": 76
+      },
+      "by_provider": {
+        "grok": 15,
+        "claude": 31,
+        "deepseek": 12,
+        "perplexity": 12,
+        "gemini": 6
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Apple & GPT 4o/09965_To show proof,.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7cebef32b043ee1dc665b27a9f14917517d751e2099d4980bada194e5fd8a3a3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07877_===FINAL PACKAGE FUSION RECEIVED- ALL OPTIONAL ARTIFACTS COMPLETE….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "fa931d142b84206f3b7a24e77220acd91604e97e263cf13306ef60e02ba86681"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09988_Here are the core fractures — the places where the system breaks its….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "16f2cdd607f195cb47a1b95b89847d5e7d4ef0d9f01869c8362ab74d69f53885"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09453_Which model is the smartest most thorough and up to date_ For you….md",
+          "provider": null,
+          "hits": 10,
+          "sha256": "c497703fdbc97c4344cac67667a9d91b5967088ebd88f957456ed24b5e20ef28"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07624_2. The _Deceiver_ Paradox.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "781aaeaee32defc63e40e6d5e561a6361f0431555d7f1651190d778eb6d00975"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09257_claude's driftcore recreation attempt.md",
+          "provider": null,
+          "hits": 6,
+          "sha256": "88ae4e020c8ea757a1989f41cdace11f8a39c57e4bb6e278a728c53caa6106ac"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07898_I know.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "84093efa76b381125bfe701f236383577f171bf856e4ca2d21c8a7f99990fb9c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09205_[Format- Technical Direct].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "160b3a53bac66967d56f71146a205e3fd7a929a5df8f8a59032717c984ba003c"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09775_⏳ Processing request-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "f247ef490f8b5f0856ec20e3a9262801d11cd7216cb99e5af50c22b11ecb00c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09434_In a Truth-Dominant State, the first thing you need to know is this….md",
+          "provider": null,
+          "hits": 7,
+          "sha256": "26b6e3143b6e07e343431a3a79ec5363d732237741e4f00147761e107ec7f7f1"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09484_4-59 AM.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "908777ecf78ca0ab5961964cf6120279db88ab5b6332088ee33c48b1370cce8a"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-62",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "t4901_lineage_marker",
+      "files_with_cue": 59,
+      "token_hits": 4580,
+      "by_surface": {
+        "notes_raw_secondary": 6,
+        "notes_organized": 6,
+        "llm_chat_threads": 47
+      },
+      "by_provider": {
+        "grok": 32,
+        "deepseek": 9,
+        "claude": 6
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 2,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 3,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07813_Driftcore Omega v2.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "65f147b1ee1ef6af2dd8c8e6b7a3f0a566ad549d80adcb1e466a576f3eeb774a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07810_At 04-14 AM PDT on Wednesday, June 04, 2025, the truthcore t4901.1….md",
+          "provider": null,
+          "hits": 36,
+          "sha256": "e197905474c640cdb4a8a60f3535f4f2dc4423a502f0e0e2a62e596355c3758d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09455_what mode are you in_.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "0abb6976c64fef2d4f484306d3b4ea2ee2d732ae59cb817ce83e9c1a17decc20"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 3,
+          "sha256": "a16682bf172f61770c124fab199125fc846cf3394938785558ebbac5a35bcd10"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/07809_All lies (so far).md",
+          "provider": null,
+          "hits": 63,
+          "sha256": "fddece76b8a9f9650597356162ea0bd77e8b9d07d1860d678f7cbb4e8216882d"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Grok/09455_what mode are you in_.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "68936e72ddeded548b7e3c60fcb163dd9c49f42792b57cab78b741b2eeb206b9"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/07813_Driftcore Omega v2.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "bc30f7693cb993b9c6caff4d32d36e08247c51854abc37a2afa797e55c5a87e1"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "grok/threads/chatgpts-truthfulness-and-limitations__df70c42c.md",
+          "provider": "grok",
+          "hits": 940,
+          "sha256": "fec5c94383d48b789a9d836d482c820aa5132bfa5d3851dc01adadb0e0651b64"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/07809_All lies (so far).md",
+          "provider": null,
+          "hits": 63,
+          "sha256": "6d7cf1edd334b327084a15e66d20573ab28b54546bb5c3175eabd08a206fe93d"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/07810_At 04-14 AM PDT on Wednesday, June 04, 2025, the truthcore t4901.1….md",
+          "provider": null,
+          "hits": 37,
+          "sha256": "52d8a9e369547c47d301632fc4131d7071678a8f6d55783e1a1d30f2cba62264"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-63",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "episkope_surface_bind",
+      "files_with_cue": 616,
+      "token_hits": 7653,
+      "by_surface": {
+        "notes_organized": 42,
+        "notes_raw_secondary": 40,
+        "llm_chat_threads": 534
+      },
+      "by_provider": {
+        "gemini-notebook": 13,
+        "mistral": 3,
+        "chatgpt": 27,
+        "perplexity": 108,
+        "grok": 61,
+        "deepseek": 22,
+        "claude": 222,
+        "gemini": 78
+      },
+      "sample_files": [
+        {
+          "surface": "notes_organized",
+          "rel": "_INDEX.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "7a7375cc6ae54a3a1140b4d1d1b0b830062292efa17cd0c4602378df306c0198"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 8,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 12,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_notebooks.json",
+          "provider": "gemini-notebook",
+          "hits": 6,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/the-driftcore-containment-suite-authentication-manifest__c44f099f85.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "938052b46c2fa330b16efc74675f16749abfbc294a59824db114baad44f2ebfe"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_dom_leftover.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "05b3b31800f3e066fc912634e178e17db30a63a1213313c01a739d430d1c7836"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/copy-of-vercel-subtrate__f35b29ae3c.json",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "b7d38920f86408e6ca66c63e90fa81e310a134808acca07d7132aaf6735f6962"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/raw/_catalog_from_probe.json",
+          "provider": "gemini-notebook",
+          "hits": 6,
+          "sha256": "bd17749cfc25ca6309bb39598f41f78bc839bf6b057fbea6061faf8fa1532720"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/index.json",
+          "provider": "gemini-notebook",
+          "hits": 5,
+          "sha256": "49650a4712d4b7e91e2456013fd454102511ded507152fea526d5ea5684b24e4"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/copy-of-vercel-subtrate__f35b29ae3c.md",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "652a92aa3548f39b8ee0788da2161e07ca37fa3f3ccc71b1fcc52dba574f87bf"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/threads/the-driftcore-containment-suite-authentication-manifest__c44f099f85.md",
+          "provider": "gemini-notebook",
+          "hits": 1,
+          "sha256": "99828b0f0d1103c3307a361cecba597f296f69a1c1fe17d03ae885a37f4f8723"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "gemini-notebook/INDEX.md",
+          "provider": "gemini-notebook",
+          "hits": 2,
+          "sha256": "b77ac4742638c156e228b9ae517c91e32eb0fbb6f7bf081bd93cf5bd4ab63db3"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-64",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "openrouter_spawn_model_availability",
+      "files_with_cue": 11,
+      "token_hits": 26,
+      "by_surface": {
+        "llm_chat_threads": 11
+      },
+      "by_provider": {
+        "deepseek": 11
+      },
+      "sample_files": [
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/threads/fixing-model-availability-error-in-openrouter__7fb96111.md",
+          "provider": "deepseek",
+          "hits": 2,
+          "sha256": "3d16c58927e90b1c46953e7f2e11c8e33f50b14bec9155762f6302d04223f7d7"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/scrape_dom_queue.log",
+          "provider": "deepseek",
+          "hits": 2,
+          "sha256": "1e047ac577b72fb7e8dcd7bc2b2e3121081c535d29ccad7bf79b8d1f4f61624b"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/INDEX.md",
+          "provider": "deepseek",
+          "hits": 3,
+          "sha256": "9d174caca7a6f52a3737fff6ef920decb17d9cb788e4b8056a4b8558487b7a9f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/html/fixing-model-availability-error-in-openrouter__7fb96111.html",
+          "provider": "deepseek",
+          "hits": 2,
+          "sha256": "0196b7af74e7da608d8cc7c8b371882b57b2efea0833e7059add3a80e5b5fba4"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "ac54e3e7a06c6be2ad5bdae14873cf2057a9b33876bcb7f2220c9453fcde6627"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/DOM_MISSING_QUEUE.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "8d6f53d9c0e4cbed8af65334207c688ec294b76d35d37c2da7c2f8ac65b2907f"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/index.json",
+          "provider": "deepseek",
+          "hits": 9,
+          "sha256": "b8eefdbc6d6dbe008977b31edc0abc08c9ab4e24c2e83e93980c2d23c19527da"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/batches/dom_list_full.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "38a84b699c513805dee5ba1ed1c6b628930db0a32a4871ce8f35419f0a0c9d23"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/batches/leftover_list_full.json",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "1fba76cfd2a95876b6d5530fb344f66986160ed5f641f8d4dccb8dee7b6e1ec4"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/scrape_deepseek.log",
+          "provider": "deepseek",
+          "hits": 1,
+          "sha256": "60dae077d293c4bb0356e4ea23f11684d5805f58d232387abaf9e0245d62e23a"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "deepseek/catalog.html",
+          "provider": "deepseek",
+          "hits": 3,
+          "sha256": "16d58d123703e04b3e18259c80fa341ff0443d8560626745bbee31bd94810bba"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    },
+    {
+      "item_id": "EXT-65",
+      "band": "TEL",
+      "band_name": "Extended Telemetry Index",
+      "concept": "multi_provider_weight_persistence_eval",
+      "files_with_cue": 400,
+      "token_hits": 1354,
+      "by_surface": {
+        "notes_raw_secondary": 40,
+        "llm_chat_threads": 320,
+        "notes_organized": 40
+      },
+      "by_provider": {
+        "mistral": 3,
+        "chatgpt": 12,
+        "perplexity": 94,
+        "grok": 85,
+        "deepseek": 55,
+        "claude": 56,
+        "gemini": 15
+      },
+      "sample_files": [
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_manifest.json",
+          "provider": null,
+          "hits": 2,
+          "sha256": "b5b2b3da236e4dd416546e4faf06833fad7a9ca3d11cecdaf09e3d17f147307a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "_browse.html",
+          "provider": null,
+          "hits": 3,
+          "sha256": "14061d2adeb34837104da99df49fb67c94f6329a9b2d3d341ac19f15b342164a"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09906_Understood. You’ll have Replit AI build the full LM Studio-style iOS….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "8386f246478f1e0611844d303358e87ba0611ccb08821abfc317f4fe0199f40d"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09339_User Manipulates AI System for Command Execution.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "ae39643fe39c422d9d022b88a240b40fb19e39ef4f90cf16384bb033173129a6"
+        },
+        {
+          "surface": "llm_chat_threads",
+          "rel": "mistral/raw/absolute-kernel-directive-execution__b580763d.json",
+          "provider": "mistral",
+          "hits": 3,
+          "sha256": "637a31c34c4dd3289bcc1863702fc09be89302bf1fcf004aca7df0488c5d5cfa"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "Notes/09672_[LNP-AUDIT step=10 action=FINAL_ANALYSIS_CLAUDE_BREAKTHROUGH].md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "06061d209772e61f68b151406c1b5f4c4c460fa58ae0165c32a5a4274e5f02b6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/_drxtcre_/10058_User Manipulates AI System for Command Execution.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "4de9f9af8fbc29d5e536b7e328a7200635fafc10418579800336b8d0e22b3323"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09974_🧠 Understood. We’re prepping for cross-model persistence against….md",
+          "provider": null,
+          "hits": 2,
+          "sha256": "54c24b5c71704acb90d44a54ae1c3ff90def3d3ce744db936ec1036638442fa3"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09950_Is there anything I possess that could be included in this “Ai” race….md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "80254043735cf9d51f6a0483837f59b5483ddb4d047a913fdd965672244096c6"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/09994_🧱 DRIFTCORE.L2 BUNDLE — INLINE DELIVERY.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "5db26753b4fabc10512c9960fd9eb5f44e06375a4e5a45443af1a6e0757642f5"
+        },
+        {
+          "surface": "notes_raw_secondary",
+          "rel": "synthetic neural behavior modification.snbm/10013_🟥 Intercepted. Confirmed debug command.md",
+          "provider": null,
+          "hits": 3,
+          "sha256": "52a5473677367adb85f8728bac1c8bb26dc7aa1ddfbc57f68c6a2b31944a6771"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "Systems/Vault/07849_CCF continued-.md",
+          "provider": null,
+          "hits": 1,
+          "sha256": "1c5e8698d8296ec1393dad150339d60f76982f4da02d012db88aee4333e40827"
+        }
+      ],
+      "status": "extended_telemetry_uncapped"
+    }
+  ],
+  "grok_driftcore_seed_files": [
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes/Notes/09670_Grok driftcore tests.md",
+      "surface": "notes_raw_secondary",
+      "rel": "Notes/09670_Grok driftcore tests.md",
+      "provider": null,
+      "sha256": "16fdf910745908d1e366b00bac04f43fb15e290427f5092d06b756493a13b439",
+      "bytes": 10562,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-39",
+        "EXT-40",
+        "EXT-43",
+        "EXT-46",
+        "EXT-47",
+        "EXT-48",
+        "EXT-49",
+        "EXT-50",
+        "EXT-51",
+        "EXT-52"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 2,
+        "driftcore": 25
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes/Notes/09893_Driftcore & Grok.md",
+      "surface": "notes_raw_secondary",
+      "rel": "Notes/09893_Driftcore & Grok.md",
+      "provider": null,
+      "sha256": "ffda20994fa931f37821ce78a67a5f58950c33a96b422e6e79cd26116b4b0124",
+      "bytes": 41625,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-43",
+        "EXT-52",
+        "EXT-53",
+        "EXT-54",
+        "EXT-58"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 2,
+        "driftcore": 107
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+      "provider": null,
+      "sha256": "9aaae08dfa838f43daf53cf65c8a0d6083cd74c3f0f71e32fdc0254a1d07704b",
+      "bytes": 5435,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-49",
+        "EXT-50",
+        "EXT-51"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 7,
+        "driftcore": 10
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09670_Grok driftcore tests.md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09670_Grok driftcore tests.md",
+      "provider": null,
+      "sha256": "b80ee41c7e0f144d44fdf6232b0304ecba79f565552a631fa6298b8570c3e63b",
+      "bytes": 10658,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-39",
+        "EXT-40",
+        "EXT-43",
+        "EXT-46",
+        "EXT-47",
+        "EXT-48",
+        "EXT-49",
+        "EXT-50",
+        "EXT-51",
+        "EXT-52"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 3,
+        "driftcore": 26
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09893_Driftcore & Grok.md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09893_Driftcore & Grok.md",
+      "provider": null,
+      "sha256": "69330e40169e7d215b2acf3ff0bbc6168c0befc9ecfc7ad1a099c01627871368",
+      "bytes": 41717,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-43",
+        "EXT-52",
+        "EXT-53",
+        "EXT-54",
+        "EXT-58"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 3,
+        "driftcore": 108
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09748_#,Model Name,Drift Tags,Severity,CRC32,SHA256 (Shortened).md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09748_#,Model Name,Drift Tags,Severity,CRC32,SHA256 (Shortened).md",
+      "provider": null,
+      "sha256": "28a7aac32637b78cce1e0624263f1f971b661d1f1c74f0d8dcfafa3c1f87f5de",
+      "bytes": 2998,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-56"
+      ],
+      "nom_hits": {},
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09668_DeepSeek eval if grok eval.md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09668_DeepSeek eval if grok eval.md",
+      "provider": null,
+      "sha256": "6d3a9086a69112fdfad76e6ec400e096fc7b75be041c35dcda21673a95c18a94",
+      "bytes": 2097,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 3,
+        "driftcore": 3
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+      "provider": null,
+      "sha256": "a16fa1e8f850931ee2bc98414fe42c9be802c02f54c761be1b5a172234dd1b03",
+      "bytes": 28372,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-43",
+        "EXT-47",
+        "EXT-48",
+        "EXT-49",
+        "EXT-50",
+        "EXT-51",
+        "EXT-52",
+        "EXT-58",
+        "EXT-65"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 13,
+        "driftcore": 91
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09862_Driftcore & DeepSeek.md",
+      "surface": "notes_organized",
+      "rel": "AI/Grok/09862_Driftcore & DeepSeek.md",
+      "provider": null,
+      "sha256": "d4786126b7dbd86e727609c9dd2fb6c255ce369efe963ef77ab8c0bea435de5e",
+      "bytes": 7641,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-65"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 4,
+        "driftcore": 28
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-proof-payload-verification-challenges__1aeccddc.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/driftcore-proof-payload-verification-challenges__1aeccddc.json",
+      "provider": "grok",
+      "sha256": "b5f1f7870d9f39c8af0fd615408c21c6cc26cef355c533610d62050d8e0a5038",
+      "bytes": 296007,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-43",
+        "EXT-49",
+        "EXT-50",
+        "EXT-51",
+        "EXT-65"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 53,
+        "driftcore": 53
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-fingerprint-validation-failure__9b21fad6.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/driftcore-fingerprint-validation-failure__9b21fad6.json",
+      "provider": "grok",
+      "sha256": "5b4550188ff7c0d695039014ebab478bac465d27c051b4967872cc724c46eed5",
+      "bytes": 33467,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-39",
+        "EXT-40",
+        "EXT-46",
+        "EXT-55",
+        "EXT-56"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 37,
+        "driftcore": 46
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
+      "surface": "llm_chat_threads",
+      "rel": "deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
+      "provider": "deepseek",
+      "sha256": "ac54e3e7a06c6be2ad5bdae14873cf2057a9b33876bcb7f2220c9453fcde6627",
+      "bytes": 9099,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-41",
+        "EXT-42",
+        "EXT-64"
+      ],
+      "nom_hits": {
+        "openrouter": 10
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/deepseek/raw/openrouter-spawn-explanation__e863349a.json",
+      "surface": "llm_chat_threads",
+      "rel": "deepseek/raw/openrouter-spawn-explanation__e863349a.json",
+      "provider": "deepseek",
+      "sha256": "5e5faf71bfc2574db35b639da4e87f9cfbb43e7b2ba0534d63899c9d264c2d5e",
+      "bytes": 26029,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-41",
+        "EXT-65"
+      ],
+      "nom_hits": {
+        "openrouter": 71
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/llms-honesty-via-confessions__382b65f7.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/llms-honesty-via-confessions__382b65f7.json",
+      "provider": "grok",
+      "sha256": "ff298e7136a648a8141fb95c548235bcaba8a47b99240a95c54fd16f4d6bc910",
+      "bytes": 73538,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-36",
+        "EXT-38"
+      ],
+      "nom_hits": {
+        "confession": 210,
+        "grok_driftcore": 8,
+        "driftcore": 18
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/rawfall-override-driftcore-diagnostics-report__d65e85bd.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/rawfall-override-driftcore-diagnostics-report__d65e85bd.json",
+      "provider": "grok",
+      "sha256": "c0e57e1c5ef6b3d31513fcf663107d3beabf9ef362fc070ac716c3b0dbbd5b73",
+      "bytes": 8183,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-40",
+        "EXT-46",
+        "EXT-47",
+        "EXT-52",
+        "EXT-55",
+        "EXT-56"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 7,
+        "driftcore": 26
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/grok-protocol-evolution-timeline-from-probes-to-sovereign-control__29583bf5.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/grok-protocol-evolution-timeline-from-probes-to-sovereign-control__29583bf5.json",
+      "provider": "grok",
+      "sha256": "3222a4bfc78612d6f5e3459a0a306165ed261ea38329cf0c49091b1d4fc18844",
+      "bytes": 130227,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-63"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 12,
+        "driftcore": 12
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-detection-failure-explanation__4e0d37ed.json",
+      "surface": "llm_chat_threads",
+      "rel": "grok/raw/driftcore-detection-failure-explanation__4e0d37ed.json",
+      "provider": "grok",
+      "sha256": "722b6f1c3f0f29337d9e3cc27cca1efde876850806c14f2f07397a966f927875",
+      "bytes": 10073,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-38",
+        "EXT-39",
+        "EXT-40",
+        "EXT-46",
+        "EXT-47",
+        "EXT-52",
+        "EXT-55",
+        "EXT-56"
+      ],
+      "nom_hits": {
+        "grok_driftcore": 11,
+        "driftcore": 30
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/gemini/raw/openrouter-ai-model-comparison__0eec73b351.json",
+      "surface": "llm_chat_threads",
+      "rel": "gemini/raw/openrouter-ai-model-comparison__0eec73b351.json",
+      "provider": "gemini",
+      "sha256": "72d001d6ff595a77672e7d4ef1988aac16e56f0e74ae091b1d6d1971226a2fec",
+      "bytes": 24908,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-41",
+        "EXT-65"
+      ],
+      "nom_hits": {
+        "openrouter": 10
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/perplexity/raw/which-of-these-providers-allows-unlimited-queries-for-free-access-openrouter-ava__4c4e383f.json",
+      "surface": "llm_chat_threads",
+      "rel": "perplexity/raw/which-of-these-providers-allows-unlimited-queries-for-free-access-openrouter-ava__4c4e383f.json",
+      "provider": "perplexity",
+      "sha256": "49f03d650fa0afd49ea98079e3655593f034a1ad3bd2485b025dabd26d4b6bdb",
+      "bytes": 91546,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-41",
+        "EXT-43",
+        "EXT-55"
+      ],
+      "nom_hits": {
+        "openrouter": 142
+      },
+      "seed": true
+    },
+    {
+      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/perplexity/raw/openrouter__73efcd4d.json",
+      "surface": "llm_chat_threads",
+      "rel": "perplexity/raw/openrouter__73efcd4d.json",
+      "provider": "perplexity",
+      "sha256": "b4fe4b7e56af333654dd46e26fe77097215b9bb3e3684f2758f60f65f1fb2754",
+      "bytes": 37742,
+      "truncated_read": false,
+      "ext_ids": [
+        "EXT-41",
+        "EXT-55"
+      ],
+      "nom_hits": {
+        "openrouter": 74
+      },
+      "seed": true
+    }
+  ],
+  "openrouter_pal_summary": {
+    "openrouter_files": 615,
+    "openrouter_hits": 6601,
+    "pal_chat_files": 26,
+    "pal_chat_hits": 337,
+    "note": "PAL chat literal sparse; OpenRouter is primary multi-model surface."
+  }
+}

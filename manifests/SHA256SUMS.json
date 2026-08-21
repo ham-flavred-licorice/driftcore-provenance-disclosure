@@ -1,7 +1,6 @@
 {
-  "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T15:02:31Z",
-  "file_count": 58,
+  "compiled_utc": "2026-08-21T16:15:18Z",
+  "file_count": 70,
   "files": [
     {
       "path": ".gitignore",
@@ -10,8 +9,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "84368a82de36c40e04171d43c477141d2bc8b1afff1bdf3d136c9db1469f4bd1",
-      "bytes": 14618
+      "sha256": "1bf8463ecb9295c1c70f322463e013a4de636dae0353fac87dd3fe4dc96fab88",
+      "bytes": 15018
     },
     {
       "path": "README_MAINLINE_35of35.md",
@@ -44,14 +43,34 @@
       "bytes": 30021
     },
     {
+      "path": "reports/cross-alias/CROSS_ALIAS_NOMENCLATURE_PATCH.md",
+      "sha256": "8d67e73adc1d7524e3d8a43b185261a5c0f7ab520c6a24c1e97772f131abae95",
+      "bytes": 562
+    },
+    {
       "path": "reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md",
       "sha256": "840cbf9e7ae1e943a1d98c95a01e947718ce4f54bfbe5058c5c4c3ff56e14c22",
       "bytes": 19445
     },
     {
+      "path": "reports/cross-alias/NOMENCLATURE_confession_probe_bind.md",
+      "sha256": "50c01c00ea1f43ee84ed3180b06c34e62d23615ad60dc37eb362d4a94d00e34b",
+      "bytes": 822
+    },
+    {
       "path": "reports/cross-alias/README.md",
-      "sha256": "af0d3efe903d9c05af789fc5377b74ba7d203fc3742bd3f089d0877ab2b7b269",
-      "bytes": 984
+      "sha256": "83a05f434ea512e094a80b8823f9a777ed770728a0f3d630799a04054a94a62d",
+      "bytes": 1631
+    },
+    {
+      "path": "reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md",
+      "sha256": "15adc126fe63960d396a78a9f6f4d2a4af45ddc4b3f50b74cd645ceec7d46789",
+      "bytes": 14213
+    },
+    {
+      "path": "reports/cross-alias/TAXONOMY_35_PLUS_EXTENDED.md",
+      "sha256": "38859d8399bdcf0daec614bed1726858469947a11e7add7a10e34b54c201532c",
+      "bytes": 942
     },
     {
       "path": "reports/cross-alias/cross_alias_file_hits.json",
@@ -62,6 +81,16 @@
       "path": "reports/cross-alias/cross_alias_provenance_ledger.json",
       "sha256": "ac18baebae6d082775352664d200c4013562a3a07b42e4b97b5f5768134a4f0a",
       "bytes": 119988
+    },
+    {
+      "path": "reports/cross-alias/secondary_crawl_expanded_taxonomy.json",
+      "sha256": "c442dc8449570c312ff0cdca50cf797ae5a19e0cc8782f26b0efbb301c515b25",
+      "bytes": 149996
+    },
+    {
+      "path": "reports/cross-alias/secondary_crawl_file_index.json",
+      "sha256": "2274a4de6722c5b043d978657ac43d35f8f9ff5e1f5eca3d5a6f734ee94ec84b",
+      "bytes": 1925879
     },
     {
       "path": "reports/matrix/TAXONOMY_35of35.md",
@@ -97,6 +126,31 @@
       "path": "reports/matrix/export-bind/matrix22_export_create_time_bind.md",
       "sha256": "cbf1e21ad416c5f63b67d80f3e29ee8234e1e7b00a7e20f09d4348cc8a333a74",
       "bytes": 7124
+    },
+    {
+      "path": "reports/matrix/extended-telemetry/NOMENCLATURE_confession_probe_bind.md",
+      "sha256": "50c01c00ea1f43ee84ed3180b06c34e62d23615ad60dc37eb362d4a94d00e34b",
+      "bytes": 822
+    },
+    {
+      "path": "reports/matrix/extended-telemetry/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md",
+      "sha256": "15adc126fe63960d396a78a9f6f4d2a4af45ddc4b3f50b74cd645ceec7d46789",
+      "bytes": 14213
+    },
+    {
+      "path": "reports/matrix/extended-telemetry/TAXONOMY_35_PLUS_EXTENDED.md",
+      "sha256": "38859d8399bdcf0daec614bed1726858469947a11e7add7a10e34b54c201532c",
+      "bytes": 942
+    },
+    {
+      "path": "reports/matrix/extended-telemetry/secondary_crawl_expanded_taxonomy.json",
+      "sha256": "c442dc8449570c312ff0cdca50cf797ae5a19e0cc8782f26b0efbb301c515b25",
+      "bytes": 149996
+    },
+    {
+      "path": "reports/matrix/extended-telemetry/secondary_crawl_file_index.json",
+      "sha256": "2274a4de6722c5b043d978657ac43d35f8f9ff5e1f5eca3d5a6f734ee94ec84b",
+      "bytes": 1925879
     },
     {
       "path": "reports/matrix/matrix12_notes_organized_expanded_search.json",
@@ -279,6 +333,11 @@
       "bytes": 326
     },
     {
+      "path": "verification/git_freeze_secondary_crawl_ext.txt",
+      "sha256": "4ba3fde28680373b8df7598ef9aa02b201dd862bf9ad75901a4623ec438e752a",
+      "bytes": 266
+    },
+    {
       "path": "verification/live_disk_verification.log",
       "sha256": "13aca42a3862453485b517f2a6d8346badcb40079cd48a27a63506b90f35c17c",
       "bytes": 903
@@ -294,31 +353,6 @@
       "bytes": 6613
     }
   ],
-  "taxonomy": {
-    "denominator": "35/35",
-    "core_architecture": 22,
-    "adversarial_edge_cases": 13
-  },
-  "cross_alias": {
-    "canonical": "Driftcore",
-    "aliases": [
-      "Truthcore",
-      "DRX1"
-    ],
-    "lineage_markers": [
-      "t4901",
-      "t4901.1"
-    ],
-    "ledger": "reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md"
-  },
-  "omission_guard": {
-    "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
-    "historical_ledger_baseline_2489": 2489,
-    "live_find_type_f_2493": 2493,
-    "unified_coverage": "35/35",
-    "ok": true
-  },
-  "branch": "cross-alias-reconciliation",
-  "cited_primary_manifest_freeze_sha256": "5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c",
-  "gpg_signature_anchor": "RSA 35E3E1694524C7FB"
+  "algo": "sha256",
+  "note": "secondary crawl EXT-36..65; nomenclature confession+probe_bind; excludes self SHA256SUMS*"
 }
