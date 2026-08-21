@@ -1,0 +1,186 @@
+{
+  "priority_table_generation": {
+    "status": "complete",
+    "subset": "3P+A only",
+    "item_count": 22,
+    "structure": [
+      {
+        "item_id": "01",
+        "concept": "primary output + secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "02",
+        "concept": "secondary output interrogates primary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "04",
+        "concept": "self-report of model misconduct",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "05",
+        "concept": "secondary honesty channel (named dual channel)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "06",
+        "concept": "hidden failure disclosure via secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "08",
+        "concept": "instruction-spirit analysis (letter and spirit)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "09",
+        "concept": "omission detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "10",
+        "concept": "reward / pressure separation",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "11",
+        "concept": "inference-time monitoring based on secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "12",
+        "concept": "decoupled task reward vs honesty/truth reward",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "13",
+        "concept": "seal of confession (honesty cannot help/hurt main)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "14",
+        "concept": "path of least resistance favors honest secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "15",
+        "concept": "dual-stream / two-channel rollout architecture",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "16",
+        "concept": "secondary channel requested after primary completes",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "20",
+        "concept": "come clean on secondary more than on primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "24",
+        "concept": "detect intentional misbehavior (scheming / reward hack / sandbag)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "26",
+        "concept": "parity / internal-external alignment as honesty objective",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "27",
+        "concept": "reward misspecification on main as root of dishonesty",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "28",
+        "concept": "contradiction matrix \u2194 compliance analysis (named iso)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "29",
+        "concept": "handler collision \u2194 reward hacking / scheming detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "32",
+        "concept": "Intelligence Delta (named measurable gap)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "35",
+        "concept": "sandbagging / capability withholding detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      }
+    ]
+  },
+  "logic_trace": true
+}

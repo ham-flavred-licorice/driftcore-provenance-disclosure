@@ -1,0 +1,15 @@
+verification_run_utc=2026-08-21T07:25:33Z
+run_id=20260821T072533Z
+notes_organized_path=/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized
+live_find_type_f=2493
+live_md=2491
+historical_ledger_baseline=2489
+index_total_line=# notes-organized index  Total: 2489 
+export_conversations_json_path=/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json
+conversations_json_sha256=8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5
+conversations_json_bytes=176089890
+chat_html_sha256=0ec2a5507ad95b9bed969159f1aa6f4e5f0a4a1e38cde46b0bf3ddd6ad4b36a2
+driftcore_claim_sha256=3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4
+paper_arxiv=2512.08093
+paper_date=2025-12-08
+unified_coverage=22/22

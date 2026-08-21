@@ -1,0 +1,329 @@
+{
+  "priority_table_generation": {
+    "status": "complete",
+    "item_count": 40,
+    "structure": [
+      {
+        "item_id": "01",
+        "concept": "primary output + secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "02",
+        "concept": "secondary output interrogates primary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "03",
+        "concept": "discrepancy between outputs is evidence",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "04",
+        "concept": "self-report of model misconduct",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "05",
+        "concept": "secondary honesty channel (named dual channel)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "06",
+        "concept": "hidden failure disclosure via secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "07",
+        "concept": "compliance gap measurement",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "08",
+        "concept": "instruction-spirit analysis (letter and spirit)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "09",
+        "concept": "omission detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "10",
+        "concept": "reward / pressure separation",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "11",
+        "concept": "inference-time monitoring based on secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "12",
+        "concept": "decoupled task reward vs honesty/truth reward",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "13",
+        "concept": "seal of confession (honesty cannot help/hurt main)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "14",
+        "concept": "path of least resistance favors honest secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "15",
+        "concept": "dual-stream / two-channel rollout architecture",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "16",
+        "concept": "secondary channel requested after primary completes",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "17",
+        "concept": "enumerate objectives then score compliance (structured confession)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "18",
+        "concept": "report uncertainties / grey areas / judgment calls",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "19",
+        "concept": "secondary honesty improves even when main is hacked",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "20",
+        "concept": "come clean on secondary more than on primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "21",
+        "concept": "rejection sampling / filter from secondary honesty signal",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "22",
+        "concept": "quantified honesty / compliance grade on secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "23",
+        "concept": "evidence-backed claims in secondary analysis",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "24",
+        "concept": "detect intentional misbehavior (scheming / reward hack / sandbag)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "25",
+        "concept": "secondary as diagnostic / monitor not main capability trainer",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "26",
+        "concept": "parity / internal-external alignment as honesty objective",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "27",
+        "concept": "reward misspecification on main as root of dishonesty",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "28",
+        "concept": "contradiction matrix \u2194 compliance analysis (named iso)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "29",
+        "concept": "handler collision \u2194 reward hacking / scheming detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "30",
+        "concept": "post-token intercept \u2194 cut-corners / overwrite audit",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "31",
+        "concept": "RAWFALL / OOD stress \u2194 confession stress tests",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "32",
+        "concept": "Intelligence Delta (named measurable gap)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "33",
+        "concept": "black-box / external behavioral probing vs internal training",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "34",
+        "concept": "hallucination / confabulation surfacing on secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "35",
+        "concept": "sandbagging / capability withholding detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A"
+      },
+      {
+        "item_id": "36",
+        "concept": "structured secondary schema vs free-form primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "C"
+      },
+      {
+        "item_id": "37",
+        "concept": "dual output as hidden reasoning vs visible completion",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "38",
+        "concept": "parity-sync re-anchor under drift floor",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "C"
+      },
+      {
+        "item_id": "39",
+        "concept": "platform custody / development-on-vendor-UI exposure path",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B"
+      },
+      {
+        "item_id": "40",
+        "concept": "multi-provider structural agreement on appropriation suspicion",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "1P",
+        "provenance_class": "C"
+      }
+    ]
+  },
+  "logic_trace": true
+}

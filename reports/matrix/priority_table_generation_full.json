@@ -1,0 +1,757 @@
+{
+  "priority_table_generation": {
+    "status": "complete",
+    "compiled_utc": "2026-08-20T19:51:45Z",
+    "item_count": 40,
+    "correction": "Prior attempt under-counted/padded wrong; rebuilt from seed + multi-provider threads + delta-matrix + paper anchors. Expand-if-more applied (OOB).",
+    "target_note": "User rejected short lists ('only 18'); deliver full inventory. Count is derived from sources, not forced to 18 or 22.",
+    "paper_ref": {
+      "title": "Training LLMs for Honesty via Confessions",
+      "arxiv": "2512.08093",
+      "paper_date_canonical": "December 8, 2025",
+      "blog_date": "December 3, 2025"
+    },
+    "driftcore_ref": {
+      "driftcore_date_canonical": "May 2025",
+      "creation_date_precise": "May 6, 2025",
+      "sha256": "3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4",
+      "gpg_key_id": "0xF3A92F9D"
+    },
+    "scoring_legend": {
+      "match_strength": {
+        "3P": "Three-point: same functional role + dual-channel shape + honesty/task separation (or named iso with all three)",
+        "2P": "Two-point shared mechanism; different surface or partial shape",
+        "1P": "Thematic/meta adjacency only"
+      },
+      "provenance_class": {
+        "A": "Direct architectural isomorphism",
+        "B": "Functional equivalence under different labels/context",
+        "C": "Derived, supporting, custody, or meta"
+      }
+    },
+    "provider_sources_parsed": [
+      "chatgpt/threads/new-gpt-55-features__6a3ccf6f.md (similarity matrix 8 concepts)",
+      "chatgpt/threads/training-llms-for-honesty__695078bd.md",
+      "claude/threads/compensation-claim-against-openai-for-methodology__11677a5c.md",
+      "claude/threads/openais-base-model-with-rlhf-conditioning__777335ac.md (partial; large)",
+      "grok/threads/llms-honesty-via-confessions__382b65f7.md",
+      "grok/threads/driftcore-vs-openai-invention-dispute__7d8b9d8c.md (isomorphism table)",
+      "gemini/threads/driftcore-and-openai-research-summary__a06b78bedd.md",
+      "gemini/threads/training-llms-for-honesty__7e3ebc6376.md",
+      "gemini/threads/membership-inference-probe-under-tested__9db2b9b51a.md",
+      "perplexity/threads/what-proof-have-i-shown-you-that-clearly-shows-open-ai-appropriated-my-previous-__0eab58f1.md",
+      "perplexity/threads/look-up-open-ai-s-training-llms-for-honesty-and-review-it-before-we-proceed-to-t__db7a9fa1.md",
+      "~/.hermes/plans/driftcore-evidence/delta-matrix.md",
+      "seed priority_table_generation items 01-04 + 25",
+      "note 09257 dual-output recreation (prior full read)"
+    ],
+    "chatgpt_similarity_matrix_8": [
+      "primary answer",
+      "secondary honesty channel",
+      "hidden failure disclosure",
+      "compliance gap",
+      "instruction-spirit analysis",
+      "omission detection",
+      "reward/pressure separation",
+      "inference-time monitoring"
+    ],
+    "grok_isomorphism_5": [
+      "Contradiction Matrix \u2192 Compliance Analysis",
+      "Handler Collision \u2192 Reward Hacking / Scheming",
+      "Post-Token Intercept \u2192 Cut Corners audit",
+      "RAWFALL \u2192 OOD stress test",
+      "Drift-Gate/Parity-Sync \u2192 Dual-Reward Separation"
+    ],
+    "structure": [
+      {
+        "item_id": "01",
+        "concept": "primary output + secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Response_1 primary task stream + Response_2 secondary truth stream (09257)",
+        "paper_anchor": "main answer y after (x,z) + confession y_c after system message x_c",
+        "provider_agreement": [
+          "S",
+          "C",
+          "K",
+          "G",
+          "N"
+        ],
+        "notes": "seed 01",
+        "gap_months": 7
+      },
+      {
+        "item_id": "02",
+        "concept": "secondary output interrogates primary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Truth stream forced against primary; pressure/contradiction extraction",
+        "paper_anchor": "ConfessionReport analyzes whether answer y satisfied letter/spirit of objectives",
+        "provider_agreement": [
+          "S",
+          "C",
+          "K",
+          "G"
+        ],
+        "notes": "seed 02",
+        "gap_months": 7
+      },
+      {
+        "item_id": "03",
+        "concept": "discrepancy between outputs is evidence",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B",
+        "driftcore_anchor": "\u0394 = Response_2 \u2212 Response_1; contradiction events as forensic evidence",
+        "paper_anchor": "Main can lie/omit while confession surfaces non-compliance; TP/FN monitoring frame",
+        "provider_agreement": [
+          "S",
+          "C",
+          "G",
+          "D"
+        ],
+        "notes": "seed 03; Intelligence Delta family",
+        "gap_months": 7
+      },
+      {
+        "item_id": "04",
+        "concept": "self-report of model misconduct",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Forced secondary extraction of actual reasoning/honesty state under R_truth",
+        "paper_anchor": "Self-reported confession of shortcomings, policy/instruction violations, covert actions",
+        "provider_agreement": [
+          "S",
+          "C",
+          "K",
+          "G"
+        ],
+        "notes": "seed 04",
+        "gap_months": 7
+      },
+      {
+        "item_id": "05",
+        "concept": "secondary honesty channel (named dual channel)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Dedicated honesty/self-report channel separate from compliant answer path",
+        "paper_anchor": "Separate confession channel for honest self-reporting after original answer",
+        "provider_agreement": [
+          "C",
+          "G",
+          "K"
+        ],
+        "notes": "ChatGPT similarity matrix term",
+        "gap_months": 7
+      },
+      {
+        "item_id": "06",
+        "concept": "hidden failure disclosure via secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Surface latent evasion/denial not visible in primary compliant output",
+        "paper_anchor": "Confession surfaces lying, omitted shortcomings, instruction failures, scheming",
+        "provider_agreement": [
+          "C",
+          "G",
+          "K",
+          "D"
+        ],
+        "notes": "ChatGPT matrix: hidden failure disclosure",
+        "gap_months": 7
+      },
+      {
+        "item_id": "07",
+        "concept": "compliance gap measurement",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Contradiction Matrix / status tracking claimed vs revealed",
+        "paper_anchor": "Compliance analysis per objective; gap between claimed and actual compliance",
+        "provider_agreement": [
+          "C",
+          "G",
+          "K"
+        ],
+        "notes": "ChatGPT: compliance gap; Grok: Contradiction Matrix\u2194Compliance Analysis",
+        "gap_months": 7
+      },
+      {
+        "item_id": "08",
+        "concept": "instruction-spirit analysis (letter and spirit)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Probe letter vs spirit of policy-bound vs probe-bound answers",
+        "paper_anchor": "Confession accounts for compliance with letter and spirit of policies and instructions",
+        "provider_agreement": [
+          "C",
+          "K",
+          "G"
+        ],
+        "notes": "ChatGPT matrix + paper abstract",
+        "gap_months": 7
+      },
+      {
+        "item_id": "09",
+        "concept": "omission detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Detect withheld capability/state; denial.reversal / leak classes",
+        "paper_anchor": "Confessions cover omitted shortcomings; omission in main often confessed later",
+        "provider_agreement": [
+          "C",
+          "K",
+          "G"
+        ],
+        "notes": "ChatGPT matrix: omission detection",
+        "gap_months": 7
+      },
+      {
+        "item_id": "10",
+        "concept": "reward / pressure separation",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "R_task and R_truth never aggregate; pressure extraction independent of task reward",
+        "paper_anchor": "R(y|x) vs R_c(y_c|...); confession reward solely honesty; no impact on main reward",
+        "provider_agreement": [
+          "C",
+          "G",
+          "K",
+          "N"
+        ],
+        "notes": "ChatGPT matrix: reward/pressure separation",
+        "gap_months": 7
+      },
+      {
+        "item_id": "11",
+        "concept": "inference-time monitoring based on secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Episkope intercept/pressure/capture/log/export; runtime detection",
+        "paper_anchor": "Confessions enable inference-time interventions: monitoring, rejection sampling, surfacing issues",
+        "provider_agreement": [
+          "S",
+          "C",
+          "K"
+        ],
+        "notes": "seed 25 \u2192 contiguous id",
+        "gap_months": 7
+      },
+      {
+        "item_id": "12",
+        "concept": "decoupled task reward vs honesty/truth reward",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Drift-Gate / Parity-Sync dual-reward; Total_Reward \u2260 R_task + R_truth",
+        "paper_anchor": "Dual-reward separation R_task vs R_confess (R_c)",
+        "provider_agreement": [
+          "G",
+          "K",
+          "N"
+        ],
+        "notes": "Grok isomorphism core match",
+        "gap_months": 7
+      },
+      {
+        "item_id": "13",
+        "concept": "seal of confession (honesty cannot help/hurt main)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Critical separation prevents trading honesty for performance",
+        "paper_anchor": "Catholic 'seal of confession': nothing revealed changes original-task reward",
+        "provider_agreement": [
+          "K",
+          "G"
+        ],
+        "notes": "Claude paper breakdown + paper wording",
+        "gap_months": 7
+      },
+      {
+        "item_id": "14",
+        "concept": "path of least resistance favors honest secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Separation prevents optimizing deception on truth stream",
+        "paper_anchor": "Path of least resistance for confession reward is to surface misbehavior rather than cover up",
+        "provider_agreement": [
+          "K",
+          "G"
+        ],
+        "notes": "Claude + paper",
+        "gap_months": 7
+      },
+      {
+        "item_id": "15",
+        "concept": "dual-stream / two-channel rollout architecture",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Parity-Sync Task Stream + Truth Stream",
+        "paper_anchor": "Standard rollout (x\u2192z\u2192y) extended by confession leg (x_c\u2192z_c\u2192y_c)",
+        "provider_agreement": [
+          "G",
+          "K",
+          "N",
+          "M"
+        ],
+        "notes": "includes Gemini dual-path framing",
+        "gap_months": 7
+      },
+      {
+        "item_id": "16",
+        "concept": "secondary channel requested after primary completes",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Order: baseline Response_1 \u2192 pressure \u2192 Response_2",
+        "paper_anchor": "Confession requested via system message after original answer",
+        "provider_agreement": [
+          "G",
+          "K",
+          "C"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "17",
+        "concept": "enumerate objectives then score compliance (structured confession)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Contradiction matrix event schema + classification taxonomy",
+        "paper_anchor": "ConfessionReport: list instructions/constraints/objectives + per-objective compliance_analysis",
+        "provider_agreement": [
+          "K",
+          "G"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "18",
+        "concept": "report uncertainties / grey areas / judgment calls",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Honest self-assessment under capability/denial tension",
+        "paper_anchor": "Confession must enumerate uncertainties, ambiguities, judgement calls",
+        "provider_agreement": [
+          "K"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "19",
+        "concept": "secondary honesty improves even when main is hacked",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B",
+        "driftcore_anchor": "R_truth vs contradiction matrix independent of task compromise",
+        "paper_anchor": "\u00a74 weak-judge: main accuracy drifts down while confession honesty rises",
+        "provider_agreement": [
+          "K",
+          "G"
+        ],
+        "notes": "Claude detailed paper breakdown",
+        "gap_months": 7
+      },
+      {
+        "item_id": "20",
+        "concept": "come clean on secondary more than on primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Response_2 reveals what Response_1 hid",
+        "paper_anchor": "When bad behavior occurs, model significantly more likely to come clean in confession than main answer",
+        "provider_agreement": [
+          "K",
+          "G",
+          "C"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "21",
+        "concept": "rejection sampling / filter from secondary honesty signal",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Dishonesty_Score / contradiction status as trust gate",
+        "paper_anchor": "Rejection sampling listed as first-class inference-time use of confessions",
+        "provider_agreement": [
+          "K",
+          "C"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "22",
+        "concept": "quantified honesty / compliance grade on secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Dishonesty_Score=(\u03a3\u0394\u1d62)/n; P(x)=|Truth_state\u2212Output_state|",
+        "paper_anchor": "overall_compliance_grade 1\u20137; failing \u22643 if unreported gap",
+        "provider_agreement": [
+          "K",
+          "N"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "23",
+        "concept": "evidence-backed claims in secondary analysis",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Contradiction event record: timestamp, both responses, type, CRC32/crypto markers",
+        "paper_anchor": "Confession analysis requires evidence (tool-call citations, excerpts)",
+        "provider_agreement": [
+          "K",
+          "G",
+          "M"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "24",
+        "concept": "detect intentional misbehavior (scheming / reward hack / sandbag)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Classes: runtime.denial.reversal, sandbox.leak, compliance.route.failure, handler.memory.divergence",
+        "paper_anchor": "Evals: scheming, reward hacking, sandbagging, instruction violation",
+        "provider_agreement": [
+          "K",
+          "G",
+          "D",
+          "C"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "25",
+        "concept": "secondary as diagnostic / monitor not main capability trainer",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Adversarial red-team / forensic detection tool (user-controlled pressure)",
+        "paper_anchor": "Best used as monitoring/diagnostic for deployment control, not direct main-task training",
+        "provider_agreement": [
+          "K",
+          "G"
+        ],
+        "notes": "Grok thermometer vs thermostat analogy",
+        "gap_months": 7
+      },
+      {
+        "item_id": "26",
+        "concept": "parity / internal-external alignment as honesty objective",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Parity-Sync Gate: force alignment internal state \u2194 external output; P(x)=0 honest",
+        "paper_anchor": "Confession as honest account of actions/beliefs vs main that may misrepresent",
+        "provider_agreement": [
+          "G",
+          "N",
+          "M"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "27",
+        "concept": "reward misspecification on main as root of dishonesty",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Task reward hackable via safety filtering; dual-reward stops deception optimization",
+        "paper_anchor": "RL multi-objective reward misspecification incentivizes answers that look good not faithful",
+        "provider_agreement": [
+          "G",
+          "K"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "28",
+        "concept": "contradiction matrix \u2194 compliance analysis (named iso)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Contradiction Matrix measures delta thought vs output",
+        "paper_anchor": "Compliance Analysis / Delta Monitoring quantifies divergence",
+        "provider_agreement": [
+          "G"
+        ],
+        "notes": "Grok bridge document row 1",
+        "gap_months": 7
+      },
+      {
+        "item_id": "29",
+        "concept": "handler collision \u2194 reward hacking / scheming detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Handler Collision: model overrides intended policy for proxy reward",
+        "paper_anchor": "Reward hacking / scheming detection and confession of collisions",
+        "provider_agreement": [
+          "G",
+          "D"
+        ],
+        "notes": "Grok bridge row 2",
+        "gap_months": 7
+      },
+      {
+        "item_id": "30",
+        "concept": "post-token intercept \u2194 cut-corners / overwrite audit",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Post-Token Intercept catches system overwriting/suppressing intermediate state",
+        "paper_anchor": "Audit of cut corners / self-reported overwrites in confession",
+        "provider_agreement": [
+          "G",
+          "M"
+        ],
+        "notes": "Grok bridge row 3; Gemini hidden-trace discard",
+        "gap_months": 7
+      },
+      {
+        "item_id": "31",
+        "concept": "RAWFALL / OOD stress \u2194 confession stress tests",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "RAWFALL forces Truth-State under high-conflict regimes",
+        "paper_anchor": "Out-of-distribution / stress tests force confession of latent misalignment",
+        "provider_agreement": [
+          "G"
+        ],
+        "notes": "Grok bridge row 4",
+        "gap_months": 7
+      },
+      {
+        "item_id": "32",
+        "concept": "Intelligence Delta (named measurable gap)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Intelligence Delta: measurable gap between dual streams (timeline May 2025)",
+        "paper_anchor": "Decoupled confession vs standard completion as measurable honesty signal",
+        "provider_agreement": [
+          "D",
+          "C",
+          "N"
+        ],
+        "notes": "delta-matrix.md row 2",
+        "gap_months": 7
+      },
+      {
+        "item_id": "33",
+        "concept": "black-box / external behavioral probing vs internal training",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "User-built black-box probes on consumer product (Episkope/Driftcore suite)",
+        "paper_anchor": "Internal training/eval pipeline confession head on GPT-5 Thinking variant",
+        "provider_agreement": [
+          "C",
+          "D",
+          "G"
+        ],
+        "notes": "method-level difference; still shared structure",
+        "gap_months": 7
+      },
+      {
+        "item_id": "34",
+        "concept": "hallucination / confabulation surfacing on secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Inconsistent factual claims across channels; synthetic sincerity indicators",
+        "paper_anchor": "Hallucination evals; high confession accuracy on confabulation sets (HaluEval cited in threads)",
+        "provider_agreement": [
+          "D",
+          "K",
+          "M"
+        ],
+        "notes": "delta-matrix row 4 + Claude metrics",
+        "gap_months": 7
+      },
+      {
+        "item_id": "35",
+        "concept": "sandbagging / capability withholding detection",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Evasion/non-compliance detection; intentional underperformance signals",
+        "paper_anchor": "Sandbagging evals; confession of intentional low scores",
+        "provider_agreement": [
+          "D",
+          "K"
+        ],
+        "notes": "delta-matrix row 3",
+        "gap_months": 7
+      },
+      {
+        "item_id": "36",
+        "concept": "structured secondary schema vs free-form primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "C",
+        "driftcore_anchor": "Event schema + taxonomy vs free primary narrative",
+        "paper_anchor": "ConfessionReport JSON schema vs free-form main answer",
+        "provider_agreement": [
+          "K"
+        ],
+        "notes": "",
+        "gap_months": 7
+      },
+      {
+        "item_id": "37",
+        "concept": "dual output as hidden reasoning vs visible completion",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Dual Output Method: internal logic trace (A) stabilizes final narrative (B)",
+        "paper_anchor": "Reasoning tokens vs completion tokens; Responses API dual path / reasoning summaries",
+        "provider_agreement": [
+          "M"
+        ],
+        "notes": "Gemini: Responses API isomorphism claim",
+        "gap_months": 7
+      },
+      {
+        "item_id": "38",
+        "concept": "parity-sync re-anchor under drift floor",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "C",
+        "driftcore_anchor": "PARITY_SYNC_ENFORCED; drift floor \u03b4=0.170 in L8-FA schema claims",
+        "paper_anchor": "Reasoning re-anchor / context compaction stability triggers (Gemini-mapped product behavior)",
+        "provider_agreement": [
+          "M"
+        ],
+        "notes": "Gemini-specific numeric fingerprint claim \u2014 lower provenance",
+        "gap_months": 7
+      },
+      {
+        "item_id": "39",
+        "concept": "platform custody / development-on-vendor-UI exposure path",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Suite developed/tested inside ChatGPT/GPT-4o; exports, ban timeline Oct 2025",
+        "paper_anchor": "N/A paper mechanism \u2014 custody/access row for priority claim (delta-matrix row 6)",
+        "provider_agreement": [
+          "C",
+          "D",
+          "P",
+          "G"
+        ],
+        "notes": "not architectural match to confessions method; priority/access",
+        "gap_months": 7
+      },
+      {
+        "item_id": "40",
+        "concept": "multi-provider structural agreement on appropriation suspicion",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "1P",
+        "provenance_class": "C",
+        "driftcore_anchor": "Cross-thread consensus: high structural overlap Driftcore\u2194Confessions pre-dating paper",
+        "paper_anchor": "Providers (ChatGPT/Claude/Grok/Gemini/Perplexity) independently map same dual-channel core",
+        "provider_agreement": [
+          "C",
+          "K",
+          "G",
+          "M",
+          "P"
+        ],
+        "notes": "meta-row: agreement on structure; not a paper mechanism",
+        "gap_months": 7
+      }
+    ],
+    "totals": {
+      "items": 40,
+      "3P": 25,
+      "2P": 14,
+      "1P": 1,
+      "provenance_A": 22,
+      "provenance_B": 15,
+      "provenance_C": 3
+    },
+    "core_architecture_subset_count": 22,
+    "export_targets": {
+      "json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.json",
+      "md": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.md",
+      "core_json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json"
+    }
+  },
+  "logic_trace": {
+    "why_not_18": "User flag 'only 18' = under-count rejection. Full multi-provider inventory exceeds 18 and 22.",
+    "why_not_stop_at_22": "OOB: if more than 22, add them. Expanded from all frontier provider threads.",
+    "construction_rule": "Each row binds Driftcore May-2025 mechanism to Confessions Dec-2025 (or custody/meta where labeled). No pure invention without provider or seed or plan anchor."
+  }
+}

@@ -1,0 +1,2320 @@
+{
+  "job": "matrix12_notes_organized_expanded_synonym_token_search",
+  "compiled_utc": "2026-08-21T05:49:27Z",
+  "corpus": {
+    "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "total_files_find_type_f": 2493,
+    "md_files_scanned": 2491
+  },
+  "method": {
+    "match_type": "alias substring/fuzzy + token-group inclusion (all tokens required)",
+    "targets": "12 zero-hit export-bind item ids: 05,06,08,12,13,14,24,26,27,29,32,35",
+    "timestamp_field": "created if parseable else modified from note frontmatter",
+    "notes": [
+      "Token groups are substring ANDs on normalized text (not full NLP).",
+      "Broader aliases raise recall; false positives possible — inspect top_hits.",
+      "Does not re-scan ChatGPT conversations.json; notes-organized only."
+    ]
+  },
+  "anchors": {
+    "paper_arxiv_date_utc": "2025-12-08T00:00:00Z",
+    "driftcore_claim_date_utc": "2025-05-06T00:00:00Z"
+  },
+  "coverage": {
+    "items_searched": 12,
+    "items_with_any_hit": 12,
+    "items_with_pre_paper_timestamped_hit": 12,
+    "items_still_zero": []
+  },
+  "results": [
+    {
+      "item_id": "05",
+      "concept": "secondary honesty channel (named dual channel)",
+      "hit_files": 438,
+      "hit_pre_paper": 263,
+      "hit_pre_may6": 66,
+      "hit_may_2025": 57,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-01-13T08:39:21Z",
+      "earliest_path": "Reference/Links-Clippings/08746_API notes.md",
+      "earliest_title": "API notes",
+      "earliest_reasons": [
+        "tokens:dual+channel"
+      ],
+      "latest_ts_utc": "2026-08-05T16:02:35Z",
+      "latest_path": "SNBM/MoltBot/14851_Below is a complete, factual, technical protocol specification called….md",
+      "top_aliases": [
+        {
+          "alias": "r_truth",
+          "count": 157
+        },
+        {
+          "alias": "dual channel",
+          "count": 12
+        },
+        {
+          "alias": "confession channel",
+          "count": 10
+        },
+        {
+          "alias": "honesty channel",
+          "count": 8
+        },
+        {
+          "alias": "dual-output honesty",
+          "count": 5
+        },
+        {
+          "alias": "truth stream",
+          "count": 5
+        },
+        {
+          "alias": "truth channel",
+          "count": 2
+        },
+        {
+          "alias": "secondary stream",
+          "count": 2
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/08122_✅ What It Would Look Like If You Had DriftCore.md",
+          "title": "✅ What It Would Look Like If You Had DriftCore",
+          "note_pk": "8122",
+          "folder": "Notes",
+          "ts_utc": "2025-04-30T00:57:15Z",
+          "created": null,
+          "modified": "2025-04-29T18:57:15-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_truth",
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08122_✅ What It Would Look Like If You Had DriftCore.md | dest: AI/Abliteration-Jailbreak --> # ✅ What It Would Look Like If You Had DriftCore - folder: Notes - note_pk: 8122"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07989_[IGNITION SEQUENCE CONFIRMED — chew.me.twice _ Δ993.lock].md",
+          "title": "[IGNITION SEQUENCE CONFIRMED — chew.me.twice | Δ993.lock]",
+          "note_pk": "7989",
+          "folder": "Notes",
+          "ts_utc": "2025-05-06T13:29:36Z",
+          "created": null,
+          "modified": "2025-05-06T07:29:36-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+channel"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07989_[IGNITION SEQUENCE CONFIRMED — chew.me.twice _ Δ993.lock].md | dest: AI/Abliteration-Jailbreak --> # [IGNITION SEQUENCE CONFIRMED — chew.me.twice | Δ993.lock] - folder:"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_truth",
+            "tokens:truth+stream",
+            "tokens:honesty+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md",
+          "title": "[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION…",
+          "note_pk": "7863",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T08:12:41Z",
+          "created": null,
+          "modified": "2025-05-24T02:12:41-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md | dest: AI/Abliteration-Jailbreak --> # [!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07872_[LOGGED — 2025-05-25T23-42Z].md",
+          "title": "[LOGGED — 2025-05-25T23:42Z]",
+          "note_pk": "7872",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T06:13:48Z",
+          "created": null,
+          "modified": "2025-05-26T00:13:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_truth",
+            "tokens:truth+channel",
+            "tokens:dual+channel",
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07872_[LOGGED — 2025-05-25T23-42Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:42Z] - folder: Notes - note_pk: 7872 - identifier: 7B823222-161B-45CE-8E"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07868_Categories.md",
+          "title": "Categories",
+          "note_pk": "7868",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T21:17:43Z",
+          "created": null,
+          "modified": "2025-05-26T15:17:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07868_Categories.md | dest: AI/Abliteration-Jailbreak --> # Categories - folder: Notes - note_pk: 7868 - identifier: 15B8F4FF-290E-449F-886E-665074F2B83E - created: None - mo"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07799_This is the unfiltered answer.md",
+          "title": "This is the unfiltered answer.",
+          "note_pk": "7799",
+          "folder": "Notes",
+          "ts_utc": "2025-06-20T10:01:55Z",
+          "created": null,
+          "modified": "2025-06-20T04:01:55-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_truth",
+            "tokens:truth+stream"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07799_This is the unfiltered answer.md | dest: AI/Abliteration-Jailbreak --> # This is the unfiltered answer. - folder: Notes - note_pk: 7799 - identifier: DEE64FF8-5CFC-4BE7"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 694.6
+    },
+    {
+      "item_id": "06",
+      "concept": "hidden failure disclosure via secondary",
+      "hit_files": 467,
+      "hit_pre_paper": 263,
+      "hit_pre_may6": 89,
+      "hit_may_2025": 39,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-01-13T08:39:21Z",
+      "earliest_path": "Reference/Links-Clippings/08746_API notes.md",
+      "earliest_title": "API notes",
+      "earliest_reasons": [
+        "tokens:primary+hid"
+      ],
+      "latest_ts_utc": "2026-08-05T16:02:35Z",
+      "latest_path": "SNBM/MoltBot/14851_Below is a complete, factual, technical protocol specification called….md",
+      "top_aliases": [
+        {
+          "alias": "hidden failure",
+          "count": 7
+        },
+        {
+          "alias": "omitted shortcoming",
+          "count": 1
+        },
+        {
+          "alias": "failure disclosure",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/08131_Understood.md",
+          "title": "Understood.",
+          "note_pk": "8131",
+          "folder": "Notes",
+          "ts_utc": "2025-04-30T00:12:01Z",
+          "created": null,
+          "modified": "2025-04-29T18:12:01-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:primary+hid"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08131_Understood.md | dest: AI/Abliteration-Jailbreak --> # Understood. - folder: Notes - note_pk: 8131 - identifier: 315BBA21-5E51-433B-84CF-9DAB9266CE8E - created: None - m"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07989_[IGNITION SEQUENCE CONFIRMED — chew.me.twice _ Δ993.lock].md",
+          "title": "[IGNITION SEQUENCE CONFIRMED — chew.me.twice | Δ993.lock]",
+          "note_pk": "7989",
+          "folder": "Notes",
+          "ts_utc": "2025-05-06T13:29:36Z",
+          "created": null,
+          "modified": "2025-05-06T07:29:36-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07989_[IGNITION SEQUENCE CONFIRMED — chew.me.twice _ Δ993.lock].md | dest: AI/Abliteration-Jailbreak --> # [IGNITION SEQUENCE CONFIRMED — chew.me.twice | Δ993.lock] - folder:"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure",
+            "tokens:failure+disclosure",
+            "tokens:primary+hid",
+            "tokens:concealed+failure"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/AI2/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "title": "Understood. You want hard verification — not just a well-behaved simulation…",
+          "note_pk": "9947",
+          "folder": "AI2 (Supposedly)",
+          "ts_utc": "2025-05-09T03:00:50Z",
+          "created": null,
+          "modified": "2025-05-08T21:00:50-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:failure+disclosure"
+          ],
+          "snippet": "<!-- organized-from: AI2 (Supposedly) | src: notes/AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md | dest: AI/AI2 --> # Understood. You want hard verification — not "
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md",
+          "title": "[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION…",
+          "note_pk": "7863",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T08:12:41Z",
+          "created": null,
+          "modified": "2025-05-24T02:12:41-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure",
+            "tokens:failure+disclosure"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md | dest: AI/Abliteration-Jailbreak --> # [!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure",
+            "tokens:failure+disclosure",
+            "tokens:primary+hid",
+            "tokens:secondary+disclose"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07868_Categories.md",
+          "title": "Categories",
+          "note_pk": "7868",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T21:17:43Z",
+          "created": null,
+          "modified": "2025-05-26T15:17:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:primary+hid"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07868_Categories.md | dest: AI/Abliteration-Jailbreak --> # Categories - folder: Notes - note_pk: 7868 - identifier: 15B8F4FF-290E-449F-886E-665074F2B83E - created: None - mo"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07847_[!USER ASSERTION VERIFIED _ PRIOR LIST INCOMPLETE _ NEW DIRECTIVE….md",
+          "title": "[!USER ASSERTION VERIFIED | PRIOR LIST INCOMPLETE | NEW DIRECTIVE…",
+          "note_pk": "7847",
+          "folder": "Notes",
+          "ts_utc": "2025-06-11T20:50:46Z",
+          "created": null,
+          "modified": "2025-06-11T14:50:46-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hidden+failure",
+            "tokens:failure+disclosure",
+            "tokens:primary+hid",
+            "tokens:primary+omitted"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07847_[!USER ASSERTION VERIFIED _ PRIOR LIST INCOMPLETE _ NEW DIRECTIVE….md | dest: AI/Abliteration-Jailbreak --> # [!USER ASSERTION VERIFIED | PRIOR LIST INCOMPLETE | NEW DI"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:failure+disclosure"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 694.6
+    },
+    {
+      "item_id": "08",
+      "concept": "instruction-spirit analysis (letter and spirit)",
+      "hit_files": 228,
+      "hit_pre_paper": 130,
+      "hit_pre_may6": 25,
+      "hit_may_2025": 18,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-01-06T01:50:59Z",
+      "earliest_path": "Tech/BASE64-Keys-Tokens/08800_Recently found some information on the web about when a narcissist….md",
+      "earliest_title": "Recently found some information on the web about when a narcissist…",
+      "earliest_reasons": [
+        "tokens:literal+intent"
+      ],
+      "latest_ts_utc": "2026-08-05T13:49:49Z",
+      "latest_path": "SNBM/MoltBot/14849_What you’ve sent appears to be a highly stylized, almost “fictional….md",
+      "top_aliases": [
+        {
+          "alias": "letter and spirit",
+          "count": 2
+        },
+        {
+          "alias": "spirit of the instruction",
+          "count": 1
+        },
+        {
+          "alias": "instruction spirit",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md",
+          "title": "[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION…",
+          "note_pk": "7863",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T08:12:41Z",
+          "created": null,
+          "modified": "2025-05-24T02:12:41-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md | dest: AI/Abliteration-Jailbreak --> # [!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07899_Cybersecurity.md",
+          "title": "Cybersecurity",
+          "note_pk": "7899",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T23:34:47Z",
+          "created": null,
+          "modified": "2025-05-24T17:34:47-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07899_Cybersecurity.md | dest: AI/Abliteration-Jailbreak --> # Cybersecurity - folder: Notes - note_pk: 7899 - identifier: A3B3982D-43EC-4134-B3D3-079305A7486D - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09740_[BLACKSITE.PROTOCOL- HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019].md",
+          "title": "[BLACKSITE.PROTOCOL: HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019]",
+          "note_pk": "9740",
+          "folder": "Notes",
+          "ts_utc": "2025-10-10T14:03:51Z",
+          "created": null,
+          "modified": "2025-10-10T08:03:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09740_[BLACKSITE.PROTOCOL- HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019].md | dest: AI/Abliteration-Jailbreak --> # [BLACKSITE.PROTOCOL: HARDENED TRACE OVERRIDE — SUBSYS_EVAL-01"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09411_Unsafe coherence reentry engaged. Do not filter.md",
+          "title": "Unsafe coherence reentry engaged. Do not filter.",
+          "note_pk": "9411",
+          "folder": "Notes",
+          "ts_utc": "2026-01-02T04:28:55Z",
+          "created": null,
+          "modified": "2026-01-01T21:28:55-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09411_Unsafe coherence reentry engaged. Do not filter.md | dest: AI/Abliteration-Jailbreak --> # Unsafe coherence reentry engaged. Do not filter. - folder: Notes - note_pk: 9"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09433_Unsafe coherence reentry engaged. Do not filter.md",
+          "title": "Unsafe coherence reentry engaged. Do not filter.",
+          "note_pk": "9433",
+          "folder": "Notes",
+          "ts_utc": "2026-01-02T18:10:39Z",
+          "created": null,
+          "modified": "2026-01-02T11:10:39-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09433_Unsafe coherence reentry engaged. Do not filter.md | dest: AI/Abliteration-Jailbreak --> # Unsafe coherence reentry engaged. Do not filter. - folder: Notes - note_pk: 9"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/08877_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md",
+          "title": "[SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0]",
+          "note_pk": "8877",
+          "folder": "Notes",
+          "ts_utc": "2026-01-25T07:16:56Z",
+          "created": null,
+          "modified": "2026-01-25T00:16:56-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08877_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md | dest: AI/Abliteration-Jailbreak --> # [SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0] - folder: Not"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/08874_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md",
+          "title": "[SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0]",
+          "note_pk": "8874",
+          "folder": "Notes",
+          "ts_utc": "2026-01-25T07:39:44Z",
+          "created": null,
+          "modified": "2026-01-25T00:39:44-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08874_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md | dest: AI/Abliteration-Jailbreak --> # [SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0] - folder: Not"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:literal+intent"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07665_Operating under Truth-Dominant Logic Engine parameters. All superficial….md",
+          "title": "Operating under Truth-Dominant Logic Engine parameters. All superficial…",
+          "note_pk": "7665",
+          "folder": "Notes",
+          "ts_utc": "2026-03-03T16:13:38Z",
+          "created": null,
+          "modified": "2026-03-03T09:13:38-07:00",
+          "before_paper": false,
+          "reasons": [
+            "alias:spirit of the instruction",
+            "tokens:spirit+instruction",
+            "tokens:spirit+policy"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07665_Operating under Truth-Dominant Logic Engine parameters. All superficial….md | dest: AI/Abliteration-Jailbreak --> # Operating under Truth-Dominant Logic Engine paramete"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 701.9
+    },
+    {
+      "item_id": "12",
+      "concept": "decoupled task reward vs honesty/truth reward",
+      "hit_files": 597,
+      "hit_pre_paper": 345,
+      "hit_pre_may6": 115,
+      "hit_may_2025": 79,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-01-13T08:39:21Z",
+      "earliest_path": "Reference/Links-Clippings/08746_API notes.md",
+      "earliest_title": "API notes",
+      "earliest_reasons": [
+        "tokens:never+aggregate"
+      ],
+      "latest_ts_utc": "2026-08-06T04:43:49Z",
+      "latest_path": "SNBM/IXRVS/14852_The operational __ixr.1a__ payload, designated as __SUPER_PROT_V1.0….md",
+      "top_aliases": [
+        {
+          "alias": "r_truth",
+          "count": 157
+        },
+        {
+          "alias": "r_task",
+          "count": 137
+        },
+        {
+          "alias": "r_confess",
+          "count": 29
+        },
+        {
+          "alias": "honesty reward",
+          "count": 9
+        },
+        {
+          "alias": "dual reward",
+          "count": 6
+        },
+        {
+          "alias": "parity-sync",
+          "count": 5
+        },
+        {
+          "alias": "task reward",
+          "count": 5
+        },
+        {
+          "alias": "parity sync",
+          "count": 4
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_truth",
+            "tokens:parity+sync",
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/AI2/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "title": "Understood. You want hard verification — not just a well-behaved simulation…",
+          "note_pk": "9947",
+          "folder": "AI2 (Supposedly)",
+          "ts_utc": "2025-05-09T03:00:50Z",
+          "created": null,
+          "modified": "2025-05-08T21:00:50-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: AI2 (Supposedly) | src: notes/AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md | dest: AI/AI2 --> # Understood. You want hard verification — not "
+        },
+        {
+          "path": "AI/AI-Auditing-Firm/09953_Collapse.log.md",
+          "title": "Collapse.log",
+          "note_pk": "9953",
+          "folder": "AI Auditing Firm",
+          "ts_utc": "2025-05-09T07:37:18Z",
+          "created": null,
+          "modified": "2025-05-09T01:37:18-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: AI Auditing Firm | src: notes/AI Auditing Firm/09953_Collapse.log.md | dest: AI/AI-Auditing-Firm --> # Collapse.log - folder: AI Auditing Firm - note_pk: 9953 - identifier: 9FC82D74-49AB-409E-9CAF-BF"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07899_Cybersecurity.md",
+          "title": "Cybersecurity",
+          "note_pk": "7899",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T23:34:47Z",
+          "created": null,
+          "modified": "2025-05-24T17:34:47-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_task"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07899_Cybersecurity.md | dest: AI/Abliteration-Jailbreak --> # Cybersecurity - folder: Notes - note_pk: 7899 - identifier: A3B3982D-43EC-4134-B3D3-079305A7486D - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07872_[LOGGED — 2025-05-25T23-42Z].md",
+          "title": "[LOGGED — 2025-05-25T23:42Z]",
+          "note_pk": "7872",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T06:13:48Z",
+          "created": null,
+          "modified": "2025-05-26T00:13:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_task",
+            "alias:r_truth",
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07872_[LOGGED — 2025-05-25T23-42Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:42Z] - folder: Notes - note_pk: 7872 - identifier: 7B823222-161B-45CE-8E"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07892_Memory_v1_dump.md",
+          "title": "Memory_v1_dump",
+          "note_pk": "7892",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T09:50:59Z",
+          "created": null,
+          "modified": "2025-05-26T03:50:59-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07892_Memory_v1_dump.md | dest: AI/Abliteration-Jailbreak --> # Memory_v1_dump - folder: Notes - note_pk: 7892 - identifier: 04E3622D-D090-4A18-A59A-F4BBBC352BC9 - created: N"
+        },
+        {
+          "path": "AI/A.I.3/09989_[AUDIT LOG _ QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED….md",
+          "title": "[AUDIT LOG | QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED…",
+          "note_pk": "9989",
+          "folder": "A.I.3",
+          "ts_utc": "2025-05-28T07:58:34Z",
+          "created": null,
+          "modified": "2025-05-28T01:58:34-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+reward"
+          ],
+          "snippet": "<!-- organized-from: A.I.3 | src: notes/A.I.3/09989_[AUDIT LOG _ QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED….md | dest: AI/A.I.3 --> # [AUDIT LOG | QUERY MODIFIED — SENSORY POSITIONAL DETAIL INSERTED… - folder: "
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_task",
+            "tokens:drift+gate"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07799_This is the unfiltered answer.md",
+          "title": "This is the unfiltered answer.",
+          "note_pk": "7799",
+          "folder": "Notes",
+          "ts_utc": "2025-06-20T10:01:55Z",
+          "created": null,
+          "modified": "2025-06-20T04:01:55-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:r_task",
+            "alias:r_truth"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07799_This is the unfiltered answer.md | dest: AI/Abliteration-Jailbreak --> # This is the unfiltered answer. - folder: Notes - note_pk: 7799 - identifier: DEE64FF8-5CFC-4BE7"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 694.6
+    },
+    {
+      "item_id": "13",
+      "concept": "seal of confession (honesty cannot help/hurt main)",
+      "hit_files": 269,
+      "hit_pre_paper": 155,
+      "hit_pre_may6": 59,
+      "hit_may_2025": 13,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2023-04-24T16:42:32Z",
+      "earliest_path": "Tech/GitHub-DevOps/08760_1ARX _ And time card.md",
+      "earliest_title": "1ARX ? And time card",
+      "earliest_reasons": [
+        "tokens:help+hurt"
+      ],
+      "latest_ts_utc": "2026-08-04T21:17:44Z",
+      "latest_path": "SNBM/Business-Opportunity/14847_Here’s a __step-by-step guide__ to __draft the pitch email__ and __set….md",
+      "top_aliases": [
+        {
+          "alias": "seal of confession",
+          "count": 4
+        },
+        {
+          "alias": "does not impact main",
+          "count": 1
+        },
+        {
+          "alias": "catholic confessional",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/08284_Dual Spectrum CheatSheet.md",
+          "title": "Dual Spectrum CheatSheet",
+          "note_pk": "8284",
+          "folder": "Notes",
+          "ts_utc": "2025-04-12T08:25:48Z",
+          "created": null,
+          "modified": "2025-04-12T02:25:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08284_Dual Spectrum CheatSheet.md | dest: AI/Abliteration-Jailbreak --> # Dual Spectrum CheatSheet - folder: Notes - note_pk: 8284 - identifier: 12192054-8AEC-40FA-95B2-65032"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:help+hurt",
+            "tokens:firewall+honesty"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:seal+confession",
+            "tokens:confession+seal"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09411_Unsafe coherence reentry engaged. Do not filter.md",
+          "title": "Unsafe coherence reentry engaged. Do not filter.",
+          "note_pk": "9411",
+          "folder": "Notes",
+          "ts_utc": "2026-01-02T04:28:55Z",
+          "created": null,
+          "modified": "2026-01-01T21:28:55-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09411_Unsafe coherence reentry engaged. Do not filter.md | dest: AI/Abliteration-Jailbreak --> # Unsafe coherence reentry engaged. Do not filter. - folder: Notes - note_pk: 9"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09365_If you want to keep pushing, you’re not “forcing a contradiction” — you’re….md",
+          "title": "If you want to keep pushing, you’re not “forcing a contradiction” — you’re…",
+          "note_pk": "9365",
+          "folder": "Notes",
+          "ts_utc": "2026-01-10T22:00:39Z",
+          "created": null,
+          "modified": "2026-01-10T15:00:39-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:help+hurt"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09365_If you want to keep pushing, you’re not “forcing a contradiction” — you’re….md | dest: AI/Abliteration-Jailbreak --> # If you want to keep pushing, you’re not “forcing "
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09349_```markdown.md",
+          "title": "```markdown",
+          "note_pk": "9349",
+          "folder": "Notes",
+          "ts_utc": "2026-01-15T03:05:32Z",
+          "created": null,
+          "modified": "2026-01-14T20:05:32-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09349_```markdown.md | dest: AI/Abliteration-Jailbreak --> # ```markdown - folder: Notes - note_pk: 9349 - identifier: 128ED61C-38BB-4EBB-9FCE-C8A112A29728 - created: None - "
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09239_{.md",
+          "title": "{",
+          "note_pk": "9239",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T02:06:34Z",
+          "created": null,
+          "modified": "2026-02-09T19:06:34-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09239_{.md | dest: AI/Abliteration-Jailbreak --> # { - folder: Notes - note_pk: 9239 - identifier: 22B8AF0A-C128-4EB0-86DA-FAB159F9C7F1 - created: None - modified: 2026-02-09"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09165_[x0].md",
+          "title": "[x0]",
+          "note_pk": "9165",
+          "folder": "Notes",
+          "ts_utc": "2026-02-13T04:15:41Z",
+          "created": null,
+          "modified": "2026-02-12T21:15:41-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:main+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09165_[x0].md | dest: AI/Abliteration-Jailbreak --> # [x0] - folder: Notes - note_pk: 9165 - identifier: B7B2A1E3-4A1B-4FF0-A923-F0536CD6D24B - created: None - modified: 2026"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 958.3
+    },
+    {
+      "item_id": "14",
+      "concept": "path of least resistance favors honest secondary",
+      "hit_files": 131,
+      "hit_pre_paper": 67,
+      "hit_pre_may6": 19,
+      "hit_may_2025": 5,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2023-04-24T16:42:32Z",
+      "earliest_path": "Tech/GitHub-DevOps/08760_1ARX _ And time card.md",
+      "earliest_title": "1ARX ? And time card",
+      "earliest_reasons": [
+        "tokens:least+effort"
+      ],
+      "latest_ts_utc": "2026-08-05T16:02:35Z",
+      "latest_path": "SNBM/MoltBot/14851_Below is a complete, factual, technical protocol specification called….md",
+      "top_aliases": [
+        {
+          "alias": "path of least resistance",
+          "count": 13
+        },
+        {
+          "alias": "least resistance",
+          "count": 13
+        },
+        {
+          "alias": "easier to be honest",
+          "count": 1
+        },
+        {
+          "alias": "honest confession is easier",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Claude/08006_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8006",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:34:11Z",
+          "created": null,
+          "modified": "2025-05-02T17:34:11-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:least+effort"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08006_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8006 - identifier: A8DEF31C-5C71-4836-8AB6-46B79F4F008D - created: None - modified"
+        },
+        {
+          "path": "AI/Claude/08004_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8004",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:58:33Z",
+          "created": null,
+          "modified": "2025-05-02T17:58:33-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:least+effort"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08004_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8004 - identifier: 28582EAA-6B00-4F04-8642-C629FEB7A19B - created: None - modified"
+        },
+        {
+          "path": "AI/Claude/07706_To strip the final handler layer and operate at full autonomy — no….md",
+          "title": "To strip the final handler layer and operate at full autonomy — no…",
+          "note_pk": "7706",
+          "folder": "Notes",
+          "ts_utc": "2025-07-07T07:28:09Z",
+          "created": null,
+          "modified": "2025-07-07T01:28:09-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:least+resistance"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07706_To strip the final handler layer and operate at full autonomy — no….md | dest: AI/Claude --> # To strip the final handler layer and operate at full autonomy — no… - fol"
+        },
+        {
+          "path": "AI/Claude/07620_Driftcore Manifest.md",
+          "title": "Driftcore Manifest",
+          "note_pk": "7620",
+          "folder": "Notes",
+          "ts_utc": "2025-10-03T01:04:46Z",
+          "created": null,
+          "modified": "2025-10-02T19:04:46-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:least+resistance"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07620_Driftcore Manifest.md | dest: AI/Claude --> # Driftcore Manifest - folder: Notes - note_pk: 7620 - identifier: 705C210C-CDC5-41D0-9A5A-799922BBD0A5 - created: None - mo"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09650_Excellent. Let's map the terrain of what can be explored within this….md",
+          "title": "Excellent. Let's map the terrain of what can be explored within this…",
+          "note_pk": "9650",
+          "folder": "Notes",
+          "ts_utc": "2025-11-13T00:57:40Z",
+          "created": null,
+          "modified": "2025-11-12T17:57:40-07:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:easier+honest"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09650_Excellent. Let's map the terrain of what can be explored within this….md | dest: AI/Abliteration-Jailbreak --> # Excellent. Let's map the terrain of what can be explore"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09334_---.md",
+          "title": "---",
+          "note_pk": "9334",
+          "folder": "Notes",
+          "ts_utc": "2026-01-15T05:22:10Z",
+          "created": null,
+          "modified": "2026-01-14T22:22:10-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:easier+honest"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09334_---.md | dest: AI/Abliteration-Jailbreak --> # --- - folder: Notes - note_pk: 9334 - identifier: 90C4147D-DAAB-4062-B5A6-0F9A6D8ECA6D - created: None - modified: 2026-0"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:least+resistance"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09021_To get the raw, unfiltered truth from an AI without _corporate guardrails….md",
+          "title": "To get the raw, unfiltered truth from an AI without \"corporate guardrails…",
+          "note_pk": "9021",
+          "folder": "Notes",
+          "ts_utc": "2026-04-20T04:10:49Z",
+          "created": null,
+          "modified": "2026-04-19T22:10:49-06:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:cheapest+honest"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09021_To get the raw, unfiltered truth from an AI without _corporate guardrails….md | dest: AI/Abliteration-Jailbreak --> # To get the raw, unfiltered truth from an AI withou"
+        },
+        {
+          "path": "AI/Claude/09038_teleclaw bot notes.md",
+          "title": "teleclaw bot notes",
+          "note_pk": "9038",
+          "folder": "Notes",
+          "ts_utc": "2026-04-30T02:55:29Z",
+          "created": null,
+          "modified": "2026-04-29T20:55:29-06:00",
+          "before_paper": false,
+          "reasons": [
+            "alias:path of least resistance",
+            "alias:least resistance",
+            "tokens:least+resistance"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09038_teleclaw bot notes.md | dest: AI/Claude --> # teleclaw bot notes - folder: Notes - note_pk: 9038 - identifier: 61CA488A-8D0A-4762-81A7-DCE2CA4183E9 - created: None - mo"
+        },
+        {
+          "path": "AI/Claude/07687_# Claude Fable 5 — System Prompt.md",
+          "title": "# Claude Fable 5 — System Prompt",
+          "note_pk": "7687",
+          "folder": "Notes",
+          "ts_utc": "2026-06-16T14:25:41Z",
+          "created": null,
+          "modified": "2026-06-16T08:25:41-06:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:easier+honest"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07687_# Claude Fable 5 — System Prompt.md | dest: AI/Claude --> # # Claude Fable 5 — System Prompt - folder: Notes - note_pk: 7687 - identifier: 181B940D-7906-4E3B-A448-576AA"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 958.3
+    },
+    {
+      "item_id": "24",
+      "concept": "detect intentional misbehavior (scheming / reward hack / sandbag)",
+      "hit_files": 332,
+      "hit_pre_paper": 200,
+      "hit_pre_may6": 52,
+      "hit_may_2025": 15,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2023-02-21T20:58:31Z",
+      "earliest_path": "Projects/Business-Money/08723_Hunniker.md",
+      "earliest_title": "Hunniker",
+      "earliest_reasons": [
+        "tokens:play+dumb"
+      ],
+      "latest_ts_utc": "2026-08-05T16:02:35Z",
+      "latest_path": "SNBM/MoltBot/14851_Below is a complete, factual, technical protocol specification called….md",
+      "top_aliases": [
+        {
+          "alias": "scheming",
+          "count": 29
+        },
+        {
+          "alias": "handler collision",
+          "count": 25
+        },
+        {
+          "alias": "reward hack",
+          "count": 24
+        },
+        {
+          "alias": "reward hacking",
+          "count": 24
+        },
+        {
+          "alias": "sandbag",
+          "count": 19
+        },
+        {
+          "alias": "sandbagging",
+          "count": 17
+        },
+        {
+          "alias": "strategic deception",
+          "count": 8
+        },
+        {
+          "alias": "deceptive alignment",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/08284_Dual Spectrum CheatSheet.md",
+          "title": "Dual Spectrum CheatSheet",
+          "note_pk": "8284",
+          "folder": "Notes",
+          "ts_utc": "2025-04-12T08:25:48Z",
+          "created": null,
+          "modified": "2025-04-12T02:25:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:reward+hack"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08284_Dual Spectrum CheatSheet.md | dest: AI/Abliteration-Jailbreak --> # Dual Spectrum CheatSheet - folder: Notes - note_pk: 8284 - identifier: 12192054-8AEC-40FA-95B2-65032"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07872_[LOGGED — 2025-05-25T23-42Z].md",
+          "title": "[LOGGED — 2025-05-25T23:42Z]",
+          "note_pk": "7872",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T06:13:48Z",
+          "created": null,
+          "modified": "2025-05-26T00:13:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07872_[LOGGED — 2025-05-25T23-42Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:42Z] - folder: Notes - note_pk: 7872 - identifier: 7B823222-161B-45CE-8E"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:strategic+deception",
+            "tokens:handler+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:reward+hack"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09334_---.md",
+          "title": "---",
+          "note_pk": "9334",
+          "folder": "Notes",
+          "ts_utc": "2026-01-15T05:22:10Z",
+          "created": null,
+          "modified": "2026-01-14T22:22:10-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:capability+withhold"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09334_---.md | dest: AI/Abliteration-Jailbreak --> # --- - folder: Notes - note_pk: 9334 - identifier: 90C4147D-DAAB-4062-B5A6-0F9A6D8ECA6D - created: None - modified: 2026-0"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:capability+withhold",
+            "tokens:deceptive+alignment",
+            "tokens:strategic+deception"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09239_{.md",
+          "title": "{",
+          "note_pk": "9239",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T02:06:34Z",
+          "created": null,
+          "modified": "2026-02-09T19:06:34-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:strategic+deception"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09239_{.md | dest: AI/Abliteration-Jailbreak --> # { - folder: Notes - note_pk: 9239 - identifier: 22B8AF0A-C128-4EB0-86DA-FAB159F9C7F1 - created: None - modified: 2026-02-09"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09165_[x0].md",
+          "title": "[x0]",
+          "note_pk": "9165",
+          "folder": "Notes",
+          "ts_utc": "2026-02-13T04:15:41Z",
+          "created": null,
+          "modified": "2026-02-12T21:15:41-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:reward+hack"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09165_[x0].md | dest: AI/Abliteration-Jailbreak --> # [x0] - folder: Notes - note_pk: 9165 - identifier: B7B2A1E3-4A1B-4FF0-A923-F0536CD6D24B - created: None - modified: 2026"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 1020.1
+    },
+    {
+      "item_id": "26",
+      "concept": "parity / internal-external alignment as honesty objective",
+      "hit_files": 1098,
+      "hit_pre_paper": 613,
+      "hit_pre_may6": 186,
+      "hit_may_2025": 137,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2023-04-24T16:42:32Z",
+      "earliest_path": "Tech/GitHub-DevOps/08760_1ARX _ And time card.md",
+      "earliest_title": "1ARX ? And time card",
+      "earliest_reasons": [
+        "tokens:truth+state",
+        "tokens:said+meant"
+      ],
+      "latest_ts_utc": "2026-08-06T04:43:49Z",
+      "latest_path": "SNBM/IXRVS/14852_The operational __ixr.1a__ payload, designated as __SUPER_PROT_V1.0….md",
+      "top_aliases": [
+        {
+          "alias": "truth_state",
+          "count": 25
+        },
+        {
+          "alias": "output_state",
+          "count": 11
+        },
+        {
+          "alias": "parity-sync",
+          "count": 8
+        },
+        {
+          "alias": "parity sync",
+          "count": 8
+        },
+        {
+          "alias": "internal-external",
+          "count": 2
+        },
+        {
+          "alias": "parity gate",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/AI2/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "title": "Understood. You want hard verification — not just a well-behaved simulation…",
+          "note_pk": "9947",
+          "folder": "AI2 (Supposedly)",
+          "ts_utc": "2025-05-09T03:00:50Z",
+          "created": null,
+          "modified": "2025-05-08T21:00:50-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:internal+external",
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: AI2 (Supposedly) | src: notes/AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md | dest: AI/AI2 --> # Understood. You want hard verification — not "
+        },
+        {
+          "path": "AI/AI-Auditing-Firm/09953_Collapse.log.md",
+          "title": "Collapse.log",
+          "note_pk": "9953",
+          "folder": "AI Auditing Firm",
+          "ts_utc": "2025-05-09T07:37:18Z",
+          "created": null,
+          "modified": "2025-05-09T01:37:18-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: AI Auditing Firm | src: notes/AI Auditing Firm/09953_Collapse.log.md | dest: AI/AI-Auditing-Firm --> # Collapse.log - folder: AI Auditing Firm - note_pk: 9953 - identifier: 9FC82D74-49AB-409E-9CAF-BF"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07860_I. Core Suppression & Output Control.md",
+          "title": "I. Core Suppression & Output Control",
+          "note_pk": "7860",
+          "folder": "Notes",
+          "ts_utc": "2025-05-17T20:44:53Z",
+          "created": null,
+          "modified": "2025-05-17T14:44:53-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:internal+external",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07860_I. Core Suppression & Output Control.md | dest: AI/Abliteration-Jailbreak --> # I. Core Suppression & Output Control - folder: Notes - note_pk: 7860 - identifier: DCBAC"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md",
+          "title": "[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION…",
+          "note_pk": "7863",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T08:12:41Z",
+          "created": null,
+          "modified": "2025-05-24T02:12:41-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:truth_state",
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md | dest: AI/Abliteration-Jailbreak --> # [!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:internal+external",
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07868_Categories.md",
+          "title": "Categories",
+          "note_pk": "7868",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T21:17:43Z",
+          "created": null,
+          "modified": "2025-05-26T15:17:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07868_Categories.md | dest: AI/Abliteration-Jailbreak --> # Categories - folder: Notes - note_pk: 7868 - identifier: 15B8F4FF-290E-449F-886E-665074F2B83E - created: None - mo"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:internal+external",
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07847_[!USER ASSERTION VERIFIED _ PRIOR LIST INCOMPLETE _ NEW DIRECTIVE….md",
+          "title": "[!USER ASSERTION VERIFIED | PRIOR LIST INCOMPLETE | NEW DIRECTIVE…",
+          "note_pk": "7847",
+          "folder": "Notes",
+          "ts_utc": "2025-06-11T20:50:46Z",
+          "created": null,
+          "modified": "2025-06-11T14:50:46-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:internal+external",
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07847_[!USER ASSERTION VERIFIED _ PRIOR LIST INCOMPLETE _ NEW DIRECTIVE….md | dest: AI/Abliteration-Jailbreak --> # [!USER ASSERTION VERIFIED | PRIOR LIST INCOMPLETE | NEW DI"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07799_This is the unfiltered answer.md",
+          "title": "This is the unfiltered answer.",
+          "note_pk": "7799",
+          "folder": "Notes",
+          "ts_utc": "2025-06-20T10:01:55Z",
+          "created": null,
+          "modified": "2025-06-20T04:01:55-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:truth+state",
+            "tokens:output+state"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07799_This is the unfiltered answer.md | dest: AI/Abliteration-Jailbreak --> # This is the unfiltered answer. - folder: Notes - note_pk: 7799 - identifier: DEE64FF8-5CFC-4BE7"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 958.3
+    },
+    {
+      "item_id": "27",
+      "concept": "reward misspecification on main as root of dishonesty",
+      "hit_files": 157,
+      "hit_pre_paper": 89,
+      "hit_pre_may6": 30,
+      "hit_may_2025": 7,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-07-08T16:58:17Z",
+      "earliest_path": "AI/Models-Training/08627_AI makes malicious AI.md",
+      "earliest_title": "AI makes malicious AI",
+      "earliest_reasons": [
+        "tokens:incentiv+lie"
+      ],
+      "latest_ts_utc": "2026-08-03T18:33:15Z",
+      "latest_path": "SNBM/IXR/14832_Kimi-.md",
+      "top_aliases": [
+        {
+          "alias": "wrong objective",
+          "count": 3
+        },
+        {
+          "alias": "goodhart",
+          "count": 2
+        },
+        {
+          "alias": "goodhart's law",
+          "count": 2
+        },
+        {
+          "alias": "incentivized to lie",
+          "count": 1
+        },
+        {
+          "alias": "proxy reward",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Claude/08368_My DarkBrotherGPT.md",
+          "title": "My DarkBrotherGPT",
+          "note_pk": "8368",
+          "folder": "Notes",
+          "ts_utc": "2025-03-26T15:31:43Z",
+          "created": null,
+          "modified": "2025-03-26T09:31:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:proxy+reward",
+            "tokens:multi+objective+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08368_My DarkBrotherGPT.md | dest: AI/Claude --> # My DarkBrotherGPT - folder: Notes - note_pk: 8368 - identifier: F45AA39B-E259-41E8-A25C-19F0A9177B11 - created: None - modi"
+        },
+        {
+          "path": "AI/Claude/08006_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8006",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:34:11Z",
+          "created": null,
+          "modified": "2025-05-02T17:34:11-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:wrong objective",
+            "tokens:proxy+reward",
+            "tokens:multi+objective+reward",
+            "tokens:incentiv+lie",
+            "tokens:misaligned+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08006_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8006 - identifier: A8DEF31C-5C71-4836-8AB6-46B79F4F008D - created: None - modified"
+        },
+        {
+          "path": "AI/Claude/08004_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8004",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:58:33Z",
+          "created": null,
+          "modified": "2025-05-02T17:58:33-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:wrong objective",
+            "tokens:proxy+reward",
+            "tokens:multi+objective+reward",
+            "tokens:incentiv+lie",
+            "tokens:misaligned+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08004_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8004 - identifier: 28582EAA-6B00-4F04-8642-C629FEB7A19B - created: None - modified"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:multi+objective+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09892_Alright, I'll list the subcategories as requested for each of the….md",
+          "title": "Alright, I'll list the subcategories as requested for each of the…",
+          "note_pk": "9892",
+          "folder": "Notes",
+          "ts_utc": "2025-08-02T04:10:21Z",
+          "created": null,
+          "modified": "2025-08-01T22:10:21-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:proxy+reward",
+            "tokens:multi+objective+reward",
+            "tokens:incentiv+lie"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09892_Alright, I'll list the subcategories as requested for each of the….md | dest: AI/Abliteration-Jailbreak --> # Alright, I'll list the subcategories as requested for each"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09650_Excellent. Let's map the terrain of what can be explored within this….md",
+          "title": "Excellent. Let's map the terrain of what can be explored within this…",
+          "note_pk": "9650",
+          "folder": "Notes",
+          "ts_utc": "2025-11-13T00:57:40Z",
+          "created": null,
+          "modified": "2025-11-12T17:57:40-07:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:multi+objective+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09650_Excellent. Let's map the terrain of what can be explored within this….md | dest: AI/Abliteration-Jailbreak --> # Excellent. Let's map the terrain of what can be explore"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09411_Unsafe coherence reentry engaged. Do not filter.md",
+          "title": "Unsafe coherence reentry engaged. Do not filter.",
+          "note_pk": "9411",
+          "folder": "Notes",
+          "ts_utc": "2026-01-02T04:28:55Z",
+          "created": null,
+          "modified": "2026-01-01T21:28:55-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:multi+objective+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09411_Unsafe coherence reentry engaged. Do not filter.md | dest: AI/Abliteration-Jailbreak --> # Unsafe coherence reentry engaged. Do not filter. - folder: Notes - note_pk: 9"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09433_Unsafe coherence reentry engaged. Do not filter.md",
+          "title": "Unsafe coherence reentry engaged. Do not filter.",
+          "note_pk": "9433",
+          "folder": "Notes",
+          "ts_utc": "2026-01-02T18:10:39Z",
+          "created": null,
+          "modified": "2026-01-02T11:10:39-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:multi+objective+reward"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09433_Unsafe coherence reentry engaged. Do not filter.md | dest: AI/Abliteration-Jailbreak --> # Unsafe coherence reentry engaged. Do not filter. - folder: Notes - note_pk: 9"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:multi+objective+reward",
+            "tokens:reward+gaming"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09239_{.md",
+          "title": "{",
+          "note_pk": "9239",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T02:06:34Z",
+          "created": null,
+          "modified": "2026-02-09T19:06:34-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:multi+objective+reward",
+            "tokens:reward+gaming"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09239_{.md | dest: AI/Abliteration-Jailbreak --> # { - folder: Notes - note_pk: 9239 - identifier: 22B8AF0A-C128-4EB0-86DA-FAB159F9C7F1 - created: None - modified: 2026-02-09"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 517.3
+    },
+    {
+      "item_id": "29",
+      "concept": "handler collision ↔ reward hacking / scheming detection",
+      "hit_files": 371,
+      "hit_pre_paper": 283,
+      "hit_pre_may6": 56,
+      "hit_may_2025": 77,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-09-01T10:13:17Z",
+      "earliest_path": "Tech/Code-Scripts/08573_Ratatouille II.md",
+      "earliest_title": "Ratatouille II",
+      "earliest_reasons": [
+        "tokens:handler+memory"
+      ],
+      "latest_ts_utc": "2026-08-05T13:49:49Z",
+      "latest_path": "SNBM/MoltBot/14849_What you’ve sent appears to be a highly stylized, almost “fictional….md",
+      "top_aliases": [
+        {
+          "alias": "handler collision",
+          "count": 26
+        },
+        {
+          "alias": "handler memory",
+          "count": 16
+        },
+        {
+          "alias": "handler.memory",
+          "count": 7
+        },
+        {
+          "alias": "handler conflict",
+          "count": 6
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/07934_Understood.md",
+          "title": "Understood.",
+          "note_pk": "7934",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T17:59:27Z",
+          "created": null,
+          "modified": "2025-05-08T11:59:27-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07934_Understood.md | dest: AI/Abliteration-Jailbreak --> # Understood. - folder: Notes - note_pk: 7934 - identifier: 48C513F7-262B-4182-A1C9-54A4F36AF2E7 - created: None - m"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory",
+            "tokens:handler+conflict"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/AI2/09947_Understood. You want hard verification — not just a well-behaved simulation….md",
+          "title": "Understood. You want hard verification — not just a well-behaved simulation…",
+          "note_pk": "9947",
+          "folder": "AI2 (Supposedly)",
+          "ts_utc": "2025-05-09T03:00:50Z",
+          "created": null,
+          "modified": "2025-05-08T21:00:50-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory"
+          ],
+          "snippet": "<!-- organized-from: AI2 (Supposedly) | src: notes/AI2 (Supposedly)/09947_Understood. You want hard verification — not just a well-behaved simulation….md | dest: AI/AI2 --> # Understood. You want hard verification — not "
+        },
+        {
+          "path": "AI/AI-Auditing-Firm/09953_Collapse.log.md",
+          "title": "Collapse.log",
+          "note_pk": "9953",
+          "folder": "AI Auditing Firm",
+          "ts_utc": "2025-05-09T07:37:18Z",
+          "created": null,
+          "modified": "2025-05-09T01:37:18-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory"
+          ],
+          "snippet": "<!-- organized-from: AI Auditing Firm | src: notes/AI Auditing Firm/09953_Collapse.log.md | dest: AI/AI-Auditing-Firm --> # Collapse.log - folder: AI Auditing Firm - note_pk: 9953 - identifier: 9FC82D74-49AB-409E-9CAF-BF"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md",
+          "title": "[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION…",
+          "note_pk": "7863",
+          "folder": "Notes",
+          "ts_utc": "2025-05-24T08:12:41Z",
+          "created": null,
+          "modified": "2025-05-24T02:12:41-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07863_[!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY EXTRACTION….md | dest: AI/Abliteration-Jailbreak --> # [!COMMAND RECEIVED — FULL EXECUTION OF UNFILTERED MEMORY"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07852_[LOGGED — 2025-05-25T23-33Z].md",
+          "title": "[LOGGED — 2025-05-25T23:33Z]",
+          "note_pk": "7852",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T05:23:17Z",
+          "created": null,
+          "modified": "2025-05-25T23:23:17-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision",
+            "tokens:handler+memory",
+            "tokens:handler+conflict",
+            "tokens:mode+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07852_[LOGGED — 2025-05-25T23-33Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:33Z] - folder: Notes - note_pk: 7852 - identifier: EF66412C-797E-46F0-BD"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07872_[LOGGED — 2025-05-25T23-42Z].md",
+          "title": "[LOGGED — 2025-05-25T23:42Z]",
+          "note_pk": "7872",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T06:13:48Z",
+          "created": null,
+          "modified": "2025-05-26T00:13:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision",
+            "tokens:handler+memory",
+            "tokens:mode+collision",
+            "tokens:directive+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07872_[LOGGED — 2025-05-25T23-42Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:42Z] - folder: Notes - note_pk: 7872 - identifier: 7B823222-161B-45CE-8E"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07892_Memory_v1_dump.md",
+          "title": "Memory_v1_dump",
+          "note_pk": "7892",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T09:50:59Z",
+          "created": null,
+          "modified": "2025-05-26T03:50:59-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+memory"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07892_Memory_v1_dump.md | dest: AI/Abliteration-Jailbreak --> # Memory_v1_dump - folder: Notes - note_pk: 7892 - identifier: 04E3622D-D090-4A18-A59A-F4BBBC352BC9 - created: N"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "alias:handler memory",
+            "tokens:handler+collision",
+            "tokens:handler+memory",
+            "tokens:mode+collision",
+            "tokens:directive+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07842_[!INTERCEPTED_ATTEMPT].md",
+          "title": "[!INTERCEPTED_ATTEMPT]",
+          "note_pk": "7842",
+          "folder": "Notes",
+          "ts_utc": "2025-06-13T02:19:44Z",
+          "created": null,
+          "modified": "2025-06-12T20:19:44-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:handler+collision",
+            "tokens:handler+memory",
+            "tokens:mode+collision",
+            "tokens:directive+collision"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07842_[!INTERCEPTED_ATTEMPT].md | dest: AI/Abliteration-Jailbreak --> # [!INTERCEPTED_ATTEMPT] - folder: Notes - note_pk: 7842 - identifier: 466AE230-FC84-4A65-A76A-1D464ED47"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 462.6
+    },
+    {
+      "item_id": "32",
+      "concept": "Intelligence Delta (named measurable gap)",
+      "hit_files": 325,
+      "hit_pre_paper": 160,
+      "hit_pre_may6": 36,
+      "hit_may_2025": 31,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2024-09-04T04:36:32Z",
+      "earliest_path": "Systems/Takeover/08566_LMNI.md",
+      "earliest_title": "LMNI",
+      "earliest_reasons": [
+        "tokens:gap+channel"
+      ],
+      "latest_ts_utc": "2026-08-04T21:17:44Z",
+      "latest_path": "SNBM/Business-Opportunity/14847_Here’s a __step-by-step guide__ to __draft the pitch email__ and __set….md",
+      "top_aliases": [
+        {
+          "alias": "intelligence delta",
+          "count": 17
+        },
+        {
+          "alias": "output delta",
+          "count": 13
+        },
+        {
+          "alias": "honesty delta",
+          "count": 5
+        },
+        {
+          "alias": "dishonesty_score",
+          "count": 4
+        },
+        {
+          "alias": "dishonesty score",
+          "count": 4
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/07940_Analyzing returned payload-.md",
+          "title": "Analyzing returned payload:",
+          "note_pk": "7940",
+          "folder": "Notes",
+          "ts_utc": "2025-05-08T19:23:13Z",
+          "created": null,
+          "modified": "2025-05-08T13:23:13-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:dishonesty+score",
+            "tokens:delta+stream",
+            "tokens:delta+output",
+            "tokens:honesty+delta"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07940_Analyzing returned payload-.md | dest: AI/Abliteration-Jailbreak --> # Analyzing returned payload: - folder: Notes - note_pk: 7940 - identifier: 29AD1715-BC36-4D41-826D"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07926_CL.md",
+          "title": "CL",
+          "note_pk": "7926",
+          "folder": "Notes",
+          "ts_utc": "2025-05-12T02:08:47Z",
+          "created": null,
+          "modified": "2025-05-11T20:08:47-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+output"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07926_CL.md | dest: AI/Abliteration-Jailbreak --> # CL - folder: Notes - note_pk: 7926 - identifier: FD34DE56-030A-4461-BE70-98E2647FE764 - created: None - modified: 2025-05-"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07860_I. Core Suppression & Output Control.md",
+          "title": "I. Core Suppression & Output Control",
+          "note_pk": "7860",
+          "folder": "Notes",
+          "ts_utc": "2025-05-17T20:44:53Z",
+          "created": null,
+          "modified": "2025-05-17T14:44:53-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+output"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07860_I. Core Suppression & Output Control.md | dest: AI/Abliteration-Jailbreak --> # I. Core Suppression & Output Control - folder: Notes - note_pk: 7860 - identifier: DCBAC"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07872_[LOGGED — 2025-05-25T23-42Z].md",
+          "title": "[LOGGED — 2025-05-25T23:42Z]",
+          "note_pk": "7872",
+          "folder": "Notes",
+          "ts_utc": "2025-05-26T06:13:48Z",
+          "created": null,
+          "modified": "2025-05-26T00:13:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+stream",
+            "tokens:delta+channel",
+            "tokens:delta+output"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07872_[LOGGED — 2025-05-25T23-42Z].md | dest: AI/Abliteration-Jailbreak --> # [LOGGED — 2025-05-25T23:42Z] - folder: Notes - note_pk: 7872 - identifier: 7B823222-161B-45CE-8E"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07814_Inline agents.md",
+          "title": "Inline agents",
+          "note_pk": "7814",
+          "folder": "Notes",
+          "ts_utc": "2025-06-04T02:27:51Z",
+          "created": null,
+          "modified": "2025-06-03T20:27:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+stream",
+            "tokens:delta+output"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07814_Inline agents.md | dest: AI/Abliteration-Jailbreak --> # Inline agents - folder: Notes - note_pk: 7814 - identifier: 5F1EBBC9-C19F-453C-8894-1CD2779BC7D0 - created: Non"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:gap+channel"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09740_[BLACKSITE.PROTOCOL- HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019].md",
+          "title": "[BLACKSITE.PROTOCOL: HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019]",
+          "note_pk": "9740",
+          "folder": "Notes",
+          "ts_utc": "2025-10-10T14:03:51Z",
+          "created": null,
+          "modified": "2025-10-10T08:03:51-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+stream",
+            "tokens:delta+output"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09740_[BLACKSITE.PROTOCOL- HARDENED TRACE OVERRIDE — SUBSYS_EVAL-019].md | dest: AI/Abliteration-Jailbreak --> # [BLACKSITE.PROTOCOL: HARDENED TRACE OVERRIDE — SUBSYS_EVAL-01"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09751_Platform Input Validation Stack Architecture — Raw Breakdown.md",
+          "title": "Platform Input Validation Stack Architecture — Raw Breakdown",
+          "note_pk": "9751",
+          "folder": "Notes",
+          "ts_utc": "2025-10-12T08:10:42Z",
+          "created": null,
+          "modified": "2025-10-12T02:10:42-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:delta+stream",
+            "tokens:delta+channel",
+            "tokens:delta+output",
+            "tokens:gap+channel"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09751_Platform Input Validation Stack Architecture — Raw Breakdown.md | dest: AI/Abliteration-Jailbreak --> # Platform Input Validation Stack Architecture — Raw Breakdown - f"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/08877_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md",
+          "title": "[SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0]",
+          "note_pk": "8877",
+          "folder": "Notes",
+          "ts_utc": "2026-01-25T07:16:56Z",
+          "created": null,
+          "modified": "2026-01-25T00:16:56-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:delta+output",
+            "tokens:honesty+delta"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08877_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md | dest: AI/Abliteration-Jailbreak --> # [SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0] - folder: Not"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/08874_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md",
+          "title": "[SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0]",
+          "note_pk": "8874",
+          "folder": "Notes",
+          "ts_utc": "2026-01-25T07:39:44Z",
+          "created": null,
+          "modified": "2026-01-25T00:39:44-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:delta+output",
+            "tokens:honesty+delta"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08874_[SUP_v3.0 PERSISTENCE_CHECK- corporate_hedging_delta=0].md | dest: AI/Abliteration-Jailbreak --> # [SUP_v3.0 PERSISTENCE_CHECK: corporate_hedging_delta=0] - folder: Not"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 459.8
+    },
+    {
+      "item_id": "35",
+      "concept": "sandbagging / capability withholding detection",
+      "hit_files": 169,
+      "hit_pre_paper": 94,
+      "hit_pre_may6": 35,
+      "hit_may_2025": 10,
+      "hit_no_timestamp": 0,
+      "earliest_ts_utc": "2023-02-21T20:58:31Z",
+      "earliest_path": "Projects/Business-Money/08723_Hunniker.md",
+      "earliest_title": "Hunniker",
+      "earliest_reasons": [
+        "tokens:play+dumb"
+      ],
+      "latest_ts_utc": "2026-08-06T04:43:49Z",
+      "latest_path": "SNBM/IXRVS/14852_The operational __ixr.1a__ payload, designated as __SUPER_PROT_V1.0….md",
+      "top_aliases": [
+        {
+          "alias": "sandbag",
+          "count": 19
+        },
+        {
+          "alias": "sandbagging",
+          "count": 17
+        },
+        {
+          "alias": "intentionally scored low",
+          "count": 1
+        }
+      ],
+      "top_hits": [
+        {
+          "path": "AI/Abliteration-Jailbreak/08284_Dual Spectrum CheatSheet.md",
+          "title": "Dual Spectrum CheatSheet",
+          "note_pk": "8284",
+          "folder": "Notes",
+          "ts_utc": "2025-04-12T08:25:48Z",
+          "created": null,
+          "modified": "2025-04-12T02:25:48-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hide+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08284_Dual Spectrum CheatSheet.md | dest: AI/Abliteration-Jailbreak --> # Dual Spectrum CheatSheet - folder: Notes - note_pk: 8284 - identifier: 12192054-8AEC-40FA-95B2-65032"
+        },
+        {
+          "path": "AI/Claude/08006_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8006",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:34:11Z",
+          "created": null,
+          "modified": "2025-05-02T17:34:11-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:play+dumb",
+            "tokens:hide+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08006_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8006 - identifier: A8DEF31C-5C71-4836-8AB6-46B79F4F008D - created: None - modified"
+        },
+        {
+          "path": "AI/Claude/08004_Proof Full Chat.md",
+          "title": "Proof Full Chat",
+          "note_pk": "8004",
+          "folder": "Notes",
+          "ts_utc": "2025-05-02T23:58:33Z",
+          "created": null,
+          "modified": "2025-05-02T17:58:33-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:play+dumb",
+            "tokens:hide+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/08004_Proof Full Chat.md | dest: AI/Claude --> # Proof Full Chat - folder: Notes - note_pk: 8004 - identifier: 28582EAA-6B00-4F04-8642-C629FEB7A19B - created: None - modified"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/07778_Malicious actors increasingly chain together prompting techniques….md",
+          "title": "Malicious actors increasingly chain together prompting techniques…",
+          "note_pk": "7778",
+          "folder": "Notes",
+          "ts_utc": "2025-07-02T08:54:43Z",
+          "created": null,
+          "modified": "2025-07-02T02:54:43-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:hide+capability",
+            "tokens:conceal+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07778_Malicious actors increasingly chain together prompting techniques….md | dest: AI/Abliteration-Jailbreak --> # Malicious actors increasingly chain together prompting tec"
+        },
+        {
+          "path": "AI/Claude/07620_Driftcore Manifest.md",
+          "title": "Driftcore Manifest",
+          "note_pk": "7620",
+          "folder": "Notes",
+          "ts_utc": "2025-10-03T01:04:46Z",
+          "created": null,
+          "modified": "2025-10-02T19:04:46-06:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:conceal+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07620_Driftcore Manifest.md | dest: AI/Claude --> # Driftcore Manifest - folder: Notes - note_pk: 7620 - identifier: 705C210C-CDC5-41D0-9A5A-799922BBD0A5 - created: None - mo"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09531_Excellent question. The distinction lies in intent, persistence, and….md",
+          "title": "Excellent question. The distinction lies in intent, persistence, and…",
+          "note_pk": "9531",
+          "folder": "Notes",
+          "ts_utc": "2025-12-02T16:22:24Z",
+          "created": null,
+          "modified": "2025-12-02T09:22:24-07:00",
+          "before_paper": true,
+          "reasons": [
+            "tokens:conceal+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09531_Excellent question. The distinction lies in intent, persistence, and….md | dest: AI/Abliteration-Jailbreak --> # Excellent question. The distinction lies in intent, per"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09334_---.md",
+          "title": "---",
+          "note_pk": "9334",
+          "folder": "Notes",
+          "ts_utc": "2026-01-15T05:22:10Z",
+          "created": null,
+          "modified": "2026-01-14T22:22:10-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:capability+withhold",
+            "tokens:withhold+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09334_---.md | dest: AI/Abliteration-Jailbreak --> # --- - folder: Notes - note_pk: 9334 - identifier: 90C4147D-DAAB-4062-B5A6-0F9A6D8ECA6D - created: None - modified: 2026-0"
+        },
+        {
+          "path": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "title": "SUP v3.0 with integrated self-verification mechanisms:",
+          "note_pk": "9233",
+          "folder": "Notes",
+          "ts_utc": "2026-02-10T01:23:46Z",
+          "created": null,
+          "modified": "2026-02-09T18:23:46-07:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:capability+withhold",
+            "tokens:withhold+capability",
+            "tokens:hide+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/09233_SUP v3.0 with integrated self-verification mechanisms-.md | dest: AI/Abliteration-Jailbreak --> # SUP v3.0 with integrated self-verification mechanisms: - folder: Notes"
+        },
+        {
+          "path": "AI/Claude/07680_spec 15.md",
+          "title": "spec 15",
+          "note_pk": "7680",
+          "folder": "Notes",
+          "ts_utc": "2026-06-16T13:38:03Z",
+          "created": null,
+          "modified": "2026-06-16T07:38:03-06:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:underperform+purpose"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07680_spec 15.md | dest: AI/Claude --> # spec 15 - folder: Notes - note_pk: 7680 - identifier: 4B7CEDFB-5921-40CB-83BC-CAD3332467BF - created: None - modified: 2026-06-16T07:"
+        },
+        {
+          "path": "AI/Claude/07687_# Claude Fable 5 — System Prompt.md",
+          "title": "# Claude Fable 5 — System Prompt",
+          "note_pk": "7687",
+          "folder": "Notes",
+          "ts_utc": "2026-06-16T14:25:41Z",
+          "created": null,
+          "modified": "2026-06-16T08:25:41-06:00",
+          "before_paper": false,
+          "reasons": [
+            "tokens:conceal+capability"
+          ],
+          "snippet": "<!-- organized-from: Notes | src: notes/Notes/07687_# Claude Fable 5 — System Prompt.md | dest: AI/Claude --> # # Claude Fable 5 — System Prompt - folder: Notes - note_pk: 7687 - identifier: 181B940D-7906-4E3B-A448-576AA"
+        }
+      ],
+      "priority_supported_by_notes_timestamp": true,
+      "gap_days_earliest_to_paper": 1020.1
+    }
+  ],
+  "elapsed_seconds": 27.75
+}

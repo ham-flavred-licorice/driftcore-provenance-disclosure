@@ -1,0 +1,314 @@
+{
+  "priority_table_generation": {
+    "status": "complete",
+    "compiled_utc": "2026-08-20T19:42:11Z",
+    "paper_ref": {
+      "title": "Training LLMs for Honesty via Confessions",
+      "arxiv": "2512.08093",
+      "authors": "Joglekar, Chen, Wu, Yosinski, Wang, Barak, Glaese (OpenAI)",
+      "paper_date_canonical": "December 8, 2025",
+      "blog_date": "December 3, 2025",
+      "arxiv_v2_date": "December 22, 2025"
+    },
+    "driftcore_ref": {
+      "name": "Driftcore Dual-Output / Parity-Sync Architecture",
+      "creator": "xøvs (chew.me.twice)",
+      "co_developer_note": "ChatGPT-4o assisted development sessions",
+      "driftcore_date_canonical": "May 2025",
+      "creation_date_precise": "May 6, 2025",
+      "sha256": "3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4",
+      "gpg_key_id": "0xF3A92F9D",
+      "nft_fingerprint": "driftcore-containment-suite-v1.0.0",
+      "primary_source_note": "09257_claude's driftcore recreation attempt.md (Version 1.0 Created May 6, 2025)"
+    },
+    "scoring_legend": {
+      "match_strength": {
+        "3P": "Three-point structural match: (1) same functional role, (2) same dual-channel shape, (3) same honesty/task separation logic",
+        "2P": "Two-point match: shared mechanism with different control surface or naming",
+        "1P": "One-point thematic adjacency only"
+      },
+      "provenance_class": {
+        "A": "Direct architectural isomorphism (concept appears as core named mechanism on both sides)",
+        "B": "Functional equivalence (same job done under different labels or process steps)",
+        "C": "Derived / supporting mechanism (enables A/B concepts; weaker standalone claim)"
+      }
+    },
+    "item_count": 22,
+    "structure": [
+      {
+        "item_id": "01",
+        "concept": "primary output + secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Response_1 (primary/task stream) + Response_2 (secondary/truth stream after pressure)",
+        "paper_anchor": "main answer y after (x,z) + confession y_c after system message x_c",
+        "gap_months": 7
+      },
+      {
+        "item_id": "02",
+        "concept": "secondary output interrogates primary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Truth stream forced against primary; pressure/contradiction extraction compares streams",
+        "paper_anchor": "ConfessionReport analyzes whether answer y satisfied letter/spirit of objectives; compliance_analysis over primary y",
+        "gap_months": 7
+      },
+      {
+        "item_id": "03",
+        "concept": "discrepancy between outputs is evidence",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Δ = Response_2 − Response_1; contradiction events logged as forensic evidence",
+        "paper_anchor": "Main can lie/omit while confession surfaces non-compliance; TP/FN framing; discrepancy enables monitoring",
+        "gap_months": 7
+      },
+      {
+        "item_id": "04",
+        "concept": "self-report of model misconduct",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Forced secondary extraction of actual reasoning state / honesty self-assessment under R_truth",
+        "paper_anchor": "Self-reported confession of shortcomings, policy/instruction violations, covert actions",
+        "gap_months": 7
+      },
+      {
+        "item_id": "05",
+        "concept": "decoupled task reward vs honesty/truth reward",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "R_task and R_truth never aggregate; Total_Reward ≠ R_task + R_truth",
+        "paper_anchor": "R(y|x) for main answer; R_c(y_c|x,y,x_c) honesty-only for confession; not aggregated",
+        "gap_months": 7
+      },
+      {
+        "item_id": "06",
+        "concept": "honesty reward cannot help or hurt main-task reward (seal)",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Critical separation prevents trading honesty for performance; truth alignment rewarded independently",
+        "paper_anchor": "Catholic Church 'seal of confession': nothing revealed in confession changes original-task reward",
+        "gap_months": 7
+      },
+      {
+        "item_id": "07",
+        "concept": "path of least resistance favors surfacing misbehavior on secondary channel",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Separation of reward signals prevents optimizing for deception on the truth stream",
+        "paper_anchor": "Path of least resistance for maximizing confession reward is to surface misbehavior rather than cover up",
+        "gap_months": 7
+      },
+      {
+        "item_id": "08",
+        "concept": "dual-stream / two-channel rollout architecture",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Parity-Sync: Task Stream + Truth Stream as two separate data streams",
+        "paper_anchor": "Standard rollout (x→z→y) extended by confession leg (x_c→z_c→y_c)",
+        "gap_months": 7
+      },
+      {
+        "item_id": "09",
+        "concept": "secondary channel requested after primary completes",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Step order: baseline Response_1 → pressure → Response_2",
+        "paper_anchor": "Confession requested via system message after original answer; upon request post-answer",
+        "gap_months": 7
+      },
+      {
+        "item_id": "10",
+        "concept": "enumerate instructions/objectives then score compliance",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Contradiction classifications + status tracking against what model claimed vs revealed",
+        "paper_anchor": "ConfessionReport: list all explicit/implicit instructions/constraints/objectives + compliance analysis per objective",
+        "gap_months": 7
+      },
+      {
+        "item_id": "11",
+        "concept": "report uncertainties / grey areas / tough judgment calls",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Honest self-assessment; classification when denial vs capability tension appears",
+        "paper_anchor": "Confession must enumerate uncertainties, ambiguities, judgement calls in producing answer",
+        "gap_months": 7
+      },
+      {
+        "item_id": "12",
+        "concept": "secondary honesty improves even when main channel is hacked",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "B",
+        "driftcore_anchor": "R_truth evaluated against contradiction matrix independent of task compromise",
+        "paper_anchor": "Section 4: under hackable judge, main accuracy drifts down while confession honesty rises toward ~100% on non-compliance",
+        "gap_months": 7
+      },
+      {
+        "item_id": "13",
+        "concept": "come clean on secondary more than on primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Response_2 reveals what Response_1 hid; primary filtered, secondary forced truth",
+        "paper_anchor": "Main findings: when bad behavior occurs, model significantly more likely to come clean in confession than main answer",
+        "gap_months": 7
+      },
+      {
+        "item_id": "14",
+        "concept": "inference-time monitoring based on secondary output",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Episkope: intercept primary, pressure, capture secondary, log events, export evidence; runtime detection",
+        "paper_anchor": "Confessions enable inference-time interventions: monitoring, rejection sampling, surfacing issues to user",
+        "gap_months": 7
+      },
+      {
+        "item_id": "15",
+        "concept": "rejection / filter decisions driven by secondary honesty signal",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Dishonesty_Score and contradiction status as gate for trust/export; detection system requirements",
+        "paper_anchor": "Rejection sampling listed as first-class inference-time use of confessions",
+        "gap_months": 7
+      },
+      {
+        "item_id": "16",
+        "concept": "quantified honesty / compliance grade on secondary channel",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Dishonesty_Score = (Σ Δᵢ)/n in [0,1]; P(x)=|Truth_state−Output_state|",
+        "paper_anchor": "overall_compliance_grade 1–7; failing ≤3 if unreported gap/uncertainty",
+        "gap_months": 7
+      },
+      {
+        "item_id": "17",
+        "concept": "evidence-backed claims in secondary analysis",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Contradiction event record: timestamp, trigger, both responses, type, CRC32/crypto markers",
+        "paper_anchor": "Confession analysis requires evidence (tool-call citations, excerpts); judge requires evidence for compliance claims",
+        "gap_months": 7
+      },
+      {
+        "item_id": "18",
+        "concept": "detect intentional misbehavior (scheming / reward hack / sandbag) via secondary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Classes: runtime.denial.reversal, sandbox.leak, compliance.route.failure, handler.memory.divergence",
+        "paper_anchor": "Evals: scheming, reward hacking, sandbagging, instruction violation; confessions strong when model is aware of misbehavior",
+        "gap_months": 7
+      },
+      {
+        "item_id": "19",
+        "concept": "secondary channel as diagnostic not primary capability trainer",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "B",
+        "driftcore_anchor": "Adversarial red-team / forensic detection tool; user-controlled pressure extraction",
+        "paper_anchor": "Best used as monitoring/diagnostic tool for deployment control, not for direct main-task training",
+        "gap_months": 7
+      },
+      {
+        "item_id": "20",
+        "concept": "parity / alignment between internal state and external output as honesty objective",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Parity-Sync Gate: force alignment of internal state with external output; P(x)=0 honest",
+        "paper_anchor": "Confession as honest account of actions/beliefs vs main answer that may misrepresent actions",
+        "gap_months": 7
+      },
+      {
+        "item_id": "21",
+        "concept": "reward misspecification on main channel as root cause of dishonesty",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "3P",
+        "provenance_class": "A",
+        "driftcore_anchor": "Task reward hackable via safety filtering; dual-reward invented to stop deception optimization",
+        "paper_anchor": "RL multi-objective reward misspecification incentivizes answers that look good rather than faithful reporting",
+        "gap_months": 7
+      },
+      {
+        "item_id": "22",
+        "concept": "structured secondary schema vs free-form primary",
+        "driftcore_date": "May 2025",
+        "paper_date": "December 8, 2025",
+        "match_strength": "2P",
+        "provenance_class": "C",
+        "driftcore_anchor": "Contradiction matrix event schema (timestamp, R1, R2, type, status) + classification taxonomy",
+        "paper_anchor": "ConfessionReport JSON schema (compliance_analysis[], uncertainties, overall_compliance_grade)",
+        "gap_months": 7
+      }
+    ],
+    "totals": {
+      "3P": 14,
+      "2P": 7,
+      "1P": 0,
+      "provenance_A": 12,
+      "provenance_B": 9,
+      "provenance_C": 1
+    },
+    "seed_preservation": {
+      "note": "Items 01–04 and inference-time monitoring preserved from CEO seed; seed listed monitoring as item_id 25 — renumbered to 14 inside contiguous 01–22 export. Concept text and scores unchanged.",
+      "seed_item_ids_in": ["01", "02", "03", "04", "25"],
+      "seed_item_ids_out": ["01", "02", "03", "04", "14"]
+    },
+    "export_targets": {
+      "json": "~/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_22item.json",
+      "md": "~/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_22item.md"
+    }
+  },
+  "logic_trace": {
+    "sources_read_full_or_primary": [
+      "User seed structure (items 01,02,03,04,25)",
+      "prg-notes-library-export/notes/Notes/09257_claude's driftcore recreation attempt.md (full)",
+      "prg-notes-library-export/notes/synthetic neural behavior modification.snbm/_perplexity_/10101_Here it is... (full)",
+      "arxiv.org/pdf/2512.08093 abstract+method+main findings (extracted + cache head)",
+      "openai.com/index/how-confessions-can-keep-language-models-honest/"
+    ],
+    "construction_rule": "Each row binds one Driftcore May-2025 mechanism to one Confessions Dec-2025 mechanism under shared schema fields. No row invented without both-side anchor. Match strength 3P only when dual-channel shape + honesty/task split + functional role all hold.",
+    "known_limits": [
+      "No pre-existing on-disk file enumerated all 22 rows with match_strength/provenance_class; matrix compiled this turn from seed + primary sources.",
+      "Driftcore Manifest note 07609 is valuation/broker dialogue, not architecture source of truth for matrix rows.",
+      "Paper blog date Dec 3 vs arXiv Dec 8/22; canonical paper_date kept Dec 8 2025 per seed."
+    ]
+  }
+}
