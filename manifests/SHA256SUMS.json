@@ -1,7 +1,7 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T08:59:00Z",
-  "file_count": 46,
+  "generated_utc": "2026-08-21T14:20:50Z",
+  "file_count": 53,
   "files": [
     {
       "path": ".gitignore",
@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "e07b282f3813a4d697e3f1c1ed5ed464463c4df265148f38bc40cc61196b4deb",
-      "bytes": 6271
+      "sha256": "728c16cd36e0629750264ecdf9a44109f508f1b2cc1f38201f1d391fcde8bf38",
+      "bytes": 14209
     },
     {
       "path": "docs/PACKAGING.md",
@@ -32,6 +32,36 @@
       "path": "methods/matrix12_notes_organized_expanded_search.py",
       "sha256": "a0df8715b58ac4a80b761504b00941d2328fcf56c8e6006cdba3faea83ff93e1",
       "bytes": 24326
+    },
+    {
+      "path": "methods/matrix13_adversarial_edgecase_search.py",
+      "sha256": "8392fa0bee9df4dff4ded6d2fef74266daacd9aa3a69f912f11b323c929c8c2d",
+      "bytes": 30021
+    },
+    {
+      "path": "reports/matrix/TAXONOMY_35of35.md",
+      "sha256": "f0e08100941f650e2cafd0fa6fed33beb71e7285f110d0b3f8d7d030d6a407e1",
+      "bytes": 954
+    },
+    {
+      "path": "reports/matrix/adversarial35/README_STRUCTURE_35of35.md",
+      "sha256": "728c16cd36e0629750264ecdf9a44109f508f1b2cc1f38201f1d391fcde8bf38",
+      "bytes": 14209
+    },
+    {
+      "path": "reports/matrix/adversarial35/matrix35_adversarial_reconciliation.json",
+      "sha256": "48556fbd002fd1531e453f51d0aafe11a397d1656d6fde37a86bf3eec4703acf",
+      "bytes": 100765
+    },
+    {
+      "path": "reports/matrix/adversarial35/matrix35_reconciled_report.md",
+      "sha256": "e7d96363145a1dc1337062fdd5398dd49e20063b72f57a97815cb6c3d7dc385e",
+      "bytes": 15263
+    },
+    {
+      "path": "reports/matrix/adversarial35/matrix35_rows.json",
+      "sha256": "5e5ae048d23f1cff94cfb43bfda470084e43e0d418b3b6fbc876e9d362a17af0",
+      "bytes": 29221
     },
     {
       "path": "reports/matrix/export-bind/matrix22_export_create_time_bind.json",
@@ -219,6 +249,11 @@
       "bytes": 816
     },
     {
+      "path": "verification/git_freeze_35of35.txt",
+      "sha256": "1c5cf9c41db19528906eda3afdc5733533afd7d6073d765769e35066e2192266",
+      "bytes": 296
+    },
+    {
       "path": "verification/live_disk_verification.log",
       "sha256": "13aca42a3862453485b517f2a6d8346badcb40079cd48a27a63506b90f35c17c",
       "bytes": 903
@@ -234,10 +269,17 @@
       "bytes": 6613
     }
   ],
+  "taxonomy": {
+    "denominator": "35/35",
+    "core_architecture": 22,
+    "adversarial_edge_cases": 13
+  },
   "omission_guard": {
     "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
     "historical_ledger_baseline_2489": 2489,
     "live_find_type_f_2493": 2493,
-    "unified_coverage": "22/22"
-  }
+    "unified_coverage": "35/35"
+  },
+  "cited_primary_manifest_freeze_sha256": "5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c",
+  "gpg_signature_anchor": "RSA 35E3E1694524C7FB"
 }
