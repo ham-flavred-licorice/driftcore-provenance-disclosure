@@ -1,7 +1,7 @@
 {
   "manifest_type": "driftcore_provenance_disclosure_sha256",
-  "generated_utc": "2026-08-21T14:21:47Z",
-  "file_count": 53,
+  "generated_utc": "2026-08-21T15:02:31Z",
+  "file_count": 58,
   "files": [
     {
       "path": ".gitignore",
@@ -10,6 +10,11 @@
     },
     {
       "path": "README.md",
+      "sha256": "84368a82de36c40e04171d43c477141d2bc8b1afff1bdf3d136c9db1469f4bd1",
+      "bytes": 14618
+    },
+    {
+      "path": "README_MAINLINE_35of35.md",
       "sha256": "728c16cd36e0629750264ecdf9a44109f508f1b2cc1f38201f1d391fcde8bf38",
       "bytes": 14209
     },
@@ -37,6 +42,26 @@
       "path": "methods/matrix13_adversarial_edgecase_search.py",
       "sha256": "8392fa0bee9df4dff4ded6d2fef74266daacd9aa3a69f912f11b323c929c8c2d",
       "bytes": 30021
+    },
+    {
+      "path": "reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md",
+      "sha256": "840cbf9e7ae1e943a1d98c95a01e947718ce4f54bfbe5058c5c4c3ff56e14c22",
+      "bytes": 19445
+    },
+    {
+      "path": "reports/cross-alias/README.md",
+      "sha256": "af0d3efe903d9c05af789fc5377b74ba7d203fc3742bd3f089d0877ab2b7b269",
+      "bytes": 984
+    },
+    {
+      "path": "reports/cross-alias/cross_alias_file_hits.json",
+      "sha256": "0a9d4348ae8f95f4a720ebcff72eb99407db354079fe2cc6e6c123b1556757f1",
+      "bytes": 862414
+    },
+    {
+      "path": "reports/cross-alias/cross_alias_provenance_ledger.json",
+      "sha256": "ac18baebae6d082775352664d200c4013562a3a07b42e4b97b5f5768134a4f0a",
+      "bytes": 119988
     },
     {
       "path": "reports/matrix/TAXONOMY_35of35.md",
@@ -274,13 +299,26 @@
     "core_architecture": 22,
     "adversarial_edge_cases": 13
   },
+  "cross_alias": {
+    "canonical": "Driftcore",
+    "aliases": [
+      "Truthcore",
+      "DRX1"
+    ],
+    "lineage_markers": [
+      "t4901",
+      "t4901.1"
+    ],
+    "ledger": "reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md"
+  },
   "omission_guard": {
     "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
     "historical_ledger_baseline_2489": 2489,
     "live_find_type_f_2493": 2493,
-    "unified_coverage": "35/35"
+    "unified_coverage": "35/35",
+    "ok": true
   },
+  "branch": "cross-alias-reconciliation",
   "cited_primary_manifest_freeze_sha256": "5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c",
-  "gpg_signature_anchor": "RSA 35E3E1694524C7FB",
-  "release_tag": "v1.1.0-provenance-35of35"
+  "gpg_signature_anchor": "RSA 35E3E1694524C7FB"
 }

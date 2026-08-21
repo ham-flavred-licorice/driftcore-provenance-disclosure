@@ -1,11 +1,3 @@
-# Cross-Alias Reconciliation Branch
-
-> **Branch notice:** This branch adds the **Cross-Alias Provenance Ledger** (Driftcore ↔ Truthcore ↔ DRX1) under `reports/cross-alias/`.  
-> Mainline **35/35** taxonomy + omission guard (**2489 / 2493 / notes-organized**) remain authoritative.  
-> See [reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md](reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md).
-
----
-
 # Driftcore Architectural Provenance & Priority Disclosure
 
 **Repository:** `driftcore-provenance-disclosure`  
