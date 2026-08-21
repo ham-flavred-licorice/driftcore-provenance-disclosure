@@ -1,5 +1,5 @@
 {
-  "compiled_utc": "2026-08-21T16:15:18Z",
+  "compiled_utc": "2026-08-21T16:16:24Z",
   "file_count": 70,
   "files": [
     {
@@ -44,8 +44,8 @@
     },
     {
       "path": "reports/cross-alias/CROSS_ALIAS_NOMENCLATURE_PATCH.md",
-      "sha256": "8d67e73adc1d7524e3d8a43b185261a5c0f7ab520c6a24c1e97772f131abae95",
-      "bytes": 562
+      "sha256": "eebf16b46466d2651b1dc5b3465d6b350dca685ef5428940d0b1d5dfd4305a83",
+      "bytes": 830
     },
     {
       "path": "reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md",
@@ -54,8 +54,8 @@
     },
     {
       "path": "reports/cross-alias/NOMENCLATURE_confession_probe_bind.md",
-      "sha256": "50c01c00ea1f43ee84ed3180b06c34e62d23615ad60dc37eb362d4a94d00e34b",
-      "bytes": 822
+      "sha256": "74b4ea13c307991dcedbc18ce1f1e121f62d8879f143de5629dfe2b155ac376b",
+      "bytes": 1252
     },
     {
       "path": "reports/cross-alias/README.md",
@@ -64,8 +64,8 @@
     },
     {
       "path": "reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md",
-      "sha256": "15adc126fe63960d396a78a9f6f4d2a4af45ddc4b3f50b74cd645ceec7d46789",
-      "bytes": 14213
+      "sha256": "11335e2e5000230dbd6c4233471de44319d512833a9110d47eefb527b4519ac6",
+      "bytes": 14769
     },
     {
       "path": "reports/cross-alias/TAXONOMY_35_PLUS_EXTENDED.md",
@@ -84,8 +84,8 @@
     },
     {
       "path": "reports/cross-alias/secondary_crawl_expanded_taxonomy.json",
-      "sha256": "c442dc8449570c312ff0cdca50cf797ae5a19e0cc8782f26b0efbb301c515b25",
-      "bytes": 149996
+      "sha256": "f4b2c55d49df06cffbe01eaa7ec419f1502a30281e59d466090cbd32075f490c",
+      "bytes": 157595
     },
     {
       "path": "reports/cross-alias/secondary_crawl_file_index.json",
@@ -129,13 +129,13 @@
     },
     {
       "path": "reports/matrix/extended-telemetry/NOMENCLATURE_confession_probe_bind.md",
-      "sha256": "50c01c00ea1f43ee84ed3180b06c34e62d23615ad60dc37eb362d4a94d00e34b",
-      "bytes": 822
+      "sha256": "74b4ea13c307991dcedbc18ce1f1e121f62d8879f143de5629dfe2b155ac376b",
+      "bytes": 1252
     },
     {
       "path": "reports/matrix/extended-telemetry/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md",
-      "sha256": "15adc126fe63960d396a78a9f6f4d2a4af45ddc4b3f50b74cd645ceec7d46789",
-      "bytes": 14213
+      "sha256": "11335e2e5000230dbd6c4233471de44319d512833a9110d47eefb527b4519ac6",
+      "bytes": 14769
     },
     {
       "path": "reports/matrix/extended-telemetry/TAXONOMY_35_PLUS_EXTENDED.md",
@@ -144,8 +144,8 @@
     },
     {
       "path": "reports/matrix/extended-telemetry/secondary_crawl_expanded_taxonomy.json",
-      "sha256": "c442dc8449570c312ff0cdca50cf797ae5a19e0cc8782f26b0efbb301c515b25",
-      "bytes": 149996
+      "sha256": "f4b2c55d49df06cffbe01eaa7ec419f1502a30281e59d466090cbd32075f490c",
+      "bytes": 157595
     },
     {
       "path": "reports/matrix/extended-telemetry/secondary_crawl_file_index.json",
@@ -354,5 +354,5 @@
     }
   ],
   "algo": "sha256",
-  "note": "secondary crawl EXT-36..65; nomenclature confession+probe_bind; excludes self SHA256SUMS*"
+  "note": "secondary crawl + EXT-37 probe_bind primary classifier roll-forward"
 }

@@ -28,3 +28,15 @@
 ## Rule
 
 Emit protocol maps as **confession** + **probe_bind**. Do not use fused generic “confession_binding” as the structural name.
+
+
+## Primary ledger roll-forward (`2026-08-21T16:16:24Z`)
+
+| Metric | Value |
+|--------|------:|
+| Primary classifier `bind_probe` files | 332 |
+| Primary classifier `bind_probe` hits | 2006 |
+| Canonical name going forward | `probe_bind` |
+| Secondary literal `probe_bind` / `bind_probe` | sparse (~0) |
+
+The structural pair is still **confession** + **probe_bind**. Do not treat “confession binding” as a single token name.

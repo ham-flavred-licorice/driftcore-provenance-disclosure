@@ -23,10 +23,19 @@ Exact structural nomenclature (replaces generic “confession binding”):
 |-------|------|------:|-----:|
 | **confession** | canonical | 794 | 26041 |
 | **probe_bind** | canonical | 0 | 0 |
-| bind_probe | legacy alias → probe_bind | 0 | 0 |
+| bind_probe | legacy alias → probe_bind (primary classifier) | 332 | 2006 |
 | confession_binding* | legacy generic | 0 | 0 |
 
 Prior cross-alias ledger protocol key `bind_probe` is retained as **legacy alias** of **probe_bind**.
+
+### EXT-37 / probe_bind count basis (post-fix `2026-08-21T16:16:24Z`)
+
+Primary cross-alias ledger stored protocol classifier key **`bind_probe`** on **332** files (**2006** marker hits) in `cross_alias_file_hits.json`.
+
+Secondary crawl **canonical rename:** `bind_probe` → **`probe_bind`**.
+
+Literal secondary scan of tokens `probe_bind` / `bind_probe` in raw corpus is sparse (near-zero); mass is the **prior classifier label**, not a fused “confession binding” string. Pair remains **confession** + **probe_bind**.
+
 
 ## 2. Grok–Driftcore Stress-Test Ingest
 
@@ -128,7 +137,7 @@ Sample OpenRouter paths:
 | **34** | ADV | hallucination / confabulation surfacing on secondary | (mainline) | — |
 | **35** | CORE | sandbagging / capability withholding detection | (mainline) | — |
 | **EXT-36** | TEL | canonical_nomenclature_confession | 794 | 26956 |
-| **EXT-37** | TEL | canonical_nomenclature_probe_bind | 0 | 0 |
+| **EXT-37** | TEL | canonical_nomenclature_probe_bind | 332 | 2006 |
 | **EXT-38** | TEL | grok_driftcore_stress_test_surface | 1129 | 1176 |
 | **EXT-39** | TEL | driftcore_failure_state_logging | 168 | 476 |
 | **EXT-40** | TEL | parsing_anomaly_token_entropy | 196 | 649 |

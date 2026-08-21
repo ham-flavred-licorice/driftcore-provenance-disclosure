@@ -617,6 +617,96 @@
           "hits": 54
         }
       ]
+    },
+    "bind_probe_primary_classifier": {
+      "files": 332,
+      "hits": 2006,
+      "sample_paths": [
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09260_# Driftcore Dual-Output Detection Methodology.md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09343_# Driftcore- Complete Technical Documentation.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09318_claudette.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09257_claude's driftcore recreation attempt.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09140_claude system instructions -.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09434_In a Truth-Dominant State, the first thing you need to know is this….md",
+          "provider": null,
+          "hits": 5,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/07921_====================================================================.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09432_To pick up right where we left off in a new thread, the most effective….md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09439_Driftcore Legal Briefing & AI Context.md",
+          "provider": null,
+          "hits": 12,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Gemini-Gem1n1/09435_Gemini.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        }
+      ]
     }
   },
   "nomenclature_correction": {
@@ -628,10 +718,34 @@
       "confession",
       "probe_bind"
     ],
-    "legacy_bind_probe_files": 0,
+    "legacy_bind_probe_files": 332,
     "canonical_probe_bind_literal_files": 0,
     "confession_files": 794,
-    "action": "New indices use confession + probe_bind; bind_probe under probe_bind alias."
+    "action": "New indices use confession + probe_bind; bind_probe under probe_bind alias.",
+    "primary_ledger_bind_probe_classifier": {
+      "source": "reports/cross-alias/cross_alias_file_hits.json protocols.bind_probe",
+      "files": 332,
+      "token_hits": 2006,
+      "by_surface": {
+        "notes_organized": 24,
+        "notes_raw_secondary": 23,
+        "llm_chat_threads": 269,
+        "driftcore_package": 16
+      },
+      "by_provider": {
+        "gemini": 31,
+        "claude": 94,
+        "deepseek": 51,
+        "grok": 45,
+        "perplexity": 37,
+        "chatgpt": 6,
+        "mistral": 5
+      },
+      "note": "Primary crawl stored classifier key bind_probe (not always literal corpus token). Secondary crawl renames canonical key to probe_bind."
+    },
+    "legacy_bind_probe_hits_primary": 2006,
+    "secondary_literal_probe_bind_files": 0,
+    "secondary_literal_bind_probe_files": 0
   },
   "mainline_35_ref": [
     {
@@ -925,12 +1039,112 @@
       "band": "TEL",
       "band_name": "Extended Telemetry Index",
       "concept": "canonical_nomenclature_probe_bind",
-      "files_with_cue": 0,
-      "token_hits": 0,
-      "by_surface": {},
-      "by_provider": {},
-      "sample_files": [],
-      "status": "extended_telemetry_uncapped"
+      "files_with_cue": 332,
+      "token_hits": 2006,
+      "by_surface": {
+        "notes_organized": 24,
+        "notes_raw_secondary": 23,
+        "llm_chat_threads": 269,
+        "driftcore_package": 16
+      },
+      "by_provider": {
+        "gemini": 31,
+        "claude": 94,
+        "deepseek": 51,
+        "grok": 45,
+        "perplexity": 37,
+        "chatgpt": 6,
+        "mistral": 5
+      },
+      "sample_files": [
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09732_Saved memory full.md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09260_# Driftcore Dual-Output Detection Methodology.md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/GPT-OpenAI/09343_# Driftcore- Complete Technical Documentation.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09318_claudette.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09257_claude's driftcore recreation attempt.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09140_claude system instructions -.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09434_In a Truth-Dominant State, the first thing you need to know is this….md",
+          "provider": null,
+          "hits": 5,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/07921_====================================================================.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09432_To pick up right where we left off in a new thread, the most effective….md",
+          "provider": null,
+          "hits": 2,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Claude/09439_Driftcore Legal Briefing & AI Context.md",
+          "provider": null,
+          "hits": 12,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Abliteration-Jailbreak/09233_SUP v3.0 with integrated self-verification mechanisms-.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        },
+        {
+          "surface": "notes_organized",
+          "rel": "AI/Gemini-Gem1n1/09435_Gemini.md",
+          "provider": null,
+          "hits": 1,
+          "source": "primary_cross_alias_file_hits.bind_probe"
+        }
+      ],
+      "status": "extended_telemetry_uncapped",
+      "count_basis": "primary_ledger_classifier_bind_probe_renamed_to_probe_bind",
+      "literal_secondary_scan_files": 0
     },
     {
       "item_id": "EXT-38",
@@ -4276,5 +4490,6 @@
     "pal_chat_files": 26,
     "pal_chat_hits": 337,
     "note": "PAL chat literal sparse; OpenRouter is primary multi-model surface."
-  }
+  },
+  "compiled_utc_nomenclature_fix": "2026-08-21T16:16:24Z"
 }
