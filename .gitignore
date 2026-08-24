@@ -1,2 +1,33 @@
+# Archives / bulk (defensive)
 *.tar.gz
-*.asc
+
+# --- COMMERCIAL / PROPRIETARY AIR-GAP (never stage) ---
+# Driftcore commercial monetization package surfaces
+**/driftcore-commercial-monetization-package/**
+**/01-DCLA/**
+**/02-SOW/**
+**/03-DSAT-IB/**
+**/05-schedules/**
+**/DCLA-v1.0.md
+**/EXHIBIT-A-OPEN-CORE.md
+**/EXHIBIT-B-PROPRIETARY.md
+**/EXHIBIT-C-TAXONOMY-65.md
+**/SOW-T1-*.md
+**/SOW-T2-*.md
+**/SOW-T3-*.md
+**/CLIENT-SCOPING-FRAMEWORK.md
+**/DSAT-IB-Subscription-Framework.md
+**/DELIVERY-SCHEDULE.md
+**/SUBSCRIBER-TERMS.md
+**/RATE-CARD.md
+**/ORDER-FORM.md
+**/00-MASTER-INDEX.md
+
+# Binaries / scanners / SDK (if ever dropped in-tree)
+**/bin/**
+**/dist/**
+**/*scanner*
+**/*ingest*sdk*
+**/*.dylib
+**/*.so
+**/*.exe
