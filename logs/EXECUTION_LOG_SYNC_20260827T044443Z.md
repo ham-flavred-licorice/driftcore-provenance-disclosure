@@ -118,12 +118,29 @@ EXT-36 … EXT-65
 
 ---
 
-## 8. Result block (filled after commit/push)
+## 8. Result block
 
 | Field | Value |
 |-------|-------|
-| Commit |  |
-| Tree |  |
-| Push exit | _PENDING_ |
-| Remote tip match | _PENDING_ |
-| Commercial leak post-commit | _PENDING_ |
+| Commit | `5070f1b17ae5685ec9d6ca93ee85a6fc96fc8aa4` |
+| Tree | (see `git rev-parse 5070f1b^{tree}`) |
+| Parent | `28cb29568121ff03e916f2fed6e437a7473a2ecd` |
+| Branch push | `cross-alias-reconciliation` `28cb295..5070f1b` exit **0** |
+| main FF + push | `cf9326b..5070f1b` exit **0** |
+| Remote tip main | `5070f1b17ae5685ec9d6ca93ee85a6fc96fc8aa4` |
+| Remote tip cross-alias-reconciliation | `5070f1b17ae5685ec9d6ca93ee85a6fc96fc8aa4` |
+| Tips match | **true** |
+| Default branch | `main` |
+| GitHub description | inventory **65/65** (was 22/22) |
+| Commercial leak post-commit | **LEAK_NONE** |
+| TAXONOMY-65 on origin/main | present (`reports/matrix/TAXONOMY-65-LOCKED.md`, `reports/cross-alias/TAXONOMY-65-LOCKED.md`, `reports/bands/BAND_ALLOCATION_65.md`) |
+
+## 9. Why GitHub previously showed 22
+
+| Surface | Prior value |
+|---------|-------------|
+| Repo description | `22/22 matrix` |
+| Default branch | `main` @ `cf9326b` (35/35 README; matrix22 artifact names; no TAXONOMY-65 files) |
+| TAXONOMY-65 + TEL | only on `cross-alias-reconciliation` @ `28cb295` |
+
+This run fast-forwarded `main` to `5070f1b` and updated the GitHub description to 65/65.
