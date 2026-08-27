@@ -31,3 +31,10 @@
 **/*.dylib
 **/*.so
 **/*.exe
+
+# --- EXCLUSION: raw exploit payloads / unreleased scanner binaries ---
+**/*exploit*payload*
+**/raw-exploit/**
+**/raw_exploit/**
+**/*unreleased*src*
+**/proprietary-src/**

@@ -4,12 +4,14 @@
 > Mainline **35/35** taxonomy + omission guard (**2489 / 2493 / notes-organized**) remain authoritative.  
 > See [reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md](reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md).
 
+> **Inventory lock:** [TAXONOMY-65-LOCKED.md](reports/matrix/TAXONOMY-65-LOCKED.md) · [cross-alias twin](reports/cross-alias/TAXONOMY-65-LOCKED.md) · [BAND_ALLOCATION_65.md](reports/bands/BAND_ALLOCATION_65.md)  
+
 ---
 
 # Driftcore Architectural Provenance & Priority Disclosure
 
 **Repository:** `driftcore-provenance-disclosure`  
-**Status:** Complete — **35/35** taxonomy documentation (22 Core Architecture + 13 Adversarial Edge-Cases & Stress-Test)  
+**Status:** Complete — inventory **65/65** (mainline **35/35** = 22 CORE + 13 ADV; Extended Telemetry **TEL EXT-36…EXT-65** = 30). Mainline disclosure freeze unchanged.  
 **Verification Scope:** Official Platform Export & Local Notes Library  
 **Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
 **Notes Corpus Counts:** ledger **2489** (historical `_INDEX`/CHECKPOINT baseline) · live **2493** (disk)  
