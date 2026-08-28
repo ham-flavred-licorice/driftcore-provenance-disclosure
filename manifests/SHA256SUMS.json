@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-08-28T00:59:18Z",
+  "generated_utc": "2026-08-28T01:00:25Z",
   "algorithm": "SHA-256",
   "file_count": 81,
-  "manifest_sha256": "7c3dc96ec4fc795b5d118262002260a49f3d8e7b10b5e4c7ea22a458c0868ff5",
+  "manifest_sha256": "574aa54c313172cca75e3032a7dfadea8054fbd0d6982b7afe0c298cc88601a8",
   "omission_guard": {
     "historical_ledger_baseline": 2489,
     "live_find_type_f": 2493,
@@ -303,7 +303,7 @@
       "path": "verification/GIT_TREE.txt"
     },
     {
-      "sha256": "b1cfcee1f909a84690b29b5115d0865099db45402851c52d8a21e7594ce7e2bc",
+      "sha256": "d0f5f49e828a944ac7e7509c894b0139acd2dc57ebf1db0ba6c4fbce8d96e3ab",
       "path": "verification/MANIFEST_HEAD_SHA256.txt"
     },
     {

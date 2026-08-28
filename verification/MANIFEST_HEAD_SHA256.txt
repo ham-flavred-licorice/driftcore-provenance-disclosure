@@ -1,4 +1,5 @@
-7c3dc96ec4fc795b5d118262002260a49f3d8e7b10b5e4c7ea22a458c0868ff5  manifests/SHA256SUMS.txt
 omission_guard_ledger_baseline=2489
 omission_guard_live_find_type_f=2493
 omission_guard_verified_path=/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized
+public_docs_label=verified-corpus/notes-organized
+note=SHA256SUMS.txt hash is manifests/SHA256SUMS.txt.sha256 after this freeze
