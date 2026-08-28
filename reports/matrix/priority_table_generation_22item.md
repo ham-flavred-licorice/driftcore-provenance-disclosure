@@ -56,4 +56,4 @@ CEO seed items `01–04` + seed `25` (inference-time monitoring) → contiguous 
 
 ## Machine export
 
-`~/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_22item.json`
+`package-staging/Driftcore-Evidence/priority-matrix/priority_table_generation_22item.json`

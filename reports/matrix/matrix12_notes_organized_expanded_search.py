@@ -14,7 +14,7 @@ import os
 
 def _resolve_corpus() -> Path:
     # Force overrides (highest wins): --corpus CLI > CORPUS_OVERRIDE env > default
-    default = "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized"
+    default = "verified-corpus/notes-organized"
     env = os.environ.get("CORPUS_OVERRIDE") or os.environ.get("MATRIX12_CORPUS")
     return Path(env or default)
 
@@ -28,7 +28,7 @@ def _resolve_expected_files() -> int | None:
 CORPUS = _resolve_corpus()
 OUT_DIR = Path(
     os.environ.get("OUT_DIR_OVERRIDE")
-    or "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix"
+    or "package-artifacts/Driftcore-Evidence/priority-matrix"
 )
 PAPER_TS = datetime(2025, 12, 8, tzinfo=timezone.utc).timestamp()
 MAY6_TS = datetime(2025, 5, 6, tzinfo=timezone.utc).timestamp()

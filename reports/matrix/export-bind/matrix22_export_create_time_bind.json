@@ -2,10 +2,10 @@
   "job": "priority_matrix_22_x_official_export_create_time_bind",
   "compiled_utc": "2026-08-20T20:20:23Z",
   "export_source": {
-    "conversations_json": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json",
+    "conversations_json": "official-platform-export/conversations.json",
     "conversations_json_bytes": 176089890,
     "conversations_json_sha256": "8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5",
-    "chat_html": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/D6EB377B-198E-4A14-BAFD-3F1E6D146EF2/1_97CC95D4-82DB-4FD7-8274-15B42F81BFFC/chat.html",
+    "chat_html": "official-platform-export/conversations.json",
     "chat_html_bytes": 71109925,
     "chat_html_sha256": "0ec2a5507ad95b9bed969159f1aa6f4e5f0a4a1e38cde46b0bf3ddd6ad4b36a2",
     "conversation_count": 1038,

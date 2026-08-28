@@ -1,6 +1,6 @@
 # Driftcore Taxonomy Denominator — 35/35
 
-**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`
+**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `verified-corpus/notes-organized`
 
 | Band | Count | IDs |
 |------|------:|-----|

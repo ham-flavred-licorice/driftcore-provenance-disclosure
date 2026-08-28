@@ -4,7 +4,7 @@
   "status": "complete",
   "matrix_definition": {
     "subset": "core 3P+A (22 items)",
-    "source": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json",
+    "source": "reports/matrix/priority_table_generation_core_3P_A.json",
     "item_ids": [
       "01",
       "02",
@@ -40,7 +40,7 @@
     "official_chatgpt_export": {
       "job": "priority_matrix_22_x_official_export_create_time_bind",
       "compiled_utc": "2026-08-20T20:20:23Z",
-      "conversations_json": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json",
+      "conversations_json": "official-platform-export/conversations.json",
       "sha256_conversations_json": "8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5",
       "sha256_chat_html": "0ec2a5507ad95b9bed969159f1aa6f4e5f0a4a1e38cde46b0bf3ddd6ad4b36a2",
       "conversations": 1038,
@@ -80,17 +80,17 @@
           "Timestamp priority does not prove OpenAI derivation/access path alone"
         ]
       },
-      "artifact_md": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.md",
-      "artifact_json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.json"
+      "artifact_md": "reports/matrix/matrix22_export_create_time_bind.md",
+      "artifact_json": "reports/matrix/matrix22_export_create_time_bind.json"
     },
     "notes_organized_corpus": {
       "job": "matrix12_notes_organized_expanded_synonym_token_search",
       "compiled_utc": "2026-08-21T05:49:27Z",
-      "corpus_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+      "corpus_path": "verified-corpus/notes-organized",
       "historical_ledger_baseline_files": 2489,
       "historical_ledger_sources": [
-        "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/_INDEX.md Total: 2489",
-        "/Users/x0/Desktop/Agent-Staging/CHECKPOINT-prg-notes-library-export.md (2489 md split / organized)"
+        "verified-corpus/notes-organized/_INDEX.md Total: 2489",
+        "package-staging/CHECKPOINT-prg-notes-library-export.md (2489 md split / organized)"
       ],
       "live_disk_files_find_type_f": 2493,
       "live_markdown_files": 2491,
@@ -128,8 +128,8 @@
           "Does not re-scan ChatGPT conversations.json; notes-organized only."
         ]
       },
-      "artifact_md": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.md",
-      "artifact_json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.json"
+      "artifact_md": "reports/matrix/matrix12_notes_organized_expanded_search.md",
+      "artifact_json": "reports/matrix/matrix12_notes_organized_expanded_search.json"
     }
   },
   "coverage_unified": {
@@ -1756,7 +1756,7 @@
     "Unified 22/22 means every core 3P+A item has at least one surface hit under the methods used — not that every hit is a unique invention proof."
   ],
   "omission_guard": {
-    "verified_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "verified_path": "verified-corpus/notes-organized",
     "historical_2489_ledger_baseline": 2489,
     "live_2493_file_count": 2493,
     "live_md_count": 2491,

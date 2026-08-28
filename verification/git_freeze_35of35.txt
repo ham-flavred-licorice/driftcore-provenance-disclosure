@@ -4,6 +4,6 @@ compiled_utc=2026-08-21T14:21:47Z
 taxonomy=35/35
 omission_guard_ledger=2489
 omission_guard_live=2493
-omission_guard_path=/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized
+omission_guard_path=verified-corpus/notes-organized
 gpg_key=35E3E1694524C7FB
 manifest_self_consistent=true

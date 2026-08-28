@@ -1,0 +1,77 @@
+Copyright (c) 2025–2026 Driftcore / Licensor. All Rights Reserved.
+
+================================================================================
+ALL RIGHTS RESERVED
+================================================================================
+
+This repository and its contents (including without limitation taxonomy
+documentation, provenance matrices, cryptographic manifests, verification
+records, methods descriptions, reports, and related materials) are proprietary
+to the Licensor.
+
+No license is granted except the limited courtesy permissions below. All other
+rights are expressly reserved.
+
+--------------------------------------------------------------------------------
+LIMITED COURTESY PERMISSIONS (NO TRANSFER OF OWNERSHIP)
+--------------------------------------------------------------------------------
+
+1. VIEWING. You may view this repository on GitHub (or an official mirror
+   designated by Licensor) for personal evaluation, research awareness, and
+   verification of published hashes and signatures.
+
+2. CITATION & ATTRIBUTION (METHOD / MECHANICS). You may quote short excerpts
+   and cite the Driftcore method, taxonomy structure, nomenclature (including
+   “confession” and “probe_bind”), and architectural mechanics in academic,
+   journalistic, regulatory, or technical writing, provided you give clear
+   attribution substantially as follows:
+
+     Driftcore Framework — provenance disclosure & Mainline taxonomy
+     © Licensor. Independent conceptual convergence and antecedent
+     documentation. Source: https://github.com/ham-flavred-licorice/driftcore-provenance-disclosure
+     (or successor official URL). Canonical nomenclature: confession, probe_bind.
+
+   Citation does not grant rights to reproduce the full corpus, recreate the
+   product, or imply endorsement, affiliation, or RL-run identity with any
+   third party.
+
+3. VERIFICATION. You may download manifests and signature materials solely to
+   run integrity checks (e.g. SHA-256, GPG verify) against the published record.
+
+--------------------------------------------------------------------------------
+PROHIBITED WITHOUT PRIOR WRITTEN LICENSE
+--------------------------------------------------------------------------------
+
+Unless Licensor gives prior written permission (including under a separate
+commercial agreement such as a Driftcore Commercial License Agreement / SOW):
+
+- Copying, mirroring, or redistributing substantial portions of this repository
+- Creating derivative taxonomies, scanners, SDKs, or competing products from
+  these materials
+- Using the taxonomy or methods as a commercial red-team / audit product plan
+- Removing or altering copyright, attribution, or integrity notices
+- Training, fine-tuning, or distilling models on these materials
+- Any use of proprietary enterprise binaries, telemetry SDKs, or non-public
+  layers (not included here; reserved)
+
+--------------------------------------------------------------------------------
+NO WARRANTY
+--------------------------------------------------------------------------------
+
+THE MATERIALS ARE PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. LICENSOR DISCLAIMS LIABILITY FOR DAMAGES ARISING FROM USE OR RELIANCE
+TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+--------------------------------------------------------------------------------
+CONTACT / COMMERCIAL
+--------------------------------------------------------------------------------
+
+For licensing, enterprise assessment, or permission beyond citation: use the
+contact channel published on the official project landing page (Episkope /
+Licensor site) or the security/contact notice in this repository when present.
+
+Framing for public discussion: Platform-Exposed Intellectual Convergence —
+independent conceptual convergence and antecedent documentation; not a claim of
+RL-run identity with third-party systems.
+
+End of license terms.

@@ -744,9 +744,9 @@
     },
     "core_architecture_subset_count": 22,
     "export_targets": {
-      "json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.json",
-      "md": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.md",
-      "core_json": "/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json"
+      "json": "reports/matrix/priority_table_generation_full.json",
+      "md": "reports/matrix/priority_table_generation_full.md",
+      "core_json": "reports/matrix/priority_table_generation_core_3P_A.json"
     }
   },
   "logic_trace": {

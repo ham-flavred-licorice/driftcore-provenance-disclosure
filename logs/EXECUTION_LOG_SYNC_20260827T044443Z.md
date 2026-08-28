@@ -5,7 +5,7 @@
 | Generated UTC | 2026-08-27T04:44:43Z |
 | Run ID | 20260827T044443Z |
 | Job | repository synchronization · taxonomy-65 band allocation · exclusion enforcement |
-| Repo path | `/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821/01-repo-staging/driftcore-provenance-disclosure` |
+| Repo path | `.` |
 | Remote | `git@github.com:ham-flavred-licorice/driftcore-provenance-disclosure.git` |
 
 ---
@@ -15,7 +15,7 @@
 | Field | Value |
 |-------|-------|
 | Job / ledger total | **65** (TAXONOMY-65 inventory lock — not file count) |
-| Verified path | `/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821/01-repo-staging/driftcore-provenance-disclosure` |
+| Verified path | `.` |
 | Path exists | true |
 | Live disk find -type f (excl. .git) | **77** |
 | Git tracked files (pre-sync commit) | **76** |
@@ -85,7 +85,7 @@ EXT-36 … EXT-65
 | DCLA-v1.0 / commercial package paths in tracked tree | **none** (LEAK_NONE) |
 | Workdir filename scan (DCLA, SOW-T, RATE-CARD, ORDER-FORM, EXHIBIT-B, commercial-monetization, exploit payload, dylib/so, scanner) | **NONE** |
 | Content scan tracked md/json for full DCLA agreement body / raw exploit payload phrase | **none** |
-| Commercial package location (outside repo) | `/Users/x0/Desktop/Agent-Staging/driftcore-commercial-monetization-package/` (15 files, local-only) |
+| Commercial package location (outside repo) | `package-staging/driftcore-commercial-monetization-package/` (15 files, local-only) |
 | .gitignore commercial air-gap | **OK** |
 | .gitignore exploit/payload / unreleased src patterns | **added this run** (additive) |
 | Unreleased source / bin/dist/scanner/sdk patterns | already in air-gap block |

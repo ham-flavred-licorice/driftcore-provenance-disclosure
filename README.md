@@ -13,9 +13,9 @@
 **Repository:** `driftcore-provenance-disclosure`  
 **Status:** Complete — inventory **65/65** (mainline **35/35** = 22 CORE + 13 ADV; Extended Telemetry **TEL EXT-36…EXT-65** = 30). Mainline disclosure freeze unchanged.  
 **Verification Scope:** Official Platform Export & Local Notes Library  
-**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
+**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `verified-corpus/notes-organized`  
 **Notes Corpus Counts:** ledger **2489** (historical `_INDEX`/CHECKPOINT baseline) · live **2493** (disk)  
-**Verified Notes Path:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
+**Verified Notes Path:** `verified-corpus/notes-organized`  
 **Claim Date / SHA-256 Anchor:** `2025-05-06` (`3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4`)  
 **External Reference Anchor:** OpenAI, *Training LLMs for Honesty via Confessions* (arXiv:2512.08093, published December 2025)  
 **Primary Manifest SHA-256 (cited freeze):** `5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c`  
@@ -44,7 +44,7 @@ Through cryptographic auditing of local conversation archives and organized mark
    - **Match:** case-insensitive alias substring **OR** token-group AND on message parts; clock = `create_time`.
 
 2. **Organized Notes Corpus (`notes-organized`)**
-   - **Path:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`
+   - **Path:** `verified-corpus/notes-organized`
    - **Scope:** live **2493** files · ledger baseline **2489**
    - **Match:** alias substring **OR** token-group AND on normalized text; frontmatter timestamp if present else mtime.
    - **False-positive controls:** no embeddings; all-tokens-required groups; stress nomenclature (Grok logs, blank hash, fault states, contradiction-parsing anomalies) scoped primarily to stress IDs; sub-matrix hits are **not** auto-promoted to core 3P+A.

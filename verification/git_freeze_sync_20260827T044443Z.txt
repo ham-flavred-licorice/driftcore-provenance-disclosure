@@ -2,7 +2,7 @@ DRIFTCORE_PROVENANCE_REPO_SYNC_FREEZE
 format_version=1
 generated_utc=2026-08-27T04:44:43Z
 run_id=20260827T044443Z
-repo_path=/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821/01-repo-staging/driftcore-provenance-disclosure
+repo_path=.
 remote=git@github.com:ham-flavred-licorice/driftcore-provenance-disclosure.git
 branch=cross-alias-reconciliation
 pre_sync_head=28cb29568121ff03e916f2fed6e437a7473a2ecd

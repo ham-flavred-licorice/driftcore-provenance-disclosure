@@ -57,7 +57,7 @@
     "coverage_statement": "35/35 taxonomy slots formally documented: 22 core prior + 13 adversarial sub-matrix (hits and explicit no-hit documentation)."
   },
   "omission_guard": {
-    "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "notes_organized_path": "verified-corpus/notes-organized",
     "historical_ledger_baseline_2489": 2489,
     "live_find_type_f": 2493,
     "live_text_scanned": 2491,
@@ -565,7 +565,7 @@
     }
   ],
   "notes_scan": {
-    "corpus_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "corpus_path": "verified-corpus/notes-organized",
     "live_disk_files_find_type_f": 2493,
     "live_text_files_scanned": 2491,
     "historical_ledger_baseline_2489": 2489,
@@ -1681,7 +1681,7 @@
     }
   },
   "export_scan": {
-    "conversations_json": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json",
+    "conversations_json": "official-platform-export/conversations.json",
     "sha256_conversations_json": "8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5",
     "conversations": 1038,
     "timestamped_messages_scanned": 66630,

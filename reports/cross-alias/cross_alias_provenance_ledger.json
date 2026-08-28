@@ -13,7 +13,7 @@
     "matrix_denominator": "35/35 (22 CORE + 13 ADV)"
   },
   "omission_guard": {
-    "notes_organized_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "notes_organized_path": "verified-corpus/notes-organized",
     "historical_ledger_baseline_2489": 2489,
     "live_find_type_f": 2493,
     "expected_live_2493": 2493,
@@ -21,12 +21,12 @@
   },
   "scope": {
     "roots": [
-      "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
-      "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes",
-      "/Users/x0/Desktop/Agent-Staging/llm-chat-threads",
-      "/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821"
+      "verified-corpus/notes-organized",
+      "verified-corpus/notes",
+      "package-staging/llm-chat-threads",
+      "package-root"
     ],
-    "export": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json",
+    "export": "official-platform-export/conversations.json",
     "prg_ssh": "unreachable",
     "note": "Crawl limited to Agent-Staging connected directories + official notes export; no full-home scan; prg host DNS unresolved this run."
   },
@@ -137,10 +137,10 @@
   "identities": {
     "x0": {
       "host_paths": [
-        "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
-        "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes",
-        "/Users/x0/Desktop/Agent-Staging/llm-chat-threads",
-        "/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821"
+        "verified-corpus/notes-organized",
+        "verified-corpus/notes",
+        "package-staging/llm-chat-threads",
+        "package-root"
       ],
       "ssh_prg": "unreachable_at_audit_time (Could not resolve hostname prg)",
       "notes_alias_files": {
@@ -157,8 +157,8 @@
       }
     },
     "prg": {
-      "notes_library_export_mirror_on_x0": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export",
-      "llm_chat_threads_prg_subdir": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/prg",
+      "notes_library_export_mirror_on_x0": "verified-corpus",
+      "llm_chat_threads_prg_subdir": "package-staging/llm-chat-threads/prg",
       "direct_ssh": "failed_dns"
     }
   },

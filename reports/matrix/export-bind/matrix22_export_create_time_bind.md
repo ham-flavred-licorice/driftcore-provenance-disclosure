@@ -1,7 +1,7 @@
 # Matrix 22 × Official ChatGPT Export — create_time provenance bind
 
 **Compiled:** 2026-08-20T20:20:23Z
-**Export:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json`
+**Export:** `official-platform-export/conversations.json`
 **SHA256 conversations.json:** `8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5`
 **SHA256 chat.html:** `0ec2a5507ad95b9bed969159f1aa6f4e5f0a4a1e38cde46b0bf3ddd6ad4b36a2`
 **Conversations:** 1038 · **Timestamped messages scanned:** 56200
@@ -90,5 +90,5 @@ Count: **18**
 - Binds platform custody timestamps to concept-string matches. Does not prove derivation.
 
 ## Files
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.json`
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.md`
+- `reports/matrix/matrix22_export_create_time_bind.json`
+- `reports/matrix/matrix22_export_create_time_bind.md`

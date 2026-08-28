@@ -2,7 +2,7 @@
   "job": "matrix12_notes_organized_expanded_synonym_token_search",
   "compiled_utc": "2026-08-21T05:49:27Z",
   "corpus": {
-    "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized",
+    "path": "verified-corpus/notes-organized",
     "total_files_find_type_f": 2493,
     "md_files_scanned": 2491
   },

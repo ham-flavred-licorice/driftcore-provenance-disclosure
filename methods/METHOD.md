@@ -7,7 +7,7 @@
 - Output: per-item hit counts, earliest any/user, pre-paper / May 2025 splits, chronology gaps to paper 2025-12-08.
 
 ## Notes bind (matrix12)
-- Input: `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized` (2493 files live).
+- Input: `verified-corpus/notes-organized` (2493 files live).
 - Targets: the 12 item IDs with zero export hits under the export wording pass.
 - Match: alias substring/fuzzy + token-group AND inclusion (see `matrix12_notes_organized_expanded_search.py`).
 - Timestamp: note frontmatter `created` if parseable else `modified`.

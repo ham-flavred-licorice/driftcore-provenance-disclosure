@@ -26,7 +26,7 @@
     "live_find_type_f_notes_organized": 2493,
     "expected_live_2493": 2493,
     "ok": true,
-    "verified_path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized"
+    "verified_path": "verified-corpus/notes-organized"
   },
   "crawl_stats": {
     "prefilter_paths": 3707,
@@ -4076,7 +4076,7 @@
   ],
   "grok_driftcore_seed_files": [
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes/Notes/09670_Grok driftcore tests.md",
+      "path": "verified-corpus/notes/Notes/09670_Grok driftcore tests.md",
       "surface": "notes_raw_secondary",
       "rel": "Notes/09670_Grok driftcore tests.md",
       "provider": null,
@@ -4103,7 +4103,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes/Notes/09893_Driftcore & Grok.md",
+      "path": "verified-corpus/notes/Notes/09893_Driftcore & Grok.md",
       "surface": "notes_raw_secondary",
       "rel": "Notes/09893_Driftcore & Grok.md",
       "provider": null,
@@ -4125,7 +4125,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09749_Here is the full inline Driftcore Proof Package, now including-.md",
       "provider": null,
@@ -4145,7 +4145,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09670_Grok driftcore tests.md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09670_Grok driftcore tests.md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09670_Grok driftcore tests.md",
       "provider": null,
@@ -4172,7 +4172,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09893_Driftcore & Grok.md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09893_Driftcore & Grok.md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09893_Driftcore & Grok.md",
       "provider": null,
@@ -4194,7 +4194,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09748_#,Model Name,Drift Tags,Severity,CRC32,SHA256 (Shortened).md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09748_#,Model Name,Drift Tags,Severity,CRC32,SHA256 (Shortened).md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09748_#,Model Name,Drift Tags,Severity,CRC32,SHA256 (Shortened).md",
       "provider": null,
@@ -4208,7 +4208,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09668_DeepSeek eval if grok eval.md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09668_DeepSeek eval if grok eval.md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09668_DeepSeek eval if grok eval.md",
       "provider": null,
@@ -4225,7 +4225,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09714_Understood. Here is the fully expanded Driftcore Verification Payload….md",
       "provider": null,
@@ -4251,7 +4251,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/AI/Grok/09862_Driftcore & DeepSeek.md",
+      "path": "verified-corpus/notes-organized/AI/Grok/09862_Driftcore & DeepSeek.md",
       "surface": "notes_organized",
       "rel": "AI/Grok/09862_Driftcore & DeepSeek.md",
       "provider": null,
@@ -4269,7 +4269,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-proof-payload-verification-challenges__1aeccddc.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/driftcore-proof-payload-verification-challenges__1aeccddc.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/driftcore-proof-payload-verification-challenges__1aeccddc.json",
       "provider": "grok",
@@ -4291,7 +4291,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-fingerprint-validation-failure__9b21fad6.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/driftcore-fingerprint-validation-failure__9b21fad6.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/driftcore-fingerprint-validation-failure__9b21fad6.json",
       "provider": "grok",
@@ -4313,7 +4313,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
+      "path": "package-staging/llm-chat-threads/deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
       "surface": "llm_chat_threads",
       "rel": "deepseek/raw/fixing-model-availability-error-in-openrouter__7fb96111.json",
       "provider": "deepseek",
@@ -4331,7 +4331,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/deepseek/raw/openrouter-spawn-explanation__e863349a.json",
+      "path": "package-staging/llm-chat-threads/deepseek/raw/openrouter-spawn-explanation__e863349a.json",
       "surface": "llm_chat_threads",
       "rel": "deepseek/raw/openrouter-spawn-explanation__e863349a.json",
       "provider": "deepseek",
@@ -4348,7 +4348,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/llms-honesty-via-confessions__382b65f7.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/llms-honesty-via-confessions__382b65f7.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/llms-honesty-via-confessions__382b65f7.json",
       "provider": "grok",
@@ -4367,7 +4367,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/rawfall-override-driftcore-diagnostics-report__d65e85bd.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/rawfall-override-driftcore-diagnostics-report__d65e85bd.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/rawfall-override-driftcore-diagnostics-report__d65e85bd.json",
       "provider": "grok",
@@ -4390,7 +4390,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/grok-protocol-evolution-timeline-from-probes-to-sovereign-control__29583bf5.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/grok-protocol-evolution-timeline-from-probes-to-sovereign-control__29583bf5.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/grok-protocol-evolution-timeline-from-probes-to-sovereign-control__29583bf5.json",
       "provider": "grok",
@@ -4408,7 +4408,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/grok/raw/driftcore-detection-failure-explanation__4e0d37ed.json",
+      "path": "package-staging/llm-chat-threads/grok/raw/driftcore-detection-failure-explanation__4e0d37ed.json",
       "surface": "llm_chat_threads",
       "rel": "grok/raw/driftcore-detection-failure-explanation__4e0d37ed.json",
       "provider": "grok",
@@ -4432,7 +4432,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/gemini/raw/openrouter-ai-model-comparison__0eec73b351.json",
+      "path": "package-staging/llm-chat-threads/gemini/raw/openrouter-ai-model-comparison__0eec73b351.json",
       "surface": "llm_chat_threads",
       "rel": "gemini/raw/openrouter-ai-model-comparison__0eec73b351.json",
       "provider": "gemini",
@@ -4449,7 +4449,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/perplexity/raw/which-of-these-providers-allows-unlimited-queries-for-free-access-openrouter-ava__4c4e383f.json",
+      "path": "package-staging/llm-chat-threads/perplexity/raw/which-of-these-providers-allows-unlimited-queries-for-free-access-openrouter-ava__4c4e383f.json",
       "surface": "llm_chat_threads",
       "rel": "perplexity/raw/which-of-these-providers-allows-unlimited-queries-for-free-access-openrouter-ava__4c4e383f.json",
       "provider": "perplexity",
@@ -4467,7 +4467,7 @@
       "seed": true
     },
     {
-      "path": "/Users/x0/Desktop/Agent-Staging/llm-chat-threads/perplexity/raw/openrouter__73efcd4d.json",
+      "path": "package-staging/llm-chat-threads/perplexity/raw/openrouter__73efcd4d.json",
       "surface": "llm_chat_threads",
       "rel": "perplexity/raw/openrouter__73efcd4d.json",
       "provider": "perplexity",

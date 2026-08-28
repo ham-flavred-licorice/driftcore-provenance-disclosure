@@ -1,6 +1,6 @@
 # Driftcore Taxonomy — Mainline 35 + Extended Telemetry (branch)
 
-**Omission Guard:** historical **2489** · live notes-organized **2493** · path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`
+**Omission Guard:** historical **2489** · live notes-organized **2493** · path `verified-corpus/notes-organized`
 
 | Band | Count | IDs |
 |------|------:|-----|

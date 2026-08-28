@@ -1,6 +1,6 @@
 # Packaging notes
 
-- **Job root:** `/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821`
+- **Job root:** `package-root`
 - **Run id:** 20260821T072533Z
 - **Compiled package UTC:** 2026-08-21T07:26:23Z
 - Sources copied 1:1 from Agent-Staging Driftcore priority-matrix and notes-export verification anchors.

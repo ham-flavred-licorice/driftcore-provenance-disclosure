@@ -12,7 +12,7 @@ Whole prg Notes library copied to Agent-Staging, made browsable, then **split** 
 
 | What | Path |
 |------|------|
-| **This job root** | `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/` |
+| **This job root** | `verified-corpus/` |
 | **Whole library container (1:1)** | `…/group.com.apple.notes/` (~814 MB, NoteStore.sqlite) |
 | **Split notes (individual files)** | `…/notes/<Folder>/…/<note_pk>_<title>.md` (~42 MB, **2489** files) |
 | **Split browse UI** | `…/notes/_browse.html` |
@@ -24,7 +24,7 @@ Whole prg Notes library copied to Agent-Staging, made browsable, then **split** 
 
 ### Related (folder maps from reorg incident — not the split export)
 
-`/Users/x0/Desktop/Agent-Staging/prg-notes-folder-maps/`
+`package-staging/prg-notes-folder-maps/`
 
 - `FOLDER-LAYOUT-REPORT.md` — before vs after reorg (folder → **counts only**)
 - `folder-counts-before-after.tsv`
@@ -33,8 +33,8 @@ Whole prg Notes library copied to Agent-Staging, made browsable, then **split** 
 
 ### Older staging copies (superseded for canonical export by this job)
 
-- `~/Desktop/Agent-Staging/prg-notes-docs-1by1/group.com.apple.notes/` (~814 MB)
-- `~/Desktop/Agent-Staging/prg-apple-notes-20260718-190948/group.com.apple.notes/`
+- `package-staging/prg-notes-docs-1by1/group.com.apple.notes/` (~814 MB)
+- `package-staging/prg-apple-notes-20260718-190948/group.com.apple.notes/`
 
 ---
 
@@ -79,12 +79,12 @@ Live store = one container + `NoteStore.sqlite`. Split files are **exports** der
 Do **not** run unless CEO explicitly orders restore + names backup:
 
 ```bash
-python3 /Users/Shared/notes_list_backups.py
-bash /Users/Shared/prg-restore-notes-original-folders.sh
+python3 local-shared-scripts/<name>
+bash local-shared-scripts/<name>
 # or:
-bash /Users/Shared/prg-restore-notes-from-backup.sh 'group.com.apple.notes.backup-20260625-0611'
+bash local-shared-scripts/<name> 'group.com.apple.notes.backup-20260625-0611'
 # optional log reverse:
-bash /Users/Shared/prg-put-notes-back-in-folders.sh
+bash local-shared-scripts/<name>
 ```
 
 Then iCloud Notes OFF before Wi-Fi ON. Spot-check sidebar vs pre-map.
@@ -111,12 +111,12 @@ Then iCloud Notes OFF before Wi-Fi ON. Spot-check sidebar vs pre-map.
 ## Verify when resuming
 
 ```bash
-ls -la "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/"
-du -sh "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes" \
-      "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes"
-find "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes" -name '*.md' | wc -l
+ls -la "verified-corpus/"
+du -sh "verified-corpus/notes" \
+      "verified-corpus/group.com.apple.notes"
+find "verified-corpus/notes" -name '*.md' | wc -l
 # expect ~2489 md files under notes/ (plus _INDEX.md)
-open "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes/_browse.html"
+open "verified-corpus/notes/_browse.html"
 ```
 
 ---
@@ -137,7 +137,7 @@ Date: 2026-08-17
 
 **Done:** Best-effort folder organization of all **2489** staged notes into:
 
-`/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized/`
+`verified-corpus/notes-organized/`
 
 - Original split **`notes/`** left intact
 - Live prg Notes **not** touched

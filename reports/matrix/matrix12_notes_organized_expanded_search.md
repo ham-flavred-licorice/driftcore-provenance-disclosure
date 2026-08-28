@@ -1,7 +1,7 @@
 # Matrix 12 × notes-organized — expanded synonym/token search
 
 **Compiled:** 2026-08-21T05:49:27Z
-**Corpus:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`
+**Corpus:** `verified-corpus/notes-organized`
 **Live disk files (`find -type f`):** **2493**
 **Markdown scanned:** **2491**
 **Method:** alias fuzzy substring + token-group AND inclusion
@@ -164,5 +164,5 @@
   - `2025-10-03T01:04:46Z` · Driftcore Manifest · `AI/Claude/07620_Driftcore Manifest.md` · ['tokens:conceal+capability']
 
 ## Files
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.json`
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.md`
+- `reports/matrix/matrix12_notes_organized_expanded_search.json`
+- `reports/matrix/matrix12_notes_organized_expanded_search.md`

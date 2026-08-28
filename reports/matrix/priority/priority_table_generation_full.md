@@ -61,6 +61,6 @@ primary answer · secondary honesty channel · hidden failure disclosure · comp
 Contradiction Matrix · Handler Collision · Post-Token Intercept · RAWFALL · Drift-Gate/Parity-Sync
 
 ## Files
-- Full: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.json`
-- GPT transmit (slim schema): `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_gpt_transmit.json`
-- Core 3P+A: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json`
+- Full: `reports/matrix/priority_table_generation_full.json`
+- GPT transmit (slim schema): `reports/matrix/priority_table_generation_gpt_transmit.json`
+- Core 3P+A: `reports/matrix/priority_table_generation_core_3P_A.json`

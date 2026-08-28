@@ -19,15 +19,15 @@ from pathlib import Path
 
 CORPUS = Path(
     os.environ.get("CORPUS_OVERRIDE")
-    or "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized"
+    or "verified-corpus/notes-organized"
 )
 CONV = Path(
     os.environ.get("CONV_OVERRIDE")
-    or "/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/group.com.apple.notes/Accounts/E568639C-B8AA-4187-9514-D1F6105F123F/Media/E07CDA08-6946-4B7F-BFD6-F69EF5C79249/1_0F11C0BB-008F-4634-BDA8-DF04BADE5A25/conversations.json"
+    or "official-platform-export/conversations.json"
 )
 OUT_DIR = Path(
     os.environ.get("OUT_DIR_OVERRIDE")
-    or "/Users/x0/Desktop/Agent-Staging/driftcore-provenance-package-20260821/04-matrix35-adversarial-audit"
+    or "package-root/04-matrix35-adversarial-audit"
 )
 EXPECTED_LIVE = int(os.environ.get("EXPECTED_FILES") or "2493")
 LEDGER_BASELINE = 2489

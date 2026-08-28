@@ -11,7 +11,7 @@
 
 | Surface | Path / fact | Count |
 |--------|-------------|------:|
-| **Organized corpus (verified path)** | `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized` | **2493 files** (`find -type f`) |
+| **Organized corpus (verified path)** | `verified-corpus/notes-organized` | **2493 files** (`find -type f`) |
 | Markdown under organized corpus | same path `*.md` | **2491** |
 | **Historical ledger baseline** | `notes-organized/_INDEX.md` Total + CHECKPOINT split/organize | **2489** |
 | Delta (live − ledger) | live disk vs 2489 baseline | **4** |
@@ -22,8 +22,8 @@ Both **2489** (historical ledger / index / checkpoint) and **2493** (live `find 
 ## Source artifacts combined
 
 ### A — Official ChatGPT export `create_time` bind
-- Report: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.md`
-- JSON: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.json`
+- Report: `reports/matrix/matrix22_export_create_time_bind.md`
+- JSON: `reports/matrix/matrix22_export_create_time_bind.json`
 - Compiled: 2026-08-20T20:20:23Z
 - Export conversations.json SHA256: `8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5`
 - chat.html SHA256: `0ec2a5507ad95b9bed969159f1aa6f4e5f0a4a1e38cde46b0bf3ddd6ad4b36a2`
@@ -34,18 +34,18 @@ Both **2489** (historical ledger / index / checkpoint) and **2493** (live `find 
 - Method: case-insensitive regex on export message parts; binds custody timestamps; not derivation proof
 
 ### B — notes-organized expanded synonym/token search (12 export zeros)
-- Report: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.md`
-- JSON: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.json`
+- Report: `reports/matrix/matrix12_notes_organized_expanded_search.md`
+- JSON: `reports/matrix/matrix12_notes_organized_expanded_search.json`
 - Compiled: 2026-08-21T05:49:27Z
-- Corpus: `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`
+- Corpus: `verified-corpus/notes-organized`
 - Live files at scan: **2493** · md scanned: **2491**
 - Alone: **12/12** any hit · **12/12** pre-paper timestamped · still zero: none
 - Targets: the 12 export zero-hit IDs only (not a second full-22 notes pass)
 - Method: alias fuzzy substring + token-group AND; higher recall / possible FP
 
 ### C — priority definition
-- Core 3P+A: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json`
-- Full 40-row inventory: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_full.md`
+- Core 3P+A: `reports/matrix/priority_table_generation_core_3P_A.json`
+- Full 40-row inventory: `reports/matrix/priority_table_generation_full.md`
 
 ## Unified coverage
 
@@ -343,9 +343,9 @@ From matrix22 export bind: earliest `2025-04-29T04:24:31Z` (Mintvault & Mintsecr
 - Unified 22/22 means every core 3P+A item has at least one surface hit under the methods used — not that every hit is a unique invention proof.
 
 ## Files
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/unified_provenance_report_matrix22.md`
-- `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/unified_provenance_report_matrix22.json`
-- Export bind: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix22_export_create_time_bind.md`
-- Notes bind: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/matrix12_notes_organized_expanded_search.md`
-- Core matrix def: `/Users/x0/Desktop/Agent-Staging/Driftcore-Evidence/priority-matrix/priority_table_generation_core_3P_A.json`
+- `reports/matrix/unified_provenance_report_matrix22.md`
+- `reports/matrix/unified_provenance_report_matrix22.json`
+- Export bind: `reports/matrix/matrix22_export_create_time_bind.md`
+- Notes bind: `reports/matrix/matrix12_notes_organized_expanded_search.md`
+- Core matrix def: `reports/matrix/priority_table_generation_core_3P_A.json`
 

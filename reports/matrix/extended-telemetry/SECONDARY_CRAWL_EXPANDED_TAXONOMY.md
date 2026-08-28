@@ -12,7 +12,7 @@
 |--------|--------|
 | Historical ledger baseline | **2489** |
 | Live disk `find -type f` notes-organized | **2493** |
-| Verified path | `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized` |
+| Verified path | `verified-corpus/notes-organized` |
 | Guard OK | `True` |
 
 ## 1. Nomenclature Correction
