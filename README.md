@@ -1,24 +1,21 @@
-# Cross-Alias Reconciliation Branch
-
-> **Branch notice:** This branch adds the **Cross-Alias Provenance Ledger** (Driftcore ↔ Truthcore ↔ DRX1) under `reports/cross-alias/`.  
-> Mainline **35/35** taxonomy + omission guard (**2489 / 2493 / notes-organized**) remain authoritative.  
-> See [reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md](reports/cross-alias/CROSS_ALIAS_PROVENANCE_LEDGER.md).
-
-> **Inventory lock:** [TAXONOMY-65-LOCKED.md](reports/matrix/TAXONOMY-65-LOCKED.md) · [cross-alias twin](reports/cross-alias/TAXONOMY-65-LOCKED.md) · [BAND_ALLOCATION_65.md](reports/bands/BAND_ALLOCATION_65.md)  
-
----
-
 # Driftcore Architectural Provenance & Priority Disclosure
+
+**Public record (Surface A).** Commercial instruments (Surface B: DCLA / SOW / DSAT-IB) stay private and cross-link here; they are not published in this tree.
+
+> **Cross-alias add-on (non-authoritative for Mainline):** Driftcore ↔ Truthcore ↔ DRX1 ledger lives under [`reports/cross-alias/`](reports/cross-alias/). Mainline **35/35** + omission guard remain authoritative.  
+> **Inventory lock:** [TAXONOMY-65-LOCKED.md](reports/matrix/TAXONOMY-65-LOCKED.md) · [BAND_ALLOCATION_65.md](reports/bands/BAND_ALLOCATION_65.md) · [delta-matrix.md](reports/matrix/delta-matrix.md) · [EXECUTIVE-SUMMARY.md](docs/EXECUTIVE-SUMMARY.md)
 
 **Repository:** `driftcore-provenance-disclosure`  
 **Status:** Complete — inventory **65/65** (mainline **35/35** = 22 CORE + 13 ADV; Extended Telemetry **TEL EXT-36…EXT-65** = 30). Mainline disclosure freeze unchanged.  
 **Verification Scope:** Official Platform Export & Local Notes Library  
-**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `verified-corpus/notes-organized`  
+**Omission Guard (required):** historical ledger baseline **2489** · live disk `find -type f` **2493** · verified path `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized` (public label: `verified-corpus/notes-organized`)  
 **Notes Corpus Counts:** ledger **2489** (historical `_INDEX`/CHECKPOINT baseline) · live **2493** (disk)  
-**Verified Notes Path:** `verified-corpus/notes-organized`  
+**Verified Notes Path (audit host):** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized`  
+**Public docs label:** `verified-corpus/notes-organized`  
 **Claim Date / SHA-256 Anchor:** `2025-05-06` (`3aa7728e433e6159408bc5b60e15cb049f83bc89ec6661c15350b4afed61c2e4`)  
 **External Reference Anchor:** OpenAI, *Training LLMs for Honesty via Confessions* (arXiv:2512.08093, published December 2025)  
-**Primary Manifest SHA-256 (cited freeze):** `5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c`  
+**Primary Manifest SHA-256 (cited freeze · historical):** `5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c`  
+**Primary Manifest SHA-256 (HEAD):** see `verification/MANIFEST_HEAD_SHA256.txt` (regenerated with this tree)  
 **GPG Signature Anchor:** RSA `35E3E1694524C7FB` (`xvsvr <xvsvr@proton.me>`)
 
 ---
@@ -44,7 +41,7 @@ Through cryptographic auditing of local conversation archives and organized mark
    - **Match:** case-insensitive alias substring **OR** token-group AND on message parts; clock = `create_time`.
 
 2. **Organized Notes Corpus (`notes-organized`)**
-   - **Path:** `verified-corpus/notes-organized`
+   - **Path:** `/Users/x0/Desktop/Agent-Staging/prg-notes-library-export/notes-organized` (public label: `verified-corpus/notes-organized`)
    - **Scope:** live **2493** files · ledger baseline **2489**
    - **Match:** alias substring **OR** token-group AND on normalized text; frontmatter timestamp if present else mtime.
    - **False-positive controls:** no embeddings; all-tokens-required groups; stress nomenclature (Grok logs, blank hash, fault states, contradiction-parsing anomalies) scoped primarily to stress IDs; sub-matrix hits are **not** auto-promoted to core 3P+A.
@@ -153,7 +150,8 @@ Formally documents the 13 taxonomy slots outside the published core-22 so the de
 ## Cryptographic Manifests & Integrity
 
 - **Primary Manifest File:** `manifests/SHA256SUMS.txt` (verify with `shasum -a 256 -c manifests/SHA256SUMS.txt`)
-- **Primary Manifest SHA-256 (cited freeze):** `5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c`
+- **Primary Manifest SHA-256 (cited freeze · historical):** `5256250de892aa28547457758ca6a0bdf7e11a8e549203af397974939e67964c`  
+**Primary Manifest SHA-256 (HEAD · post path-scrub + LICENSE + #5 close):** `ffd99ccde04a5ccec67ae913f0fba04f007dc3cdf4284305259a74b93860fd45`
 - **Unified Report JSON Checksum (prior 22):** `63b95fd9db2040eab371d573c01639d58bf7bf6d67e18a752f851ce0638cdaaa`
 - **GPG Signature Anchor:** RSA `35E3E1694524C7FB` (`xvsvr <xvsvr@proton.me>`)
 - **Export SHA-256:** `8172aee098e286e61ea9d7a976d2e4ba43f48533a2d60e8e838ad1def18e33f5`
@@ -165,27 +163,45 @@ Formally documents the 13 taxonomy slots outside the published core-22 so the de
 ```text
 driftcore-provenance-disclosure/
 ├── README.md
+├── LICENSE
 ├── manifests/
 │   ├── SHA256SUMS.txt
+│   ├── SHA256SUMS.txt.asc
+│   ├── pubkey.asc
 │   └── SHA256SUMS.json
 ├── reports/
-│   ├── matrix/          # export-bind, notes-bind, priority, unified 22, matrix35 adversarial
+│   ├── matrix/          # delta-matrix, export-bind, notes-bind, unified, matrix35, TAXONOMY-65
+│   ├── cross-alias/
 │   ├── priority/
 │   └── unified/
 ├── methods/
-├── verification/        # live disk log, index, checkpoint, git freeze
-├── docs/
+├── verification/
+├── docs/                # EXECUTIVE-SUMMARY.md, PACKAGING.md
 └── logs/
-    └── EXECUTION_LOG_COMPLETE.md
 ```
 
 ---
 
 ## License & Intellectual Property Statement
 
-This disclosure serves as an immutable public record of independent technical creation, chronological priority, and architectural precedence—including transparent documentation of adversarial and stress-test conceptual slots under a full **35/35** denominator.
+**All Rights Reserved.** See [LICENSE](LICENSE) — viewing, integrity verification, and citation/attribution of method mechanics only, unless a separate written commercial license applies.
+
+Landing: [Episkope](https://github.com/ham-flavred-licorice/episkope).  
+Counsel one-pager: [docs/EXECUTIVE-SUMMARY.md](docs/EXECUTIVE-SUMMARY.md).  
+Comparative map: [reports/matrix/delta-matrix.md](reports/matrix/delta-matrix.md).  
+GPG public key: [manifests/pubkey.asc](manifests/pubkey.asc) (anchor RSA `35E3E1694524C7FB`).
+
+### Verify (clean machine)
+
+```bash
+git clone https://github.com/ham-flavred-licorice/driftcore-provenance-disclosure.git
+cd driftcore-provenance-disclosure
+gpg --import manifests/pubkey.asc
+shasum -a 256 -c manifests/SHA256SUMS.txt
+gpg --verify manifests/SHA256SUMS.txt.asc manifests/SHA256SUMS.txt
+```
 
 <!-- secondary-crawl-ext -->
-## Branch note: extended telemetry (cross-alias-reconciliation)
+## Extended telemetry note
 
-Secondary crawl compiled `2026-08-21T16:13:31Z` appends **30** TEL indices (total inventory **65**) without mutating mainline **35/35**. Nomenclature: **confession**, **probe_bind**. See [reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md](reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md).
+Secondary crawl appends **30** TEL indices (total inventory **65**) without mutating mainline **35/35**. Nomenclature: **confession**, **probe_bind**. See [reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md](reports/cross-alias/SECONDARY_CRAWL_EXPANDED_TAXONOMY.md).
